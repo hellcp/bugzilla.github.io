@@ -31,7 +31,10 @@ defaults:
       layout: "default"
 
 collections:
-- developers
+  developers:
+  security:
+    output: true
+    permalink: /:collection/:path/
 
 # Build settings
 markdown: kramdown
