@@ -30,6 +30,9 @@ defaults:
     values:
       layout: "default"
 
+collections:
+- developers
+
 # Build settings
 markdown: kramdown
 plugins:
