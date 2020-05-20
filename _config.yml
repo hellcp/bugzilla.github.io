@@ -35,6 +35,9 @@ collections:
   security:
     output: true
     permalink: /:collection/:path/
+  releases:
+    output: true
+    permalink: /:collection/:path/
 
 # Build settings
 markdown: kramdown
