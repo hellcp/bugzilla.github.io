@@ -4,7 +4,7 @@ linked from the index page.
 
 bugzilla.org links for release notes
 ------------------------------------
-3.0.2: http://www.bugzilla.org/releases/3.0.2/release-notes.html
+3.0.2: http://www.bugzilla.org/releases/3.0.2/
 
 ***************************************
 *** The Bugzilla 2.22 Release Notes ***
@@ -753,7 +753,7 @@ Version 2.20.1
 + Various bugs with upgrading from previous versions of Bugzilla 
   have been fixed. (bug 307662, bug 311047, bug 310108)
 
-+ Many, many other bug fixes. See http://www.bugzilla.org/status/changes.html
++ Many, many other bug fixes. See https://github.com/bugzilla/bugzilla/compare/2.20
   for details on what was fixed between 2.20 and 2.20.1.
 
 
@@ -1388,7 +1388,7 @@ would like to specifically know about.
 To see a listing of all changes in this release, you can use the
 table available at:
 
-http://www.bugzilla.org/status/changes.html
+https://github.com/bugzilla/bugzilla/compare/2.18
 
 Version 2.18.1
 --------------
