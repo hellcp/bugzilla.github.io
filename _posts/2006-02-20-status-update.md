@@ -1,12 +1,8 @@
 ---
 title: "Status Update"
 date: 2006-02-20
+author: Max Kanat-Alexander
 ---
-# Bugzilla Status Update
-
-[Max Kanat-Alexander](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Monday, February 20, 2006**
 
 ## Introduction and Updates
 
@@ -28,7 +24,7 @@ This is our first Release Candidate of 2.22\. It's gone through QA Testing with 
 
 However, we do encourage you to heavily test this release! We really think our next release will be 2.22 final, and it's your feedback that will determine if that's the case.
 
-Since this is a Release Candidate, we also now have [release notes](../releases/2.22/release-notes.html) for the 2.22 series. You can read them to see what new features and bug fixes we have in the 2.22 series.
+Since this is a Release Candidate, we also now have [release notes](/releases/2.22/) for the 2.22 series. You can read them to see what new features and bug fixes we have in the 2.22 series.
 
 ### 2.20.1
 
@@ -36,11 +32,11 @@ Bugzilla 2.20 was one of our most stable releases ever, thanks to our QA Team. H
 
 We're aware of very few significant issues remaining on the 2.20 branch, which is good since it will likely go into "lockdown" mode with the release of 2.22\. That is, only security and dataloss bugs will be fixed on the 2.20 branch after we release 2.22.
 
-If you want to know some of the major things we fixed for 2.20.1, you can read the [release notes](../releases/2.20.1/release-notes.html). If you want to see everything we fixed, you can use the [status changes page](changes.html) to see all the patches we've checked in on the 2.20 branch since the release of 2.20.
+If you want to know some of the major things we fixed for 2.20.1, you can read the [release notes](/releases/2.20.1/). If you want to see everything we fixed, you can use the [status changes page](https://github.com/bugzilla/bugzilla/compare/2.20) to see all the patches we've checked in on the 2.20 branch since the release of 2.20.
 
 ### 2.18.5 and 2.16.11
 
-These are both just security fix releases. You can read the [Security Advisory](../security/2.18.4/) to see what we fixed.
+These are both just security fix releases. You can read the [Security Advisory](/security/2.18.4/) to see what we fixed.
 
 Note that this is very likely to be the last 2.16 release, unless we do any further security fixes for the 2.16 branch along with the final 2.22 release.
 

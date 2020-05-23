@@ -7,4 +7,4 @@ it's been so long, this one is also rather lengthy. However, it does
 contain the most recent information about Bugzilla's development as a
 whole and the upcoming 2.16 release in particular. So, to find out
 what's been happening in the Bugzilla world, take a gander at this
-latest [status update](/status/2002-01-18.html).
+latest [status update](/news/2002/01/18/status-update).

@@ -1,12 +1,8 @@
 ---
 title: "Status Update"
 date: 2006-10-15
+author: Max Kanat-Alexander
 ---
-# Bugzilla Status Update
-
-[Max Kanat-Alexander](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Sunday, October 15, 2006**
 
 ## Introduction and Updates
 
@@ -60,7 +56,7 @@ Bugzilla now can be run under mod_perl. This allows for pages to load _much_ fas
 
 We'd really like some testing of Bugzilla under mod_perl! We know that some things don't work under mod_perl yet. You can see that at the [tracking bug](https://bugzilla.mozilla.org/show_bug.cgi?id=mod_perl) and its [dependency list](https://bugzilla.mozilla.org/showdependencytree.cgi?id=mod_perl&hide_resolved=1).
 
-For more details, see the [documentation](../docs/tip/html/configuration.html#http-apache-mod_perl).
+For more details, see the [documentation](/docs/tip/html/configuration.html#http-apache-mod_perl).
 
 ## The Road to Bugzilla 3.0
 

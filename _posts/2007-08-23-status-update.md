@@ -1,12 +1,8 @@
 ---
 title: "Status Update"
 date: 2007-08-23
+author: Max Kanat-Alexander
 ---
-# Bugzilla Status Update
-
-[Max Kanat-Alexander](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Thursday, August 23, 2007**
 
 ## Introduction and Updates
 
@@ -18,7 +14,7 @@ We've released several releases today, and lots of exciting things are happening
 
 2.22.3 fixes some critical bugs in the 2.22 series. 2.20.5 fixes one critical bug.
 
-All of the releases also contain security fixes, which you can read about in the [Security Advisory](../security/2.20.4/).
+All of the releases also contain security fixes, which you can read about in the [Security Advisory](/security/2.20.4/).
 
 ## About Bugzilla 3.1.1
 
@@ -62,13 +58,13 @@ We've changed our schedule to accomodate our current development and our goals f
 
 Our "soft freeze" (where we don't accept new feature patches, but we will work on finishing up bugs that we currently have in progress) is tentatively planned for September 21, and our "hard freeze" (where we don't accept any new features at all) on October 2\.
 
-The more [contributors](../contribute/) we get, particularly in the area of Release and QA, the faster we can get this release out when it's ready!
+The more [contributors](/contribute/) we get, particularly in the area of Release and QA, the faster we can get this release out when it's ready!
 
 ## Upcoming EOL of Bugzilla 2.20
 
 With the release of Bugzilla 3.2, the Bugzilla 2.20.x series will reach End Of Life, meaning that there won't be any further bug-fix updates, even if critical security issues are discovered.
 
-We recommend that all Bugzilla 2.20 users upgrade to 3.0.1 at their earliest convenience. [Upgrade instructions](../releases/3.0.1/release-notes.html#v30_upgrading) are in the Bugzilla 3.0 Release Notes.
+We recommend that all Bugzilla 2.20 users upgrade to 3.0.1 at their earliest convenience. [Upgrade instructions](/releases/3.0.1/#v30_upgrading) are in the Bugzilla 3.0 Release Notes.
 
 ## New Contributor Documentation
 

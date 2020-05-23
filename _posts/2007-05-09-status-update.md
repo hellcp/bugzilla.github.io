@@ -1,16 +1,12 @@
 ---
 title: "Status Update"
 date: 2007-05-09
+author: Max Kanat-Alexander
 ---
-# Bugzilla Status Update
-
-[Max Kanat-Alexander](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Wednesday, May 9, 2007**
 
 ## Introduction and Updates
 
-After quite a bit of work, we've released [Bugzilla 3.0](../releases/3.0)! You can go read [the release announcement](../news/#release30) for more details.
+After quite a bit of work, we've released [Bugzilla 3.0](/releases/3.0)! You can go read [the release announcement](/news/#release30) for more details.
 
 There's also various other interesting news in Bugzilla land, see below for details.
 
@@ -18,7 +14,7 @@ There's also various other interesting news in Bugzilla land, see below for deta
 
 Bugzilla 3.0 is very stable--we've had a long stabilizing cycle, 3.0rc1 got a lot of testing, and this release has been through our extensive QA process.
 
-It has lots of [new features](../releases/3.0/new-features.html). And, of course, we think you should read the [release notes](../releases/3.0/release-notes.html), because hey, they're really useful! (And I spent a lot of time working on them!) (They're even in HTML now, which is pretty cool.)
+It has lots of [new features](/releases/3.0). And, of course, we think you should read the [release notes](/releases/3.0/), because hey, they're really useful! (And I spent a lot of time working on them!) (They're even in HTML now, which is pretty cool.)
 
 ## Future Releases
 
@@ -34,17 +30,17 @@ We have a [roadmap for Bugzilla 3.2](https://wiki.mozilla.org/Bugzilla:Roadmap) 
 
 By our standard schedule, development for Bugzilla 3.2 enters a "soft freeze" on August 21 (where we don't accept new feature patches, but we will work on finishing up bugs that we currently have in progress), and a "hard freeze" (where we don't accept any new features) on September 4.
 
-The more [contributors](../contribute/) we get, particularly in the area of Release and QA, the faster we can get this release out when it's ready!
+The more [contributors](/contribute/) we get, particularly in the area of Release and QA, the faster we can get this release out when it's ready!
 
 ## EOL of Bugzilla 2.18
 
 We sent out the EOL announcement for Bugzilla 2.18, so users of Bugzilla 2.18 or 2.18.x should now all know that there won't be any new releases in the 2.18 series, even if there are security bugs discovered in a 2.18 release.
 
-We recommend that all Bugzilla 2.18 users upgrade to 3.0, at their earliest convenience. [Upgrade instructions](../releases/3.0/release-notes.html#v30_upgrading) are in the Bugzilla 3.0 Release Notes.
+We recommend that all Bugzilla 2.18 users upgrade to 3.0, at their earliest convenience. [Upgrade instructions](/releases/3.0/#v30_upgrading) are in the Bugzilla 3.0 Release Notes.
 
 ## Updated "Features" Page
 
-For a while, the [features page](../features/) had been out-of-date, reflecting the features of Bugzilla 2.18\. Now it's fully up-to-date with all of the features of Bugzilla 3.0, and it's pretty impressive! If you need help "selling" Bugzilla at your organization, feel free to point people at the updated features page!
+For a while, the [features page](/features/) had been out-of-date, reflecting the features of Bugzilla 2.18\. Now it's fully up-to-date with all of the features of Bugzilla 3.0, and it's pretty impressive! If you need help "selling" Bugzilla at your organization, feel free to point people at the updated features page!
 
 ## T-Shirt for 3000th Announce List Subscriber
 

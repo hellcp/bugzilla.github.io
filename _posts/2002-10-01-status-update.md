@@ -1,12 +1,8 @@
 ---
 title: "Bugzilla Status Update"
 date: 2002-10-01
+author: J. Paul Reed
 ---
-# Bugzilla Status Update, October 1, 2002
-
-[J. Paul Reed](mailto:preed@sigkill.com)
-
-**Tuesday, October 1st, 2002**
 
 ## Introduction
 
@@ -119,7 +115,7 @@ Checkin manifest:
 *   Bug [86651](https://bugzilla.mozilla.org/show_bug.cgi?id=86651 "contrib/cvs-update.sh sets sticky dates") - cvs-update was setting sticky dates which made commiting changes and getting updates more difficult
 *   Bug [164623](https://bugzilla.mozilla.org/show_bug.cgi?id=164623 "xml.cgi - attachments is broken and insiders not enforced") - xml.cgi - attachments is broken and insiders not enforced
 *   Bug [164623](https://bugzilla.mozilla.org/show_bug.cgi?id=164623 "xml.cgi - attachments is broken and insiders not enforced") - add .htaccess to .cvsignore
-*   Bug [76923](https://bugzilla.mozilla.org/show_bug.cgi?id=76923 "Don't |use diagnostics;|") - Don't |use diagnostics| (its really expensive at startup time)
+*   Bug [76923](https://bugzilla.mozilla.org/show_bug.cgi?id=76923 "Don't \|use diagnostics;\|") - Don't \|use diagnostics\| (its really expensive at startup time)
 *   Bug [164470](https://bugzilla.mozilla.org/show_bug.cgi?id=164470 "Mass reassign changes UNCONFIRMED->NEW") - mass reassign changes UNCONFIRMED->NEW
 *   Bug [164566](https://bugzilla.mozilla.org/show_bug.cgi?id=164566 "Param and UserInGroup are not defined in Bugzilla::Search") - Param and UserInGroup are not defined in Bugzilla::Search
 *   Bug [163494](https://bugzilla.mozilla.org/show_bug.cgi?id=163494 "runtests.sh needs a switch to include optional modules") - runtests.sh needs a switch to include optional modulesTests now detect optional modules and only exclude optional filesif optional module dependencies are not met.Also major indent cleanup

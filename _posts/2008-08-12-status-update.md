@@ -1,12 +1,8 @@
 ---
 title: "Status Update"
 date: 2008-08-12
+author: Max Kanat-Alexander
 ---
-# Bugzilla Status Update
-
-[Max Kanat-Alexander](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Tuesday, August 12, 2008**
 
 ## Introduction and Updates
 
@@ -16,11 +12,11 @@ Today we released three versions of Bugzilla: 3.0.5, 3.2rc1, and 2.22.5.
 
 3.2rc1 is our first release candidate for 3.2, and if everything goes well, we expect our next release to be 3.2.
 
-2.22.5 only contains a security fix, the same security fix that all today's releases contain. You can read more about it in the [Security Advisory](../security/2.22.4/).
+2.22.5 only contains a security fix, the same security fix that all today's releases contain. You can read more about it in the [Security Advisory](/security/2.22.4/).
 
 ## About Bugzilla 3.2rc1
 
-The major difference between a Release Candidate and a development release is that a Release Candidate goes through QA. Also, a Release Candidate has [Release Notes](../releases/3.2/release-notes.html) so you can see all the new features we've added, and any other things that you should know about.
+The major difference between a Release Candidate and a development release is that a Release Candidate goes through QA. Also, a Release Candidate has [Release Notes](/releases/3.2/) so you can see all the new features we've added, and any other things that you should know about.
 
 Not all of our automated QA scripts have been updated yet for 3.2, but 3.2rc1 has passed all of the automated QA tests that are currently available. Our [QA Team](https://wiki.mozilla.org/Bugzilla:QA) could always use help, if you're interested.
 

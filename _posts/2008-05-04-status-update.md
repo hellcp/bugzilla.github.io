@@ -1,18 +1,14 @@
 ---
 title: "Status Update"
 date: 2008-05-04
+author: Cédric Corazza
 ---
-# Bugzilla Status Update
-
-Cédric Corazza and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Sunday, May 4, 2008**
 
 ## Introduction and Updates
 
 We've released four releases today: 3.0.4, 3.1.4, 2.22.4 and 2.20.6
 
-A few security vulnerabilities were discovered in the four branches which you can read about in the [Security Advisory](../security/2.20.5/).
+A few security vulnerabilities were discovered in the four branches which you can read about in the [Security Advisory](/security/2.20.5/).
 
 ## About Bugzilla 3.1.4
 

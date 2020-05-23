@@ -1,12 +1,8 @@
 ---
 title: "Status Update"
 date: 2005-05-11
+author: Jacob Steenhagen
 ---
-# Bugzilla Status Update
-
-[Jacob Steenhagen](http://www.steenhagen.us/~jake/blog/) and [The Bugzilla Team](../developers/profiles.html)
-
-**Tuesday, May 11, 2005**
 
 ## Introduction
 
@@ -28,7 +24,7 @@ If you are currently running 2.19.2, this update to 2.19.3 should be considered 
 
 ## Security Bugs Fixed
 
-We fixed two minor security issues in our three most recent releases. See the [Security Advisory](../security/2.16.8/) for details.
+We fixed two minor security issues in our three most recent releases. See the [Security Advisory](/security/2.16.8/) for details.
 
 ## Major Recent Developments
 
@@ -62,7 +58,7 @@ The decision has been made in [bug 204217](https://bugzilla.mozilla.org/show_bug
 
 ### Upcoming UI Hackathons
 
-Myk Melez has proposed that early in the development for 2.22 that the Bugzilla team should focus on making large improvements to the User Interface. His proposal for this is to have a number of weekly hackathons where teams of people agree to dedicate time to discussing UI improvements, coding them, reviewing them, and getting them checked in. Under this proposal, the [normal procedures](../developers) would still apply, but by having reviewers and approvers on hand, they could be greatly accelerated. For more information, see the archive of [Myk's post](https://lists.bugzilla.org/cgi-bin/mj_wwwusr?list=developers&brief=on&func=archive-get-part&extra=200503/18) to the Developer's list.
+Myk Melez has proposed that early in the development for 2.22 that the Bugzilla team should focus on making large improvements to the User Interface. His proposal for this is to have a number of weekly hackathons where teams of people agree to dedicate time to discussing UI improvements, coding them, reviewing them, and getting them checked in. Under this proposal, the [normal procedures](/developers) would still apply, but by having reviewers and approvers on hand, they could be greatly accelerated. For more information, see the archive of [Myk's post](https://lists.bugzilla.org/cgi-bin/mj_wwwusr?list=developers&brief=on&func=archive-get-part&extra=200503/18) to the Developer's list.
 
 ## Continuing to Support the 2.16 Branch
 
@@ -80,4 +76,4 @@ On to other news... if you haven't already noticed, we are running slightly late
 
 ## Checkins Since Last Update
 
-You can see the list updates between any Bugzilla release and the current release by using the table on our [changes page](../status/changes.html).
+You can see the list updates between any Bugzilla release and the current release by using the table on our [changes page](https://github.com/bugzilla/bugzilla/compare/).

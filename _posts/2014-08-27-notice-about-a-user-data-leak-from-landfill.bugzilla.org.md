@@ -1,6 +1,7 @@
 ---
 date: 2014-08-27
 title: Notice about a user data leak from landfill.bugzilla.org
+author: Bugzilla Team
 ---
 
 Some email addresses and encrypted passwords for test builds on landfill.bugzilla.org were temporarily posted on a publicly accessible server.

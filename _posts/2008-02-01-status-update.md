@@ -1,12 +1,8 @@
 ---
 title: "Status Update"
 date: 2008-02-01
+author: Cédric Corazza, Max Kanat-Alexander
 ---
-# Bugzilla Status Update
-
-Cédric Corazza, [Max Kanat-Alexander](http://www.codesimplicity.com/), and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Friday, February 1, 2008**
 
 ## Introduction and Updates
 

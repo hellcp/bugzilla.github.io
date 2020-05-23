@@ -1,17 +1,18 @@
 ---
 date: 2010-04-13
 title: Release of Bugzilla 3.6!
+author: Bugzilla Team
 ---
 
-Today the Bugzilla Project is pround to announce the release of the next major version of Bugzilla: 3.6! [Bugzilla 3.6](../releases/3.6/) has a lot of exciting new features for Bugzilla users and administrators, including migration from other bug-tracking systems, a simple "Browse" interface for browsing open bugs in a system, and some usability improvements resulting from a scientific usability study conducted on Bugzilla.
+Today the Bugzilla Project is pround to announce the release of the next major version of Bugzilla: 3.6! [Bugzilla 3.6](/releases/3.6/) has a lot of exciting new features for Bugzilla users and administrators, including migration from other bug-tracking systems, a simple "Browse" interface for browsing open bugs in a system, and some usability improvements resulting from a scientific usability study conducted on Bugzilla.
 
-*   [Download 3.6](../download/#v36)
-*   [New Features](../releases/3.6/release-notes.html#v36_feat) in 3.6
-*   [Release Notes](../releases/3.6/release-notes.html) for 3.6
+*   [Download 3.6](/download/#v36)
+*   [New Features](/releases/3.6/#v36_feat) in 3.6
+*   [Release Notes](/releases/3.6/) for 3.6
 
 **Bugzilla Extensions**
 
-One of the most exciting new features of Bugzilla 3.6 is [Extensions](../docs/3.6/en/html/api/Bugzilla/Extension.html). These are self-contained files that you can "drop in" to a Bugzilla installation to add new features or change Bugzilla's behavior, without modifying _any_ existing code! Anybody can write and distribute their own Extension--Bugzilla 3.6 includes [very detailed documentation](../docs/3.6/en/html/api/Bugzilla/Extension.html) on how to write and distribute Extensions, and even includes a script that will set up the framework of a new Extension for you so that you can get right to coding.
+One of the most exciting new features of Bugzilla 3.6 is [Extensions](/docs/3.6/en/html/api/Bugzilla/Extension.html). These are self-contained files that you can "drop in" to a Bugzilla installation to add new features or change Bugzilla's behavior, without modifying _any_ existing code! Anybody can write and distribute their own Extension--Bugzilla 3.6 includes [very detailed documentation](/docs/3.6/en/html/api/Bugzilla/Extension.html) on how to write and distribute Extensions, and even includes a script that will set up the framework of a new Extension for you so that you can get right to coding.
 
 Bugzilla 3.6 ships with one simple Extension that you can enable, and there are also already [a few publicly-available Extensions for Bugzilla 3.6](https://wiki.mozilla.org/Bugzilla:Addons#Bugzilla_Extensions), that any Bugzilla 3.6 installation can install to add new functionality to their system.
 

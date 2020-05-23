@@ -1,21 +1,22 @@
 ---
 date: 2013-05-22
 title: Release of Bugzilla 4.4 and 4.2.6
+author: Bugzilla Team
 ---
 
 Today the Bugzilla Project is extremely proud to announce the release of Bugzilla 4.4!
 
 It has been over a year since we released Bugzilla 4.2 on February 2012, and this new major release comes with several new features and improvements. This release contains major improvements to WebServices, which were our main target in this release, a rewritten tagging system, a real MIME type auto-detection for attachments, improved support for Oracle, performance improvements and lots of other enhancements.
 
-We hope that you enjoy and appreciate the results of this past year of hard work by our entirely-volunteer [community](../developers/profiles.html).
+We hope that you enjoy and appreciate the results of this past year of hard work by our entirely-volunteer [community](/developers/profiles.html).
 
-*   [Download 4.4](../download/#v44)
-*   [Release Notes](../releases/4.4/release-notes.html) for 4.4
+*   [Download 4.4](/download/#v44)
+*   [Release Notes](/releases/4.4/) for 4.4
 
-[Bugzilla 4.2.6](../releases/4.2.6/) is a bug fix update for the 4.2 branch:
+[Bugzilla 4.2.6](/releases/4.2.6/) is a bug fix update for the 4.2 branch:
 
-*   [Download 4.2.6](../download/#v42)
-*   [Release Notes](../releases/4.2.6/release-notes.html) for 4.2.6
+*   [Download 4.2.6](/download/#v42)
+*   [Release Notes](/releases/4.2.6/) for 4.2.6
 
 ### EOL for 3.6.x
 

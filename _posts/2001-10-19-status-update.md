@@ -1,12 +1,8 @@
 ---
 title: "Bugzilla Status Update"
 date: 2001-10-19
+author: Matthew Tuck
 ---
-# Bugzilla Status Update, October 19, 2001
-
-maintained by Matthew Tuck <**[matty@chariot.net.au](mailto:matty@chariot.net.au)**>
-
-**Last Updated Friday October 19, 2001**
 
 ## Introduction
 
@@ -81,7 +77,7 @@ Currently, only "processmail" runs in taint mode.
 
 ## Hackers' Guide
 
-To encourage others to contribute code towards Bugzilla, a "[hackers' guide](../developerguide.html)" has been incorporated into the [Bugzilla Guide](https://www.bugzilla.org/docs/html/) that comes with every copy of Bugzilla.
+To encourage others to contribute code towards Bugzilla, a "[hackers' guide](/developerguide.html)" has been incorporated into the [Bugzilla Guide](https://www.bugzilla.org/docs/html/) that comes with every copy of Bugzilla.
 
 The aim is to quickly explain everything a developer needs to know about contributing code to Bugzilla. This includes both the things we require (eg the avoidance of certain features) and prefer (eg style issues).
 

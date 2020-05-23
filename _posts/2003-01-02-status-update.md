@@ -1,12 +1,8 @@
 ---
 title: "Bugzilla Status Update"
 date: 2003-01-02
+author: J. Paul Reed
 ---
-# Bugzilla Status Update, January 2, 2003
-
-[J. Paul Reed](mailto:preed@sigkill.com) and the [Bugzilla Team](../developers/profiles.html)
-
-**Thursday, January 2nd, 2003**
 
 ## Introduction
 
@@ -16,7 +12,7 @@ The Bugzilla Team is pleased to announce the release of three versions of Bugzil
     **Note:** this is **the last 2.14.x release**, as the Bugzilla Team has officially stopped supporting the 2.14 branch.  
 
 *   2.16.2 is a maintenance release on the [2.16 branch](#cvs2_16-BRANCH), containing a couple of security-related bug fixes.  
-    It is recommended that **all production installations upgrade** to 2.16.2 to make sure they get the fixes for these [security bugs](../security/2.16.1/).  
+    It is recommended that **all production installations upgrade** to 2.16.2 to make sure they get the fixes for these [security bugs](/security/2.16.1/).  
 
 *   2.17.3 is the latest developers' snapshot release from [the trunk](#cvsHEAD); it contains the above security bug fixes as well as tweaks to [features in 2.17.1](2002-11-18.html#newfeatures) (bug and attachment flags, enterprise groups, etc.). This release is a **developers' release** and is not generally intended for production use.
 
@@ -38,7 +34,7 @@ Developers (and anyone else) do not want the 2.17.2 "release"; they want 2.17.3.
 
 As Bugzilla project lead Dave Miller announced in the last status report, the Bugzilla project has changed its policies regarding check-ins. The new policy institutes an "approval" process for check-ins and comes as an addition to our existing review policy.
 
-Previously, to check something into Bugzilla's CVS tree, developers were only required to get the approval of one or two people on the review team. That process is now augmented by a requirement of obtaining approval on the patch from the project lead or a designee before it can be checked in. Current "designees," if there are any, are noted in the [#mozwebtools topic](../discussion.html). This won't amount to a code review, but rather a 'yes' or 'no' on whether this feature or bugfix in this form at this time is the best course of action to fulfill Bugzilla's design goals. Approvals are also being used to coordinate landing patches, so the approval flag generally won't be set until there's a patch ready to land. If you want to know if a patch you're working on will likely be given approval for check-in before you expend effort on it, you can ask on the [developers@bugzilla.org](mailto:developers@bugzilla.org) mailing list.
+Previously, to check something into Bugzilla's CVS tree, developers were only required to get the approval of one or two people on the review team. That process is now augmented by a requirement of obtaining approval on the patch from the project lead or a designee before it can be checked in. Current "designees," if there are any, are noted in the [#mozwebtools topic](/discussion.html). This won't amount to a code review, but rather a 'yes' or 'no' on whether this feature or bugfix in this form at this time is the best course of action to fulfill Bugzilla's design goals. Approvals are also being used to coordinate landing patches, so the approval flag generally won't be set until there's a patch ready to land. If you want to know if a patch you're working on will likely be given approval for check-in before you expend effort on it, you can ask on the [developers@bugzilla.org](mailto:developers@bugzilla.org) mailing list.
 
 Bugzilla developers and reviewers are adjusting to this new policy well, and it's seemingly serving the Bugzilla project well. The quick release of another 2.17 developers' snapshot, a mere six weeks after 2.17.1, provides good evidence of this.
 

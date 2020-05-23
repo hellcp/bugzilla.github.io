@@ -1,12 +1,8 @@
 ---
 title: "Bugzilla Status Update"
 date: 2002-02-13
+author: Zach Lipton
 ---
-# Bugzilla Status Update, February 13, 2002
-
-by Zach Lipton <**[zach@zachlipton.com](mailto:zach@zachlipton.com)**>
-
-**Wednesday, February 13, 2002**
 
 ## Introduction
 
@@ -59,7 +55,7 @@ The current goals for our 2.16 release are still:
 
 **Note that the "complete redesign of the schema related to security groups to eliminate the "funky groupset math" and allow more than 55 bug groups to be created" has been pushed to early 2.18.**
 
-For a more up to date list, see [the roadmap](../status/roadmap.html#milestones). Also, the current list of open bugs that are considered release blockers can be found [in this buglist](https://bugzilla.mozilla.org/buglist.cgi?product=Bugzilla&resolution=---&bug_severity=blocker&target_milestone=Bugzilla+2.16).
+For a more up to date list, see [the roadmap](/about/#milestones). Also, the current list of open bugs that are considered release blockers can be found [in this buglist](https://bugzilla.mozilla.org/buglist.cgi?product=Bugzilla&resolution=---&bug_severity=blocker&target_milestone=Bugzilla+2.16).
 
 ## Upcoming Major Features
 

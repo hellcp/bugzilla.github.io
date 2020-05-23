@@ -1,12 +1,8 @@
 ---
 title: "Bugzilla Status Update"
 date: 2002-05-10
+author: Dave Miller
 ---
-# Bugzilla Status Update, May 10, 2002
-
-by Dave Miller <**[justdave@syndicomm.com](mailto:justdave@syndicomm.com)**>
-
-**Friday, May 10, 2002**
 
 ## Introduction
 
@@ -51,7 +47,7 @@ The current goals for our 2.16 release are still:
 *   Remove old attachment code in favor of the new attachment tracker system. **(complete)**
 *   Enable Perl's taint mode for all user accesable files, and taint-check anything being sent to the database.**(complete)**
 
-As always, for an up to date list, see [the roadmap](../status/roadmap.html#milestones).
+As always, for an up to date list, see [the roadmap](/about/#milestones).
 
 ## Upcoming Major Features
 
@@ -133,7 +129,7 @@ And now... for da big list:
 *   Bug [138994](https://bugzilla.mozilla.org/show_bug.cgi?id=138994 "Split duplicates.html.tmpl up") - split up duplicates.html.tmpl.
 *   Bug [140419](https://bugzilla.mozilla.org/show_bug.cgi?id=140419 "query.cgi fails after search.html.tmpl has been splited") - fix merge error from bug [138995](https://bugzilla.mozilla.org/show_bug.cgi?id=138995). Oops.
 *   Bug [140407](https://bugzilla.mozilla.org/show_bug.cgi?id=140407 "Expunge template/default and template/custom references") - remove all references to directories template/default and template/custom. They are no more. Oceania is at war with Eastasia. Oceania has always been at war with Eastasia.
-*   Move a </center> tag (inserted in bug [129442](https://bugzilla.mozilla.org/show_bug.cgi?id=129442 "Make HTML of a default installation HTML W3C compliant") in a vain attempt to make this CGI's HTML validate) to the bottom of the initial page. This has the effect of fixing the alignment of the "choose chart" widgets; returning them back to the centre, where it should be. No bug number.
+*   Move a \</center> tag (inserted in bug [129442](https://bugzilla.mozilla.org/show_bug.cgi?id=129442 "Make HTML of a default installation HTML W3C compliant") in a vain attempt to make this CGI's HTML validate) to the bottom of the initial page. This has the effect of fixing the alignment of the "choose chart" widgets; returning them back to the centre, where it should be. No bug number.
 *   Bug [138995](https://bugzilla.mozilla.org/show_bug.cgi?id=138995 "Split up search.html.tmpl") - split up search.html.tmpl.
 *   Bug [139930](https://bugzilla.mozilla.org/show_bug.cgi?id=139930 "checksetup.pl fails if data/params doesn't exist") - checksetup.pl no longer fails if data/params does not exist
 *   Bug [139759](https://bugzilla.mozilla.org/show_bug.cgi?id=139759 "'Any of: CC list member' causes problems if used with 'Any of: bug owner'") - gets email searches for "cc: list or assignee" working again.

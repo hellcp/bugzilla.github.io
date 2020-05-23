@@ -1,12 +1,8 @@
 ---
 title: "Bugzilla Status Update"
 date: 2002-01-18
+author: Jacob Steenhagen
 ---
-# Bugzilla Status Update, January 18, 2002
-
-maintained by Jacob Steenhagen <**[jake@acutex.net](mailto:jake@acutex.net)**>
-
-**Last Updated Friday, January 18, 2002**
 
 ## Introduction
 
@@ -21,7 +17,7 @@ It's been a while since the previous (AKA, first) status update, so this one wil
 
 ## The 2.14.1 Release
 
-During the time that the trunk was open for 2.15 development, the decision was made that in order to provide better security, all `.cgi` files should run in taint mode. As of the 2.14 release, only `processmail` ran in taint mode. In the process of turning on taint mode in the perl files and for anything entering the database, there were numerous security holes discovered, some of which allowed you to masquerade as another user, others allowed you to glean information about secure bugs. It was decided that these holes were of a high enough severity to backport the patches to 2.14 and put out an interm release rather than wait for 2.16 to come out. More specific information can be found in the [2.14.1 Release Notes](../release2_14_1.html).
+During the time that the trunk was open for 2.15 development, the decision was made that in order to provide better security, all `.cgi` files should run in taint mode. As of the 2.14 release, only `processmail` ran in taint mode. In the process of turning on taint mode in the perl files and for anything entering the database, there were numerous security holes discovered, some of which allowed you to masquerade as another user, others allowed you to glean information about secure bugs. It was decided that these holes were of a high enough severity to backport the patches to 2.14 and put out an interm release rather than wait for 2.16 to come out. More specific information can be found in the [2.14.1 Release Notes](/release2_14_1.html).
 
 Please note that 2.14.1 does not run in taint mode. Also, the goal for 2.16 is to have all the user accessible files running in taint mode (basically, anything that doesn't start with `edit`).
 
@@ -59,13 +55,13 @@ The current goals for our 2.16 release are:
 *   Remove old attachment code in favor of the new attachment tracker system.
 *   Enable Perl's taint mode for all user accesable files, and taint-check anything being sent to the database.
 
-For a more up to date list, see [the roadmap](../status/roadmap.html#milestones). Also, the current list of open bugs that are considered release blockers can be found [in this buglist](https://bugzilla.mozilla.org/buglist.cgi?product=Bugzilla&resolution=---&bug_severity=blocker&target_milestone=Bugzilla+2.16).
+For a more up to date list, see [the roadmap](/about/#milestones). Also, the current list of open bugs that are considered release blockers can be found [in this buglist](https://bugzilla.mozilla.org/buglist.cgi?product=Bugzilla&resolution=---&bug_severity=blocker&target_milestone=Bugzilla+2.16).
 
 ## Contributions
 
 There are many ways you can help the Bugzilla team.
 
-*   **Patches to Fix Bugs/Implement New Features.** These are very welcome, especially if they are targetted for the 2.16 milestone! They need to be appropriately generic for all Bugzilla installations and conform to our other requirements (see [the hackers' guide](../developerguide.html)) before they can appear in CVS, but if you don't wish to do this, anything is better than nothing, and we can use your work as a base.
+*   **Patches to Fix Bugs/Implement New Features.** These are very welcome, especially if they are targetted for the 2.16 milestone! They need to be appropriately generic for all Bugzilla installations and conform to our other requirements (see [the hackers' guide](/developerguide.html)) before they can appear in CVS, but if you don't wish to do this, anything is better than nothing, and we can use your work as a base.
 *   **New documentation.** If you think you can help with the documentation for Bugzilla, please contact [Matthew Barnson](mailto:barnboy@trilobyte.net).
 *   **Testing.** Search for bugs in the Bugzilla software, as well as trying out pending patches in the bug system.
 *   **Review.** If you have experience with Perl and Bugzilla code, it would be very useful if you look over pending patches in the bug system and see if there are any problems with them. Generally we expect reviewers to have submitted some patches first so we can evaluate their ability. If you fit into this category, please contact [Dave Miller](mailto:justdave@bugzilla.org) about this.

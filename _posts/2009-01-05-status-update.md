@@ -1,12 +1,8 @@
 ---
 title: "Status Update"
 date: 2009-01-05
+author: Max Kanat-Alexander
 ---
-# Bugzilla Status Update
-
-[Max Kanat-Alexander](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Monday, January 5, 2009**
 
 ## Introduction and Updates
 
@@ -18,7 +14,7 @@ Bugzilla 3.3.1 has been under development for quite some time. We branched for 3
 
 Bugzilla 3.4 is going to be a time-based release, meaning that we're going to have a feature freeze on January 29 no matter how many features we have, or what the features look like. Hopefully this should allow us to release relatively quickly and have a Bugzilla 3.4 by May.
 
-However, since we're freezing very soon, it's important that you let us know what you think about the new features! Either download the [new development release](../download/#v34) or go check out the features using one of the "CVS" installations on [landfill](https://landfill.bugzilla.org/).
+However, since we're freezing very soon, it's important that you let us know what you think about the new features! Either download the [new development release](/download/#v34) or go check out the features using one of the "CVS" installations on [landfill](https://landfill.bugzilla.org/).
 
 Here's a list of some of the new features in 3.3.1:
 

@@ -1,12 +1,8 @@
 ---
 title: "Status Update"
 date: 2006-04-22
+author: Dave Miller
 ---
-# Bugzilla Status Update
-
-[Dave Miller](http://www.justdave.net/dave/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Saturday, April 22, 2006**
 
 ## Introduction and Updates
 
@@ -34,7 +30,7 @@ We set up a wiki page on the topic a while back, at [https://wiki.mozilla.org/Bu
 
 ### 2.22
 
-Bugzilla 2.22 is a major new feature release of Bugzilla. You can see the list of major [new features](../releases/2.22/new-features.html) for details.
+Bugzilla 2.22 is a major new feature release of Bugzilla. You can see the list of major [new features](/releases/2.22) for details.
 
 In addition to the user-visible features, the code for Bugzilla 2.22 is much cleaner, making it even easier to customize than before. A major new code improvement is that Products, Components, Milestones, Versions, and various other things now have real objects to represent them.
 

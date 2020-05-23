@@ -1,16 +1,12 @@
 ---
 title: "Bugzilla Status Update"
 date: 2003-11-02
+author: Christian Reis
 ---
-# Bugzilla Status Update, November 2, 2003
-
-[Christian Reis](http://www.async.com.br/~kiko/) and [The Bugzilla Team](../developers/profiles.html)
-
-**Sunday, November 2nd, 2003**
 
 ## Introduction
 
-This status update covers the 6 months that have gone by since our [last update](https://www.bugzilla.org/status/2003-04-24.html). It's been an interesting period in Bugzilla's time, with a quite a few feature enhancements hitting the trunk and a significant number of external contributions being submitted.
+This status update covers the 6 months that have gone by since our [last update](/news/2003/04/24/status-update). It's been an interesting period in Bugzilla's time, with a quite a few feature enhancements hitting the trunk and a significant number of external contributions being submitted.
 
 To start off, we'd like to congratulate (and nudge ahead) Vlad Dascalu, Chuck Duvall and Mike Morgan who have been doing excellent work both on triage and on providing bugfixes. Independent contribution has always been the mainstay of Bugzilla development, so it's really nice to see people volunteer the time and expertise that make this a great product. The lowest bug number fixed was [bug 13540](https://bugzilla.mozilla.org/show_bug.cgi?id=13540) -- generalizing previously fixed terms such as "bug" -- which was coaxed in by Jon Wilmoth. A number of others had first-time patches integrated, too, and we'd definitely like to see more good work from you all.
 
@@ -26,7 +22,7 @@ We'd also like to remind all Bugzilla administrators that to assist them in keep
 
 The Bugzilla Team is pleased to announce the 2.16.4 and 2.17.5 releases of Bugzilla.
 
-*   The stable (2.16.4) release provides a number of bug fixes, including fixes for 4 security issues discovered since the 2.16.3 release. It is recommended that all production installations upgrade to 2.16.4 to make sure they get the fixes for these [security bugs](https://www.bugzilla.org/security/2.16.3/).
+*   The stable (2.16.4) release provides a number of bug fixes, including fixes for 4 security issues discovered since the 2.16.3 release. It is recommended that all production installations upgrade to 2.16.4 to make sure they get the fixes for these [security bugs](/security/2.16.3/).
 *   The development (2.17.5) release provides a large number of feature enhancements and bug fixes, including fixes for 3 security issues discovered since the 2.17.4 release. This release is a developers' release and is not intended for production use.
 
 We would like to remind all administrators running Bugzilla instances from the old 2.14 branch that this branch has been retired, and is no longer being supported actively by the team. We strongly recommend upgrading to the latest stable version to ensure security and proper operation.<a name="newfeatures"></a>

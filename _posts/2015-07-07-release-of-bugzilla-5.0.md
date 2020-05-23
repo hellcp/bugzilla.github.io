@@ -1,16 +1,17 @@
 ---
 date: 2015-07-07
 title: Release of Bugzilla 5.0
+author: Bugzilla Team
 ---
 
 Today the Bugzilla Project is extremely proud to announce the release of Bugzilla 5.0!
 
 It has been slightly over two years since we released Bugzilla 4.4 on May 2013\. This new major release comes with many new features and improvements to WebServices and performance.
 
-We hope that you enjoy and appreciate the results of the past two years of hard work by our entirely-volunteer [community](../developers/profiles.html).
+We hope that you enjoy and appreciate the results of the past two years of hard work by our entirely-volunteer [community](/developers/profiles.html).
 
-*   [Download 5.0](../download/#v50)
-*   [Release Notes](../releases/5.0/release-notes.html) for 5.0
+*   [Download 5.0](/download/#v50)
+*   [Release Notes](/releases/5.0/) for 5.0
 
 ### EOL for 4.0.x
 

@@ -1,12 +1,8 @@
 ---
 title: "Bugzilla Status Update"
 date: 2002-03-03
+author: Dave Miller
 ---
-# Bugzilla Status Update, March 3, 2002
-
-by Dave Miller <**[justdave@syndicomm.com](mailto:justdave@bugzilla.org)**>
-
-**Sunday, March 3, 2002**
 
 ## Introduction
 
@@ -58,11 +54,11 @@ The current goals for our 2.16 release are still:
 *   Remove old attachment code in favor of the new attachment tracker system. **(complete)**
 *   Enable Perl's taint mode for all user accesable files, and taint-check anything being sent to the database.**(complete)**
 
-For a more up to date list, see [the roadmap](../status/roadmap.html#milestones). Also, the current list of open bugs that are considered release blockers can be found [in this buglist](https://bugzilla.mozilla.org/buglist.cgi?product=Bugzilla&resolution=---&bug_severity=blocker&target_milestone=Bugzilla+2.16).
+For a more up to date list, see [the roadmap](/about/#milestones). Also, the current list of open bugs that are considered release blockers can be found [in this buglist](https://bugzilla.mozilla.org/buglist.cgi?product=Bugzilla&resolution=---&bug_severity=blocker&target_milestone=Bugzilla+2.16).
 
 ## New Resources for Reviewers and Developers
 
-We've added a [Developers' Guide](../developerguide.html) and a [Reviewers' Guide](../reviewerguide.html) to our website to assist new developers and reviewers. These are recommended reading for anyone that wants to contribute to the project.
+We've added a [Developers' Guide](/developerguide.html) and a [Reviewers' Guide](/reviewerguide.html) to our website to assist new developers and reviewers. These are recommended reading for anyone that wants to contribute to the project.
 
 ## Bugzilla Bug Reports May Have a New Home Soon
 

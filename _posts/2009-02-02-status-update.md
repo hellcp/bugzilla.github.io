@@ -1,18 +1,14 @@
 ---
 title: "Status Update"
 date: 2009-02-02
+author: Max Kanat-Alexander
 ---
-# Bugzilla Status Update
-
-[Max Kanat-Alexander](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Monday, February 2, 2009**
 
 ## Introduction and Updates
 
 The Bugzilla Project has been making some really good progress lately. We've fixed all the oldest security bugs in Bugzilla with this set of releases, and we've also done a tremendous amount of feature development and general improvement work toward Bugzilla 3.4.
 
-The security fixes in this upgrade are worth reading about, since some functionality in your Bugzilla may change after this upgrade, depending on how you choose to configure certain parameters. See the [Security Advisory](../security/2.22.6/) for Details.
+The security fixes in this upgrade are worth reading about, since some functionality in your Bugzilla may change after this upgrade, depending on how you choose to configure certain parameters. See the [Security Advisory](/security/2.22.6/) for Details.
 
 ## About Bugzilla 3.3.2
 

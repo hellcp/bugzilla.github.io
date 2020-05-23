@@ -1,9 +1,10 @@
 ---
 date: 2003-09-14
 title: New Localizations Available
+author: Bugzilla Team
 ---
 
-The [download page](../download/#localizations) has been updated with additional localizations of Bugzilla.
+The [download page](/download/#localizations) has been updated with additional localizations of Bugzilla.
 
 New Languages:
 

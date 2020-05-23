@@ -1,16 +1,12 @@
 ---
 title: "Status Update"
 date: 2004-07-10
+author: Zach Lipton
 ---
-# Bugzilla Status Update
-
-[Zach Lipton](http://www.zachlipton.com/email.png) and [The Bugzilla Team](https://www.bugzilla.org/who_we_are.html)
-
-**Saturday, July 10th, 2004**
 
 ## Introduction and Updates
 
-Welcome to the new Bugzilla status update, covering the four months since our [last update](https://www.bugzilla.org/status/2004-03-03.html) and the release of Bugzilla 2.17.7\. In this update, the Bugzilla Team is pleased to announce the release of Bugzilla 2.18, Release Candidate 1 (rc1), and Bugzilla 2.16.6, the latest maintenance release in the current stable series.
+Welcome to the new Bugzilla status update, covering the four months since our [last update](/news/2004/03/03/status-update) and the release of Bugzilla 2.17.7\. In this update, the Bugzilla Team is pleased to announce the release of Bugzilla 2.18, Release Candidate 1 (rc1), and Bugzilla 2.16.6, the latest maintenance release in the current stable series.
 
 We are also pleased to announce the new [Bugzilla Website](https://www.bugzilla.org/), thanks to the efforts of Mike Morgan and the Bugzilla Team. The new site is designed to more closely match the look and feel of the mozilla.org website and is standards-compliant.
 
@@ -26,7 +22,7 @@ This release is a developers' release and is not recommended for production use,
 
 ### 2.16.5
 
-All users of the 2.16 stable branch are encouraged to update their production installations to 2.16.6 for security reasons. More details on the security vulnerabilities fixed in this update are available in the [2.16.5 Security Advisory](https://www.bugzilla.org/security/2.16.5). See the check-in manifest at the bottom of this status update for a list of changes.
+All users of the 2.16 stable branch are encouraged to update their production installations to 2.16.6 for security reasons. More details on the security vulnerabilities fixed in this update are available in the [2.16.5 Security Advisory](/security/2.16.5). See the check-in manifest at the bottom of this status update for a list of changes.
 
 They are also requested to test their installations with 2.18rc1 using a backup copy of their database, in order to help us make the best 2.18 final release. Since 2.16 was originally released, Bugzilla has come a long way. [This list](#majorfeaturessince216) shows many of the major new features that have been added to the 2.17 development branch. Those using 2.16 should take a look at this list for an indication of what will be new in 2.18.
 
@@ -51,7 +47,7 @@ Several new features are available for testing in our release candidate, 2.18rc1
 
 ## Major New Features Since 2.16
 
-Users upgrading from 2.16 may be interested in a [list of major new features since the 2.16 release.](https://www.bugzilla.org/releases/2.18rc1/release-notes.html)
+Users upgrading from 2.16 may be interested in a [list of major new features since the 2.16 release.](/releases/2.18rc1/)
 
 ## Date-Based Releases and More
 
@@ -71,7 +67,7 @@ Even with all of that going on, we're not done with 2.18 yet. Today's release is
 
 We have a few flags on the bugs for dealing with this. If a bug you report is something that you think is important to have fixed in 2.18, set the "blocking2.18" flag to the question mark ("?") setting. This will send a message to me asking me to evaluate it. If I (or Myk) set it to "+", that means we've agreed, and attempts will be made to get it fixed on the 2.18 branch so it can be included in the final 2.18 release. Similarly, once a patch is ready to go, it must get a "+" on the "approval2.18" flag (set by Myk or myself) before it can be checked in on the branch. Please do request that if you have something blocking 2.18 after you get it reviewed.
 
-Before I sign off here, I want to take a moment to profusely thank Mike Morgan for the work he's done on our website over the last couple months. This is a really wonderful [new website](https://www.bugzilla.org) he cooked up for us! :) If you have any feedback on the new site design, or find any dead links that need to be fixed, please post on the mozilla-webtools mailing list. (See the [support page](../support/) to find out where to subscribe).
+Before I sign off here, I want to take a moment to profusely thank Mike Morgan for the work he's done on our website over the last couple months. This is a really wonderful [new website](https://www.bugzilla.org) he cooked up for us! :) If you have any feedback on the new site design, or find any dead links that need to be fixed, please post on the mozilla-webtools mailing list. (See the [support page](/support/) to find out where to subscribe).
 
 ## Upcoming Features
 

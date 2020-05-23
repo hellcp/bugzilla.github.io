@@ -1,16 +1,12 @@
 ---
 title: "Status Update"
 date: 2004-03-03
+author: Dave Miller
 ---
-# Bugzilla Status Update
-
-[David Miller](http://www.justdave.net/dave/) and [The Bugzilla Team](../developers/profiles.html)
-
-**Wednesday, March 3rd, 2004**
 
 ## Introduction
 
-This status update covers the four months that have gone by since our [last update](https://www.bugzilla.org/status/2003-11-02.html). At the time of our last status update, we released version 2.17.5 of Bugzilla. It was followed a week later by version 2.17.6, which was released to seal a small [security hole](https://www.bugzilla.org/security/2.17.5/) discovered in one of the new features that was introduced in 2.17.5.
+This status update covers the four months that have gone by since our [last update](/news/2003/11/02/status-update). At the time of our last status update, we released version 2.17.5 of Bugzilla. It was followed a week later by version 2.17.6, which was released to seal a small [security hole](/security/2.17.5/) discovered in one of the new features that was introduced in 2.17.5.
 
 As of this status update, we are also releasing 2.17.7 and 2.16.5\. For the first time in a while, there's no security advisory to go with it, which feels pretty good! So, if there's no security advisory, why are we releasing a new stable release? Well, 2.16.5 had a few regressions from 2.16.4 that we had to fix. The most major of which was that xml.cgi was completely busted. We also fixed some compatibility problems with older versions of DBI, fixed a MySQL 4 compatibility issue which we thought we'd fixed in 2.16.4, but it turns out we really hadn't, and several other minor bugfixes that we hope will improve the overall stability of the 2.16 series.  
 
@@ -34,7 +30,7 @@ We would like to remind all administrators running Bugzilla instances from the o
 A few new features are available for testing on our latest development release. The following items describe the most important of them, and the manifests towards the end of this document describe the full list of changes committed.
 
 *   **CSS Customization:** A CSS id signature unique to each Bugzilla installation is now added to the <body> tag on Bugzilla pages to allow custom end-user CSS to explicitly affect Bugzilla. ([224242](https://bugzilla.mozilla.org/show_bug.cgi?id=224242))
-*   **Template Hooks:** A mechanism for third party extensions to plug into existing templates without having to patch or replace distributed templates has been added. More information on this can be found in the [Documentation](https://www.bugzilla.org/docs/html/cust-hooks.html). ([232903](https://bugzilla.mozilla.org/show_bug.cgi?id=232903))
+*   **Template Hooks:** A mechanism for third party extensions to plug into existing templates without having to patch or replace distributed templates has been added. More information on this can be found in the [Documentation](/docs/html/cust-hooks.html). ([232903](https://bugzilla.mozilla.org/show_bug.cgi?id=232903))
 *   **'commentoncreate' Parameter:** A parameter has been added which allows the administrator to prevent users from submitting new bugs with an empty description. ([213679](https://bugzilla.mozilla.org/show_bug.cgi?id=213679))
 
 ## The Road to 2.18

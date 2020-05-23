@@ -1,12 +1,8 @@
 ---
 title: "Bugzilla Status Update"
 date: 2002-07-28
+author: Gervase Markham, J. Paul Reed
 ---
-# Bugzilla Status Update, July 28, 2002
-
-[Gervase Markham](mailto:gerv@mozilla.org) and [J. Paul Reed](mailto:preed@sigkill.com)
-
-**Monday, July 28th, 2002**
 
 ## Introduction
 

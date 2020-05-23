@@ -1,20 +1,16 @@
 ---
 title: "Status Update"
 date: 2004-10-24
+author: Zach Lipton
 ---
-# Bugzilla Status Update
-
-[Zach Lipton](http://www.zachlipton.com/email.png) and [The Bugzilla Team](https://www.bugzilla.org/who_we_are.html)
-
-**Sun, October 24th, 2004**
 
 ## Introduction and Updates
 
-Welcome to the October 2004 Bugzilla status update, covering the status of the Bugzilla project since the [July 10th status update](https://www.bugzilla.org/status/2004-07-10.html) and the release of Bugzilla 2.18rc1 and Bugzilla 2.16.6\.
+Welcome to the October 2004 Bugzilla status update, covering the status of the Bugzilla project since the [July 10th status update](/news/2004/07/10/status-update) and the release of Bugzilla 2.18rc1 and Bugzilla 2.16.6\.
 
 In this update, we are pleased to announce the third release candidate of Bugzilla 2.18 (2.18rc3), the latest (and hopefully last) in the series of candidate releases before the final Bugzilla 2.18 stable release. This release fixes a variety of issues and security vulnerabilities. We are also pleased to announce the release of Bugzilla 2.19.1, a development snapshot release from the cvs trunk. Lastly, we are announcing Bugzilla 2.16.7, a security update for the 2.16 stable branch.
 
-Also of note is the recent release of version 0.6 of the [bugzilla-submit](https://www.bugzilla.org/download/#utils) utility, a command-line tool to submit new bugs to a Bugzilla installation.
+Also of note is the recent release of version 0.6 of the [bugzilla-submit](/download/#utils) utility, a command-line tool to submit new bugs to a Bugzilla installation.
 
 Since the previous status update, we have also released Bugzilla 2.18rc2, an update to 2.18rc1 which fixed several major issues. These issues are detailed below. We also updated our website style to be more consistent with the new redesign of the [mozilla.org](https://www.mozilla.org) website.
 
@@ -53,11 +49,11 @@ Bugzilla 2.19.1 is a bleeding-edge development release for those who would like 
 
 ## Security Bugs Fixed
 
-Several security bugs have been fixed in the new Bugzilla releases. Please see the [Bugzilla Security Advisory](../security/2.16.6/) for more detailed information on these issues.<a name="majorfeaturessince216"></a>
+Several security bugs have been fixed in the new Bugzilla releases. Please see the [Bugzilla Security Advisory](/security/2.16.6/) for more detailed information on these issues.<a name="majorfeaturessince216"></a>
 
 ## Major New Features Since 2.16
 
-Users upgrading from 2.16 may be interested in a [list of major new features since the 2.16 release.](../releases/2.18/new-features.html)
+Users upgrading from 2.16 may be interested in a [list of major new features since the 2.16 release.](/releases/2.18/new-features.html)
 
 ## Completing the Transition to Time-Based Releases
 

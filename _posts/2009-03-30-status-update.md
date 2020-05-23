@@ -1,12 +1,8 @@
 ---
 title: "Status Update"
 date: 2009-03-30
+author: Max Kanat-Alexander
 ---
-# Bugzilla Status Update
-
-[Max Kanat-Alexander](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Monday, March 30, 2009**
 
 ## Introduction and Updates
 

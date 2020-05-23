@@ -1,12 +1,8 @@
 ---
 title: "Status Update"
 date: 2006-07-09
+author: Max Kanat-Alexander
 ---
-# Bugzilla Status Update
-
-[Max Kanat-Alexander](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Sunday, July 09, 2006**
 
 ## Introduction and Updates
 
@@ -40,7 +36,7 @@ In addition, there are a lot of changes that developers, customizers, or package
 *   The data formerly stored as the <kbd>:locations</kbd> section of <kbd>Bugzilla::Config</kbd> is now inside of <kbd>Bugzilla::Constants</kbd>. This is particularly important for packagers of Bugzilla.
 *   <kbd>CheckCanChangeField()</kbd> has been moved from process_bug.cgi into <kbd>Bugzilla/Bug.pm</kbd>, and is now called <kbd>check_can_change_field</kbd>.
 *   The entire <kbd>Bugzilla::Auth</kbd> structure has been entirely re-written. It should be easier to write authentication plugins for Bugzilla now. If you're interested in writing one, just read the documentation on it by typing <kbd>perldoc Bugzilla::Auth</kbd> from inside your Bugzilla directory.
-*   <kbd>SendSQL()</kbd> and all of its companion functions (including <kbd>SqlQuote()</kbd>) have been entirely eliminated from Bugzilla. The correct way to access the database now is to [use DBI](../docs/developer.html#sql-sendreceive).
+*   <kbd>SendSQL()</kbd> and all of its companion functions (including <kbd>SqlQuote()</kbd>) have been entirely eliminated from Bugzilla. The correct way to access the database now is to [use DBI](/docs/developer.html#sql-sendreceive).
 *   <kbd>globals.pl</kbd> is _gone_. All functions have been moved into modules in the <kbd>Bugzilla/</kbd> directory.
 *   Bugzilla no longer uses the <kbd>data/versioncache</kbd> file. If you notice any performance problems because of this, please let us know.
 *   The <kbd>Param()</kbd> function now only exists in templates. Normal CGIs and scripts now use <kbd>Bugzilla->params</kbd> to access Bugzilla's parameters. This also means most scripts don't need to <kbd>use Bugzilla::Config</kbd> anymore.

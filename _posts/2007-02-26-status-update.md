@@ -1,22 +1,18 @@
 ---
 title: "Status Update"
 date: 2007-02-26
+author: Max Kanat-Alexander
 ---
-# Bugzilla Status Update
-
-[Max Kanat-Alexander](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Monday, February 26, 2007**
 
 ## Introduction and Updates
 
-Today we've released the first Release Candidate for [Bugzilla 3.0](../releases/3.0/)! This has been fairly well-tested, since the code is running on [bugzilla.mozilla.org](https://bugzilla.mozilla.org/) and it's also been fully tested by our [QA Team](https://wiki.mozilla.org/Bugzilla:QA).
+Today we've released the first Release Candidate for [Bugzilla 3.0](/releases/3.0/)! This has been fairly well-tested, since the code is running on [bugzilla.mozilla.org](https://bugzilla.mozilla.org/) and it's also been fully tested by our [QA Team](https://wiki.mozilla.org/Bugzilla:QA).
 
 **Localizers**: Now is a good time to start translating templates for Bugzilla 3.0! We're going to freeze the templates as much as possible between now and the final release of 3.0, so if you translate the templates for rc1, you'll easily have a 3.0 translation.
 
 ## About Bugzilla 3.0rc1
 
-The best place to find out about the release is the [release notes](../releases/3.0/release-notes.html), which are now in HTML and linked from the front page of every installation by default.
+The best place to find out about the release is the [release notes](/releases/3.0/), which are now in HTML and linked from the front page of every installation by default.
 
 Provided all goes well with RC1, we expect to release the final version of Bugzilla 3.0 within a few weeks. If you find any important bugs that you think should prevent release of Bugzilla 3.0, please [file them](https://www.bugzilla.org/developers/reporting_bugs.html) and put a "?" in the blocking3.0 flag.
 

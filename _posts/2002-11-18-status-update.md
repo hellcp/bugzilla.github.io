@@ -1,12 +1,8 @@
 ---
 title: "Bugzilla Status Update"
 date: 2002-11-18
+author: J. Paul Reed
 ---
-# Bugzilla Status Update, November 18, 2002
-
-[J. Paul Reed](mailto:preed@sigkill.com) and the [Bugzilla Team](../developers/profiles.html)
-
-**Monday, November 18th, 2002**
 
 ## State of Bugzilla
 

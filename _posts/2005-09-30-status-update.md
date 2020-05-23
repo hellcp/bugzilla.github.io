@@ -1,12 +1,8 @@
 ---
 title: "Status Update"
 date: 2005-09-30
+author: Max Kanat-Alexander
 ---
-# Bugzilla Status Update
-
-[Max Kanat-Alexander](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Friday, September 30, 2005**
 
 ## Introduction and Updates
 
@@ -20,7 +16,7 @@ Those looking to get involved with Bugzilla development may want to consider joi
 
 ### 2.20
 
-At long last, we have released Bugzilla 2.20! 2.20 has all sorts of great [new features](../releases/2.20/new-features.html).
+At long last, we have released Bugzilla 2.20! 2.20 has all sorts of great [new features](/releases/2.20/new-features.html).
 
 2.20 is our first major release which has _not_ been run on bugzilla.mozilla.org before release. This is because the Mozilla Foundation system administrators have been quite overwhelmed and haven't been able to do the upgrade. We expect to eventually have 2.20 running on bugzilla.mozilla.org, but it may be a few weeks or months before it happens.
 
@@ -30,7 +26,7 @@ Also, many installations have used Bugzilla 2.20rc2, and we had almost no bugs r
 
 #### Upgrading to 2.20
 
-Upgrading to 2.20 is the same as upgrading to any other version of Bugzilla, and you can read the section of the [Release Notes](../releases/2.20/release-notes.html) called "How to Upgrade From An Older Bugzilla" for instructions.
+Upgrading to 2.20 is the same as upgrading to any other version of Bugzilla, and you can read the section of the [Release Notes](/releases/2.20/) called "How to Upgrade From An Older Bugzilla" for instructions.
 
 In particular, remember to read through _all_ the Release Notes, from the version you are upgrading from to the version that you are upgrading to. Certain new features require manual changes if you would like to use them. And, if you have customized your Bugzilla, sometimes there are manual changes you must make to be sure that your customizations stay around.
 
@@ -86,7 +82,7 @@ Per our standard six-month plan, the 2.22 branch would have been frozen on Septe
 
 Hopefully, then, within three months after the freeze for 2.22, we will have a release. Hopefully, we'll have it even sooner than that, but as I said, it's hard to determine that sometimes, with volunteer efforts.
 
-If you'd like to see faster Bugzilla releases, the best way is to come help out, yourself! To get started contributing to Bugzilla, you can read the [Contributor's Guide](../docs/contributor.html) and the [Developer's Guide](../docs/developer.html).
+If you'd like to see faster Bugzilla releases, the best way is to come help out, yourself! To get started contributing to Bugzilla, you can read the [Contributor's Guide](/docs/contributor.html) and the [Developer's Guide](/docs/developer.html).
 
 ## Oracle Support
 
@@ -100,4 +96,4 @@ Bugzilla 2.16 has been locked-down to security fixes only for a long time. Start
 
 ## Trunk Checkins Since the Last Status Update
 
-You can see a list of all recent changes to Bugzilla code using the table on our [detailed changes page](changes.html).
+You can see a list of all recent changes to Bugzilla code using the table on our [detailed changes page](https://github.com/bugzilla/bugzilla/compare/).

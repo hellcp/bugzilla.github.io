@@ -1,12 +1,8 @@
 ---
 title: "Bugzilla Status Update"
 date: 2003-04-24
+author: J. Paul Reed
 ---
-# Bugzilla Status Update, April 24, 2003
-
-[J. Paul Reed](mailto:preed@sigkill.com) and the [Bugzilla Team](../developers/profiles.html)
-
-**Thursday, April 24th, 2003**
 
 ## Introduction
 
@@ -28,7 +24,7 @@ The Bugzilla team has started reviewing goals for the 2.18 release. This include
 
 As far as timing goes, the Bugzilla Team is not going to set a date; doing so has bit the project too many times in the past. The answer to "when is 2.18 coming out?" will continue to be "When it's done." However, the Team understands the need to do it sooner rather than later, so post-release, we'll be focusing on reducing the list of 2.18 goals. If we can pare this down appropriately, 2.17.5 may be the last developer release prior to the 2.18 release candidates. That may or may not be realistic, but it's a seemingly sensible plan to work from.
 
-The [Bugzilla roadmap](../status/roadmap.html) contains a number of 2.18 goals. If you don't see a feature or fix you feel is necessary for 2.18 on that list, now is the time to make your case to the module owners. Also, be looking for bugs you're interested in to be retargetted in the next few days. If you're significantly concerned about this process, considering joining the [Bugzilla developers' mailing list](https://lists.bugzilla.org/cgi-bin/mj_wwwusr?func=lists-long-full&extra=developers).
+The [Bugzilla roadmap](/about/) contains a number of 2.18 goals. If you don't see a feature or fix you feel is necessary for 2.18 on that list, now is the time to make your case to the module owners. Also, be looking for bugs you're interested in to be retargetted in the next few days. If you're significantly concerned about this process, considering joining the [Bugzilla developers' mailing list](https://lists.bugzilla.org/cgi-bin/mj_wwwusr?func=lists-long-full&extra=developers).
 
 A good initial summary of the Team's current thinking on goals can be read in this [`developers@` thread](https://lists.bugzilla.org/cgi-bin/mj_wwwusr?list=developers&brief=on&func=archive-get-part&extra=200304/187).
 

@@ -1,22 +1,23 @@
 ---
 title: "Status Update"
 date: 2008-11-29
+author: Max Kanat-Alexander
 ---
 # Bugzilla Status Update
 
-[Max Kanat-Alexander](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
+[](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
 
 **Saturday, November 29, 2008**
 
 ## Introduction and Updates
 
-Today is the release of our first major feature update since 3.0, [Bugzilla 3.2](../releases/3.2/)! This status update will tell you a bit about Bugzilla 3.2, talk about some of its new features, and then talk about the road to Bugzilla 4.0.
+Today is the release of our first major feature update since 3.0, [Bugzilla 3.2](/releases/3.2/)! This status update will tell you a bit about Bugzilla 3.2, talk about some of its new features, and then talk about the road to Bugzilla 4.0.
 
 ## About Bugzilla 3.2
 
 3.2 has a _lot_ of new features. In many ways, this is one of the releases that we've put the most "polish" into. After conquering a lot of major obstacles and doing lots of code clean-up to prepare for the Bugzilla 3.0 series, we were finally able to focus on a lot of usability issues and annoyances that we've always wanted to fix.
 
-For example, we cleaned up the <kbd>show\_bug.cgi</kbd> UI, and thanks to the new UI, you can change the status of a bug and reassign it at the same time. We added mid-air collision protection to attachment updates. The Diff Viewer shows the line numbers of the files that are being patched. And _lots_ of other great improvements that will be appreciated by long-term users and new users alike, on top of all the [new major features](../releases/3.2/new-features.html) that we added.
+For example, we cleaned up the <kbd>show\_bug.cgi</kbd> UI, and thanks to the new UI, you can change the status of a bug and reassign it at the same time. We added mid-air collision protection to attachment updates. The Diff Viewer shows the line numbers of the files that are being patched. And _lots_ of other great improvements that will be appreciated by long-term users and new users alike, on top of all the [new major features](/releases/3.2) that we added.
 
 ## Bugzilla 3.2 Has Oracle Support
 
