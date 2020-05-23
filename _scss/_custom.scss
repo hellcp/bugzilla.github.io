@@ -1,0 +1,100 @@
+html {
+  height: 100%;
+}
+
+html,
+body {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+}
+
+svg {
+  fill: currentColor;
+}
+
+main {
+  margin-bottom: auto;
+}
+
+.navbar-brand {
+  padding:0;
+}
+
+.bg-bugzilla {
+  background: linear-gradient(to left, rgb(0, 92, 153), rgb(146, 72, 200));
+  color: white;
+}
+
+.jumbo-header {
+  z-index: 1040;
+  margin-bottom: -4rem;
+}
+
+table {
+  @extend .table;
+  @extend .table-striped;
+  @extend .table-bordered;
+}
+
+.navbar-dark:not(.bg-bugzilla) .form-control, .navbar-dark:not(.bg-bugzilla) .input-group-text {
+  color: rgb(240, 241, 242);
+  background-color: rgb(70, 71, 72);
+  border: $input-border-width solid rgb(70, 71, 72);
+}
+
+form[role="search"] .icon {
+  display: flex;
+  font-size: 20px;
+  line-height: 1;
+  font-family: 'Material Icons';
+  pointer-events: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 4px;
+  width: 24px;
+  height: 24px;
+}
+
+form[role="search"] {
+  position: relative;
+}
+
+.navbar-dark:not(.bg-bugzilla) form[role="search"] {
+  color: rgb(240, 241, 242);
+}
+
+.navbar-dark.bg-bugzilla form[role="search"] {
+  color: rgb(70, 71, 72);
+}
+
+.footer {
+  background-color: rgb(255, 255, 255);
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar-dark.bg-bugzilla form[role="search"] {
+    color: rgb(240, 241, 242);
+  }
+  .footer {
+    background-color: rgb(50, 51, 52);
+  }
+}
+
+form[role="search"] .icon::before {
+  content: '\E8B6';
+}
+
+form[role="search"] .form-control {
+  padding: 0 8px 0 32px;
+}
+
+.profile p {
+  margin: 0;
+  display: inline;
+}
+
+.profile .photo {
+  max-width: 6rem;
+}

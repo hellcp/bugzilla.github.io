@@ -2,18 +2,12 @@
 <html lang="en">
 {% include head.html %}
 <body id="www-bugzilla-org" class="homepage">
-  <div id="container">
-    <p class="skipLink"><a href="#mainContent" accesskey="2">Skip to main content</a></p>
-    {% include header.html %}
-    <hr class="hide">
-    <div id="mBody">
-      <hr class="hide">
-      {% include nav.html %}
-      <div id="mainContent">
-        {{ content }}
-      </div>
-      {% include footer.html page=page %}
+  {% include header.html %}
+  <main>
+    <div class="container py-3">
+      {{ content }}
     </div>
-  </div>
+  </main>
+  {% include footer.html %}
 </body>
 </html>

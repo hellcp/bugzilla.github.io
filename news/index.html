@@ -1,0 +1,33 @@
+---
+title: "News"
+---
+
+<h1>News</h1>
+
+<div class="row flex-row-reverse">
+  <div class="col-lg-4">
+    <p>Want to always keep up-to-date with Bugzilla news?  Subscribe to
+    <b><a href="https://lists.bugzilla.org/cgi-bin/mj_wwwusr?func=lists-long-full&amp;extra=announce">announce<!--
+      blah -->&#64;<!-- blah -->bugzilla.org</a></b>, a read-only mailing list
+      where we'll post announcements about new versions of Bugzilla and
+      security advisories.</p>
+
+    <p><b><a href="https://lists.bugzilla.org/cgi-bin/mj_wwwusr?func=lists-long-full&amp;extra=announce">Subscribe / Browse Archives</a> &raquo;</b></p>
+
+    <p>You can also see what's going on in the project by looking at the notes
+    of, or watching the video of, our
+    <a href="https://wiki.mozilla.org/Bugzilla:Meetings">monthly developer
+    meetings</a>.</p>
+  </div>
+  <div class="col-lg-8">
+    {% for post in paginator.posts %}
+      <div class="card card-body mb-3">
+        <span class="text-muted">{{ post.date | date: '%d. %B %Y' }}</span>
+        <h2 class="mb-1" id="{{ post.id }}">{{ post.title }}</h2>
+        <p class="text-muted">by {{ post.author }}</p>
+        {{ post.content }}
+      </div>
+    {% endfor %}
+    {% include pagination.html %}
+  </div>
+</div>

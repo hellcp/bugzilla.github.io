@@ -1,36 +1,14 @@
-<div id="footer">
-<!-- Creative Commons License -->
-<p class="copyright">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons License</a>.</p>
-
-<!--
-
-<rdf:RDF xmlns="http://web.resource.org/cc/"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<Work rdf:about="">
-   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
-   <license rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/" />
-</Work>
-
-<License rdf:about="http://creativecommons.org/licenses/by-sa/2.0/">
-   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
-   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
-   <requires rdf:resource="http://web.resource.org/cc/Notice" />
-   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
-   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
-   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
-</License>
-
-</rdf:RDF>
-
--->
-<!-- /Creative Commons License -->
-
-  <p class="copyright">Portions of this work are &copy;
-    1998-{{ site.time | date: "%Y" }}
-    by individual bugzilla.org contributors.</p>
-  <p>
-    <!-- XXX <span>Last modified: XXX </span> -->
-    <span><a href="https://github.com/bugzilla/bugzilla.github.io/commits/master/{{ page.path }}">Document History</a></span>
-  </p>
-</div>
+<footer class="footer user-select-none py-4" id="footer">
+  <div class="container">
+    <ul class="list-inline">
+      {%- for social in site.data.socials -%}
+      <li class="list-inline-item"><a href="{{ social.url }}" title="{{ social.name }}">{% include icons/{{ social.icon }} %}<span class="sr-only">{{ social.name }}</span></a></li>{%- endfor -%}
+    </ul>
+    {% capture license %}{% include icons/creative-commons.svg %}{% include icons/creative-commons-by.svg %}{% include icons/creative-commons-sa.svg %}{% endcapture %}
+    <hr/>
+    <div class="d-flex justify-content-between">
+      <span>Copyright &copy; 1998-{{ site.time | date: "%Y" }} bugzilla.org contributors</span>
+      <span class="copyright"><a rel="license" href="https://creativecommons.org/licenses/by-sa/2.0/">{{ license | strip_newlines }}</a><span>
+    </div>
+  </div>
+</footer>

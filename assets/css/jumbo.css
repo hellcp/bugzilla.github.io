@@ -1,0 +1,87 @@
+.jumbotron .nav-brand {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 400;
+    color: inherit!important;
+}
+
+.jumbotron {
+    margin: 0 -15px;
+}
+
+.jumbotron .nav-brand:hover, .jumbotron nav ul li a:hover {
+    color: var(--application-header-foreground-color) !important;
+    text-decoration: none;
+}
+
+.jumbotron .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--application-header-foreground-hover-color) !important;
+}
+
+.jumbotron nav ul li a {
+    color: inherit!important;
+}
+
+.jumbo-inner {
+    margin: 0 auto;
+    max-width: 70em;
+    padding: 1rem 0;
+}
+
+.jumbotron .links a {
+    align-items: center;
+    border-radius: 4px;
+    padding: 0 8px;
+    height: 32px;
+}
+
+.bg-bugzilla {
+    background: linear-gradient(to left, rgb(var(--accent-color-blue-5)), rgb(var(--accent-color-purple-1)));
+    color: var(--application-header-foreground-hover-color);
+}
+
+.bg-bugzilla a:not(.button) {
+    color: var(--application-header-foreground-color);
+}
+
+.bg-bugzilla a:not(.button):hover {
+    color: var(--application-header-foreground-hover-color);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    position: relative;
+    width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col * {
+    max-width: 100%;
+}
+
+.col img {
+    border-radius: 4px;
+}
+
+.bg-bugzilla .row {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}

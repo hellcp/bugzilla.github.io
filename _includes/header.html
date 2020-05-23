@@ -1,22 +1,53 @@
-<div id="header">
-  <h1><a href="/" title="Return to Bugzilla home page" accesskey="1">Bugzilla</a></h1>
-  <div id="tools">
-    <ul id="mainNav">
-      <li><a href="/contribute/" title="How to Help">Contribute!</a></li>
-      <li><a href="/features/" title="Bugzilla features">Features</a></li>
-      <li><a href="/download/" title="Get Bugzilla for free">Download</a></li>
-      <li><a href="/support/" title="Where to get more help">Support</a></li>
-      <li><a href="/docs/" title="Bugzilla documenation">Docs</a></li>
-      <li><a href="/news/" title="Read about what is happening with Bugzilla">News</a></li>
-      <li><a href="/about/" title="Getting the most out of your online experience">About</a></li>
-    </ul>
-    <form id="search" method="get" action="https://www.google.com/cse">
-      <div id="sf">
-        <label for="q" title="Search bugzilla.org">search bugzilla.org: </label>
+<nav class="navbar navbar-expand-lg navbar-dark user-select-none {% if page.url == '/' %}bg-bugzilla{% else %}bg-dark{% endif %}{% if include.type == 'jumbo' %} jumbo-header{% elsif include.type == 'sticky' %} sticky-top{% endif %}">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="/">
+      {% if include.type == 'jumbo' %}
+      <img class="mr-1" src="/assets/img/logo-jumbotron.svg" width="64" height="96">
+      <span class="h2 m-0">Bugzilla</span>
+      {% else %}
+      <img class="mr-1" src="/assets/img/logo-header.svg" width="32" height="48">
+      <span class="h4 m-0">Bugzilla</span>
+      {% endif %}
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" {% if include.type != 'jumbo' %}id="navbar"{% endif %}>
+      <ul class="navbar-nav mr-auto">
+        {% for item in site.data.nav %}
+          {% if item.links %}
+          {% assign current = false %}
+          {% for link in item.links %}
+            {% if link.link == page.url %}
+              {% assign current = true %}
+            {% endif %}
+          {% endfor %}
+          {% if item.link == page.url %}
+            {% assign current = true %}
+          {% endif %}
+          <li class="nav-item dropdown{% if current == true %} active{% endif %}">
+            <a class="nav-link dropdown-toggle" {% if item.title %}title="{{ item.title }}"{% endif %} href="{% if item.link %}{{ item.link }}{% else %}#{% endif %}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{ item.name }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% for link in item.links %}
+              <a {% if link.title %}title="{{ link.title }}"{% endif %} class="dropdown-item" href="{{ link.link }}">{{ link.name }}{% if link.link == page.url %} <span class="sr-only">(current)</span>{% endif %}</a>
+              {% endfor %}
+            </div>
+          </li>
+          {% else %}
+          <li class="nav-item{% if item.link == page.url %} active{% endif %}">
+            <a class="nav-link" {% if item.title %}title="{{ item.title }}"{% endif %} href="{{ item.link }}">{{ item.name }}{% if item.link == page.url %} <span class="sr-only">(current)</span>{% endif %}</a>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <form class="form-inline my-2 my-lg-0" role="search" method="get" action="https://www.google.com/cse">
         <input type="hidden" name="cx" value="008043952663535741821:9whwb87ip5a">
-        <input type="text" id="q" name="q" accesskey="s" size="30">
-        <input type="submit" id="submit" value="go">
-      </div>
-    </form>
+        <span class="icon"></span>
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" name="q" aria-label="Search">
+      </form>
+    </div>
   </div>
-</div>
+</nav>

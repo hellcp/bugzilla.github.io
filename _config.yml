@@ -29,6 +29,16 @@ defaults:
       path: ""
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      permalink: /news/:year/:month/:day/:title/
+
+paginate: 10
+paginate_path: "/news/page/:num/"
 
 collections:
   developers:
@@ -38,6 +48,9 @@ collections:
   releases:
     output: true
     permalink: /:collection/:path/
+
+sass:
+  sass_dir: _scss
 
 # Build settings
 markdown: kramdown
