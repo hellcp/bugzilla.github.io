@@ -1,10 +1,7 @@
 ---
-layout: release
 version: 5.0.6
 branch: 5.0
 date: 2019-02-09
-download-id: v50
-features-id: v50_feat
 mode: current
 ---
 
@@ -471,49 +468,3 @@ You may use whatever coding style you want, but all files commited to the repo m
     to add extra checks before accepting the creation of a new user account.</li>
 </ul>
 
-[% INCLUDE global/footer.html.tmpl %]
-
-[% BLOCK db_req %]
-  [% SET m = DB_MODULE.$db %]
-  <h3 id="req_[% db FILTER html %]">For [% m.name FILTER html %] Users</h3>
-
-  <ul>
-    <li>[% m.name FILTER html %]
-       [%+ '<span class="req_new">' IF db_new %]v[% m.db_version FILTER html %]
-       [% '</span>' IF db_new %]
-       </li>
-    <li><strong>perl module:</strong>
-      [%+ m.dbd.module FILTER html %]
-      [%+ '<span class="req_new">' IF dbd_new %]v[% m.dbd.version FILTER html %]
-      [% '</span>' IF dbd_new %]</li>
-  </ul>
-[% END %]
-
-
-[% BLOCK req_table %]
-  <table class="req_table">
-    <tr>
-      <th>Module</th> <th>Version</th>
-      [% IF include_feature %]
-        <th>Enables Feature</th>
-      [% END %]
-    </tr>
-    [% FOREACH req = reqs %]
-      <tr>
-        <td [% ' class="req_new"' IF new.contains(req.package) %]>
-          [%- req.module FILTER html %]</td>
-        <td [% ' class="req_new"' IF updated.contains(req.package)
-                                     OR new.contains(req.package) %]>
-          [%- IF req.version == 0 %]
-            (Any)
-          [% ELSE %]
-            [%- req.version FILTER html %]
-          [% END %]
-        </td>
-        [% IF include_feature %]
-          <td>[% req.feature.join(', ') FILTER html %]</td>
-        [% END %]
-      </tr>
-    [% END %]
-</table>
-[% END %]
