@@ -1,7 +1,6 @@
 ---
 nickname: hixie
 realname: Ian Hickson
-image: ugly.png
 irc: Hixie
 location: Oslo, Norway
 dayjob: \[Opera Software](http://www.opera.com/)

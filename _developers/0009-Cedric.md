@@ -1,7 +1,6 @@
 ---
 nickname: Cedric
 realname: Cédric Corazza
-image: ugly.png
 irc: Cedric
 location: Nice, France
 dayjob: System engineer 
