@@ -26,11 +26,6 @@ main {
   color: white;
 }
 
-.jumbo-header {
-  z-index: 1040;
-  margin-bottom: -4rem;
-}
-
 table {
   @extend .table;
   @extend .table-striped;
@@ -65,23 +60,6 @@ form[role="search"] {
   color: rgb(240, 241, 242);
 }
 
-.navbar-dark.bg-bugzilla form[role="search"] {
-  color: rgb(70, 71, 72);
-}
-
-.footer {
-  background-color: rgb(255, 255, 255);
-}
-
-@media (prefers-color-scheme: dark) {
-  .navbar-dark.bg-bugzilla form[role="search"] {
-    color: rgb(240, 241, 242);
-  }
-  .footer {
-    background-color: rgb(50, 51, 52);
-  }
-}
-
 form[role="search"] .icon::before {
   content: '\E8B6';
 }
@@ -97,4 +75,37 @@ form[role="search"] .form-control {
 
 .profile .photo {
   max-width: 6rem;
+}
+
+pre.highlight {
+  margin: 0;
+  padding: 0.5rem;
+}
+.highlight, code {
+  border-radius: 4px;
+}
+
+code {
+  padding: 0.125rem 0.25rem;
+}
+
+#header-logo, #header-name {
+  transition: 0.1s;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.fixed-top-padding {
+  padding-top: 112px;
+}
+
+blockquote {
+  padding: 1rem;
+  padding-bottom: 0;
+  border-radius: 0.125rem;
 }
