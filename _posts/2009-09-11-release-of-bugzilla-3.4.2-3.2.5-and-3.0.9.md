@@ -1,8 +1,10 @@
 ---
-id: release342
 date: 2009-09-11
 title: Release of Bugzilla 3.4.2, 3.2.5, and 3.0.9
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today the Bugzilla Project is releasing Bugzilla 3.4.2, 3.2.5, and 3.0.9. All of these releases contain a **very important security fix**. See the [Security Advisory](/security/3.0.8) for details. If you are running 2.23 or newer, you should upgrade immediately. If you are unable to update to the latest version, then please apply the patches for the issues as described in the Security Advisory.

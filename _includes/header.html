@@ -1,19 +1,14 @@
-<nav class="navbar navbar-expand-lg navbar-dark user-select-none {% if page.url == '/' %}bg-bugzilla{% else %}bg-dark{% endif %}{% if include.type == 'jumbo' %} jumbo-header{% elsif include.type == 'sticky' %} sticky-top{% endif %}">
+<nav class="navbar navbar-expand-lg navbar-dark user-select-none bg-dark {{page.header.class}}">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="/">
-      {% if include.type == 'jumbo' %}
-      <img class="mr-1" src="/assets/img/logo-jumbotron.svg" width="64" height="96">
-      <span class="h2 m-0">Bugzilla</span>
-      {% else %}
-      <img class="mr-1" src="/assets/img/logo-header.svg" width="32" height="48">
-      <span class="h4 m-0">Bugzilla</span>
-      {% endif %}
+      <img id="header-logo" class="mr-1" src="/assets/img/logo-header.svg" {% if page.header.big %}width="64" height="96"{% else %}width="32" height="48"{% endif %}>
+      <span id="header-name" class="{% if page.header.big %}h2{% else %}h4{% endif %} m-0">Bugzilla</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" {% if include.type != 'jumbo' %}id="navbar"{% endif %}>
+    <div class="collapse navbar-collapse" id="navbar">
       <ul class="navbar-nav mr-auto">
         {% for item in site.data.nav %}
           {% if item.links %}
@@ -44,6 +39,7 @@
         {% endfor %}
       </ul>
       <form class="form-inline my-2 my-lg-0" role="search" method="get" action="https://www.google.com/cse">
+        <span class="sr-only">Search bugzilla.org</span>
         <input type="hidden" name="cx" value="008043952663535741821:9whwb87ip5a">
         <span class="icon"></span>
         <input class="form-control mr-sm-2" type="search" placeholder="Search" name="q" aria-label="Search">
@@ -51,3 +47,13 @@
     </div>
   </div>
 </nav>
+{% if page.breadcrumbs %}
+<nav class="breadcrumb rounded-0" aria-label="breadcrumb">
+  <ol class="breadcrumb container my-0 py-0">
+    {% for breadcrumb in page.breadcrumbs %}
+    <li class="breadcrumb-item"><a href="{{ breadcrumb.link }}">{{ breadcrumb.name }}</a></li>
+    {% endfor %}
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
+{% endif %}

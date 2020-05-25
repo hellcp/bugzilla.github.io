@@ -1,8 +1,10 @@
 ---
-id: release372
 date: 2010-07-05
 title: Release of Bugzilla 3.7.2
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today we have a new development snapshot that fixes a [serious security issue](/security/3.7.1/) in the previous development snapshot.

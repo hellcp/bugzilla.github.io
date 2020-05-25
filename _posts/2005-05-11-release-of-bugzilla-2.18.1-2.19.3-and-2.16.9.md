@@ -2,6 +2,9 @@
 date: 2005-05-11
 title: Release of Bugzilla 2.18.1, 2.19.3, and 2.16.9
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today we are releasing Bugzilla 2.18.1, a bug-fix release for the 2.18 series. It contains various useful bug and security fixes for the original 2.18 release.
@@ -15,5 +18,5 @@ Finally, there is a security-fix release for the old 2.16 series, version 2.16.9
 *   See the [changelog](https://github.com/bugzilla/bugzilla/compare/) for the new versions.
 *   Read the [Security Advisory](/security/2.16.8/) for the new releases.
 
-And read our latest [Status Update](/news/2005/05/11/status-update)! It contains a lot of useful information, particularly about the latest development release (which has no release notes besides this Status Update).
+And read our latest [Status Update](/blog/2005/05/11/status-update)! It contains a lot of useful information, particularly about the latest development release (which has no release notes besides this Status Update).
 

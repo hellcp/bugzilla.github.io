@@ -2,6 +2,8 @@
 date: 2010-04-13
 title: Release of Bugzilla 3.6!
 author: Bugzilla Team
+categories:
+- Releases
 ---
 
 Today the Bugzilla Project is pround to announce the release of the next major version of Bugzilla: 3.6! [Bugzilla 3.6](/releases/3.6/) has a lot of exciting new features for Bugzilla users and administrators, including migration from other bug-tracking systems, a simple "Browse" interface for browsing open bugs in a system, and some usability improvements resulting from a scientific usability study conducted on Bugzilla.

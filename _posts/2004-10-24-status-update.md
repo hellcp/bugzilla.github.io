@@ -2,11 +2,13 @@
 title: "Status Update"
 date: 2004-10-24
 author: Zach Lipton
+categories:
+- Status
 ---
 
 ## Introduction and Updates
 
-Welcome to the October 2004 Bugzilla status update, covering the status of the Bugzilla project since the [July 10th status update](/news/2004/07/10/status-update) and the release of Bugzilla 2.18rc1 and Bugzilla 2.16.6\.
+Welcome to the October 2004 Bugzilla status update, covering the status of the Bugzilla project since the [July 10th status update](/blog/2004/07/10/status-update) and the release of Bugzilla 2.18rc1 and Bugzilla 2.16.6\.
 
 In this update, we are pleased to announce the third release candidate of Bugzilla 2.18 (2.18rc3), the latest (and hopefully last) in the series of candidate releases before the final Bugzilla 2.18 stable release. This release fixes a variety of issues and security vulnerabilities. We are also pleased to announce the release of Bugzilla 2.19.1, a development snapshot release from the cvs trunk. Lastly, we are announcing Bugzilla 2.16.7, a security update for the 2.16 stable branch.
 
@@ -53,7 +55,7 @@ Several security bugs have been fixed in the new Bugzilla releases. Please see t
 
 ## Major New Features Since 2.16
 
-Users upgrading from 2.16 may be interested in a [list of major new features since the 2.16 release.](/releases/2.18/new-features.html)
+Users upgrading from 2.16 may be interested in a [list of major new features since the 2.16 release.](/releases/2.18/)
 
 ## Completing the Transition to Time-Based Releases
 

@@ -1,8 +1,10 @@
 ---
-id: release323
 date: 2009-03-30
 title: Release of Bugzilla 3.2.3 and 3.3.4
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 We are releasing two versions of Bugzilla, one bug-fix release for our stable branch, and one development release. All of today's releases contain security fixes. We recommend that all Bugzilla administrators read the [Security Advisory](/security/3.2.2/) that was published along with these releases.
@@ -14,7 +16,7 @@ We are releasing two versions of Bugzilla, one bug-fix release for our stable br
 
 [Bugzilla 3.3.4](/releases/3.4/) is an unstable development release. This release has not received QA testing from the Bugzilla Project, and should not be used in production environments. Development releases exist as previews of the features that the next major release of Bugzilla will contain. They also exist for testing purposes, to collect bug reports and feedback, so if you find a bug in this development release (or you don't like how some feature works) please [tell us](/developers/reporting_bugs.html).
 
-For details on what's new in this development release and what's going on with the Bugzilla Project, see our latest [Status Update](/news/2009/03/30/status).
+For details on what's new in this development release and what's going on with the Bugzilla Project, see our latest [Status Update](/blog/2009/03/30/status).
 
 *   [Download 3.3.4](/download/#v34)
 

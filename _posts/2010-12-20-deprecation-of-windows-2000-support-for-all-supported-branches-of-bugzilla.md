@@ -2,6 +2,8 @@
 title: Deprecation of Windows 2000 Support for All Supported Branches of Bugzilla
 date: 2010-12-20
 author: Max Kanat-Alexander
+categories:
+- Status
 ---
 In the upcoming weeks, the Bugzilla Project will be releasing new
 versions of Bugzilla on all branches--3.2.10, 3.4.10, 3.6.4, and 4.0rc2.

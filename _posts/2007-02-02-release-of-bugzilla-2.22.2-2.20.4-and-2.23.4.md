@@ -2,6 +2,9 @@
 date: 2007-02-02
 title: Release of Bugzilla 2.22.2, 2.20.4, and 2.23.4
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 [Bugzilla 2.22.2](/releases/2.22.2/) is a bug-fix and security release:

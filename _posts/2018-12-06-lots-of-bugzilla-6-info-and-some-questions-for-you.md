@@ -2,6 +2,8 @@
 title: Lots of Bugzilla 6 info and some questions for YOU!
 date: 2018-12-06
 author: Dave Miller
+categories:
+- Updates
 ---
 Yesterday, we had our monthly project meeting, and did it
 panel-discussion style from the Mozilla AllHands meeting in Orlando,

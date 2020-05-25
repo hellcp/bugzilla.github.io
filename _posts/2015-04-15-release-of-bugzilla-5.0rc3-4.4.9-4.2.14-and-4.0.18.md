@@ -2,6 +2,8 @@
 date: 2015-04-15
 title: Release of Bugzilla 5.0rc3, 4.4.9, 4.2.14, and 4.0.18
 author: Bugzilla Team
+categories:
+- Releases
 ---
 
 Today we have several new releases for you!

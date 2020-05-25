@@ -1,13 +1,6 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="en">
-{% include head.html %}
-<body id="www-bugzilla-org" class="homepage">
-  {% include header.html %}
-  <main>
-    <div class="container py-3">
-      {{ content }}
-    </div>
-  </main>
-  {% include footer.html %}
-</body>
-</html>
+---
+layout: base
+---
+<div class="container py-3">
+  {{ content }}
+</div>

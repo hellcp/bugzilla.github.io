@@ -2,6 +2,8 @@
 title: Watch the March 7 Bugzilla Project Meeting
 date: 2018-03-07
 author: Dave Miller
+categories:
+- Updates
 ---
 There was a lot of good information in today's project meeting.  Below
 are the minutes from the meeting as well as a link to the video

@@ -2,6 +2,8 @@
 title: 'Make Bugzilla Pretty: A Contest'
 date: 2010-09-23
 author: Max Kanat-Alexander
+categories:
+- Updates
 ---
 Hello out there, developers and designers\! After many years of working
 on Bugzilla's usability, we have finally come to the point where we

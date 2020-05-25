@@ -2,6 +2,8 @@
 title: "Status Update"
 date: 2007-02-26
 author: Max Kanat-Alexander
+categories:
+- Status
 ---
 
 ## Introduction and Updates

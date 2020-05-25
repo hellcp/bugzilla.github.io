@@ -1,8 +1,10 @@
 ---
-id: release34
 date: 2009-07-28
 title: Release of Bugzilla 3.4
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 [Bugzilla 3.4](/releases/3.4/) is a new major release from the Bugzilla Project! It contains a LOT of great new features, including:

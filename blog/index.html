@@ -1,8 +1,13 @@
 ---
-title: "News"
+title: "Blog"
+addons:
+- type: js
+  link: /assets/js/ical.min.js
+- type: js
+  link: /assets/js/calendar.js
 ---
 
-<h1>News</h1>
+<h1>Blog</h1>
 
 <div class="row flex-row-reverse">
   <div class="col-lg-4">
@@ -18,11 +23,15 @@ title: "News"
     of, or watching the video of, our
     <a href="https://wiki.mozilla.org/Bugzilla:Meetings">monthly developer
     meetings</a>.</p>
+    <div id="calendar">
+      <p>Loading the upcoming event</p>
+      <noscript>The upcoming events widget requires Javascript to be enabled</noscript>
+    </div>
   </div>
   <div class="col-lg-8">
     {% for post in paginator.posts %}
       <div class="card card-body mb-3">
-        <span class="text-muted">{{ post.date | date: '%d. %B %Y' }}</span>
+        <a class="text-muted" href="{{ post.url }}">{{ post.date | date: '%d. %B %Y' }}</a>
         <h2 class="mb-1" id="{{ post.id }}">{{ post.title }}</h2>
         <p class="text-muted">by {{ post.author }}</p>
         {{ post.content }}

@@ -2,6 +2,9 @@
 date: 2014-07-24
 title: Release of Bugzilla 4.0.14, 4.2.10, 4.4.5, and 4.5.5
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today we have several new releases for you!

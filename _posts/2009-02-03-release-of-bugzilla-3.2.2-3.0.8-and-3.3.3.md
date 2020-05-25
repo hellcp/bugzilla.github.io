@@ -1,8 +1,10 @@
 ---
-id: release322
 date: 2009-02-03
 title: Release of Bugzilla 3.2.2, 3.0.8, and 3.3.3
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 A critical bug was found in Bugzilla 3.2.1, 3.0.7, and 3.3.2 immediately after their release. If you are running these versions and your installation runs under mod_perl, it is very important that you upgrade to these new releases.

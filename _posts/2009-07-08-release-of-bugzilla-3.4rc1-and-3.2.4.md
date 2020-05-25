@@ -1,8 +1,10 @@
 ---
-id: release324
 date: 2009-07-08
 title: Release of Bugzilla 3.4rc1 and 3.2.4
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today we have two releases for you, a new release candidate for 3.4, and an update for the stable 3,2 branch.

@@ -2,6 +2,8 @@
 title: Demo of new Bugzilla features and UX at April 3 project meeting
 date: 2019-04-03
 author: Dave Miller
+categories:
+- Updates
 ---
 Our regular monthly project meeting video conference call for April will
 be Wednesday, April 3 at 8pm UTC / 4pm EDT / 1pm PDT.  We're getting

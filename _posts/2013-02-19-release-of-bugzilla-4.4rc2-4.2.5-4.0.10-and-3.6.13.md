@@ -2,6 +2,9 @@
 date: 2013-02-19
 title: Release of Bugzilla 4.4rc2, 4.2.5, 4.0.10, and 3.6.13
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today we have several new releases for you!

@@ -1,8 +1,10 @@
 ---
-id: release32rc2
 date: 2008-11-06
 title: Release of Bugzilla 3.2rc2, 3.0.6, 2.22.6, and 2.20.7
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today there are four releases of Bugzilla!

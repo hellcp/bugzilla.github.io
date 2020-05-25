@@ -2,6 +2,8 @@
 title: "Bugzilla Status Update"
 date: 2002-02-13
 author: Zach Lipton
+categories:
+- Status
 ---
 
 ## Introduction

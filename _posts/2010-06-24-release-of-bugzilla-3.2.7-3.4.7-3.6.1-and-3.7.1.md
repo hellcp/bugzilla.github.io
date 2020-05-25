@@ -1,8 +1,10 @@
 ---
-id: release361
 date: 2010-06-24
 title: Release of Bugzilla 3.2.7, 3.4.7, 3.6.1, and 3.7.1
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today we have four new releases! One new development snapshot (3.7.1), two new stable releases (3.6.1 and 3.4.7) and one update for the legacy 3.2 branch, 3.2.7.
@@ -26,7 +28,7 @@ All of today's releases contain security fixes. We recommend that all Bugzilla a
 
 [Bugzilla 3.7.1](/releases/4.0/) is an unstable development release, with a ton of exciting new features and UI improvements. However, this release has received **no** testing from the Bugzilla Project, so it should not be used in production environments. Development releases exist as previews of the features that the next major release of Bugzilla will contain. They also exist for testing purposes, to collect bug reports and feedback, so if you find a bug in this development release (or you don't like how some feature works) please [tell us](/developers/reporting_bugs.html).
 
-For details on what's new in this development release and what's going on with the Bugzilla Project, see our latest [Bugzilla Update](https://bugzillaupdate.wordpress.com/2010/06/24/release-3-6-1/).
+For details on what's new in this development release and what's going on with the Bugzilla Project, see our latest [Bugzilla Update](/blog/2010/06/24/release-3.6.1/).
 
 *   [Download 3.7.1](/download/#v40)
 

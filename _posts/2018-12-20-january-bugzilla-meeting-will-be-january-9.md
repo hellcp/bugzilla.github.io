@@ -2,6 +2,8 @@
 title: January Bugzilla Meeting will be January 9
 date: 2018-12-20
 author: Dave Miller
+categories:
+- Updates
 ---
 Our regular meeting schedule dictates that our meetings are held on the
 first Wednesday of every month at 21:00 London Time.  Since the first

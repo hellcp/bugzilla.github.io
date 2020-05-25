@@ -2,6 +2,8 @@
 title: Winner of the "Make Bugzilla Pretty" Contest
 date: 2011-03-31
 author: Max Kanat-Alexander
+categories:
+- Updates
 ---
 All the votes are in for the "Make Bugzilla Pretty" contest, and we have
 a winner\!

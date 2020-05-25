@@ -1,11 +1,12 @@
 ---
-id: release30
 date: 2007-05-09
 title: Release of Bugzilla 3.0!
 author: Bugzilla Team
+categories:
+- Releases
 ---
 
-In 1998, the first open-source version of Bugzilla, 2.0, was released to the world without much fanfare, just [this little post](https://groups.google.com/group/netscape.public.mozilla.announce/browse_thread/thread/b52aa841db9f7e9b/f10c0f781841f10d#f10c0f781841f10d) on the <kbd>netscape.public.mozilla.announce</kbd> newsgroup.
+In 1998, the first open-source version of Bugzilla, 2.0, was released to the world without much fanfare, just [this little post](https://groups.google.com/group/netscape.public.mozilla.announce/browse_thread/thread/b52aa841db9f7e9b/f10c0f781841f10d#f10c0f781841f10d) on the `netscape.public.mozilla.announce` newsgroup.
 
 Nine years later, Bugzilla is used by thousands of companies around the world with millions of total users. It has become the de-facto standard in open-source bug tracking. Thousands of companies have moved away from their costly commercial bug-tracking systems to Bugzilla, usually finding Bugzilla more flexible and more full-featured than the system they'd been paying thousands or hundreds of thousands of dollars for, and proving that open source software really can produce a competitive product.
 
@@ -27,6 +28,6 @@ As always, we welcome open source [contributors](/contribute/) to Bugzilla, whic
 *   [Download](/download/#v30) Bugzilla 3.0.
 *   Read the [Bugzilla 3.0 Release Notes](/releases/3.0/) (**important** for upgraders!).
 *   See the list of [new features](/releases/3.0) in 3.0.
-*   See our latest [Status Update](/news/2007/05/09/status-update).
+*   See our latest [Status Update](/blog/2007/05/09/status-update).
 *   [Try Out Bugzilla 3.0](https://landfill.bugzilla.org/bugzilla-3.0-branch/) on our demo site
 

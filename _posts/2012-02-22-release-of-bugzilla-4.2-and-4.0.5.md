@@ -2,6 +2,9 @@
 date: 2012-02-22
 title: Release of Bugzilla 4.2 and 4.0.5
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today the Bugzilla Project is extremely proud to announce the release of Bugzilla 4.2!

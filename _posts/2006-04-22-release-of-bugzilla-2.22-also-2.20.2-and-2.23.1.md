@@ -2,6 +2,8 @@
 date: 2006-04-22
 title: Release of Bugzilla 2.22 (also 2.20.2 and 2.23.1)
 author: Bugzilla Team
+categories:
+- Releases
 ---
 
 The Bugzilla Project is proud to announce the official release of Bugzilla 2.22\. Bugzilla 2.22 is a major new feature release for Bugzilla, containing a large number of bug fixes and enhancements, including complete PostgreSQL support, UTF-8 support, user-impersonation capabilities, and more.
@@ -9,7 +11,7 @@ The Bugzilla Project is proud to announce the official release of Bugzilla 2.22\
 *   [Download Bugzilla 2.22](/download/#v222)
 *   See a list of the [New Features](/releases/2.22) in Bugzilla 2.22.
 *   Read the [Release Notes](/releases/2.22/) for Bugzilla 2.22 (**especially important** if you are upgrading).
-*   Read the latest [Status Update](/news/2006/04/22/status-update) to see where the Bugzilla Project is heading and what's been going on in the last few months!
+*   Read the latest [Status Update](/blog/2006/04/22/status-update) to see where the Bugzilla Project is heading and what's been going on in the last few months!
 
 We are also releasing [Bugzilla 2.20.2](/releases/2.20.2/), a bug-fix release for the 2.20 branch, recommended for all 2.20 branch users.
 

@@ -2,11 +2,13 @@
 title: "Status Update"
 date: 2004-07-10
 author: Zach Lipton
+categories:
+- Status
 ---
 
 ## Introduction and Updates
 
-Welcome to the new Bugzilla status update, covering the four months since our [last update](/news/2004/03/03/status-update) and the release of Bugzilla 2.17.7\. In this update, the Bugzilla Team is pleased to announce the release of Bugzilla 2.18, Release Candidate 1 (rc1), and Bugzilla 2.16.6, the latest maintenance release in the current stable series.
+Welcome to the new Bugzilla status update, covering the four months since our [last update](/blog/2004/03/03/status-update) and the release of Bugzilla 2.17.7\. In this update, the Bugzilla Team is pleased to announce the release of Bugzilla 2.18, Release Candidate 1 (rc1), and Bugzilla 2.16.6, the latest maintenance release in the current stable series.
 
 We are also pleased to announce the new [Bugzilla Website](https://www.bugzilla.org/), thanks to the efforts of Mike Morgan and the Bugzilla Team. The new site is designed to more closely match the look and feel of the mozilla.org website and is standards-compliant.
 

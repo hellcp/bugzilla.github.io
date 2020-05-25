@@ -2,6 +2,8 @@
 title: "Status Update"
 date: 2008-02-01
 author: Cédric Corazza, Max Kanat-Alexander
+categories:
+- Status
 ---
 
 ## Introduction and Updates

@@ -2,6 +2,8 @@
 title: Git Migration Scheduled
 date: 2014-02-16
 author: Mark Côté
+categories:
+- Updates
 ---
 A migration of Bugzilla and related code from bzr.mozilla.org to
 git.mozilla.org will be perfomed on Tuesday, 11 March 2014, starting at

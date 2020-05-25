@@ -2,6 +2,8 @@
 date: 2011-02-15
 title: Release of Bugzilla 4.0!
 author: Bugzilla Team
+categories:
+- Releases
 ---
 
 Today the Bugzilla Project is extremely proud to announce the release of Bugzilla 4.0, the most exciting new version of Bugzilla in our history.

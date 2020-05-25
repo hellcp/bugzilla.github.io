@@ -1,11 +1,13 @@
 ---
-id: release32rc1
 date: 2008-08-12
 title: Release of Bugzilla 3.2rc1, 3.0.5, and 2.22.5
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
-There are three releases of Bugzilla today. See our [Status Update](/news/2008/08/12/status-update) for details about the releases and information about what's going on in the Bugzilla Project.
+There are three releases of Bugzilla today. See our [Status Update](/blog/2008/08/12/status-update) for details about the releases and information about what's going on in the Bugzilla Project.
 
 [Bugzilla 3.2rc1](/releases/3.2/) is our first Release Candidate for Bugzilla 3.2\. If everything goes well with this release, Bugzilla 3.2 should be released soon.
 

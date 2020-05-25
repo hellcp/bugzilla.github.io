@@ -32,13 +32,9 @@
   title: Get the low down on what's happening with the project.
   name: News
   links:
-  - link: https://bugzillaupdate.wordpress.com/
+  - link: /blog/
     title: Bugzilla Blog
     name: Blog
-
-  - link: /news/
-    title: Bugzilla Announcements
-    name: Announcements
 
   - link: http://planet.bugzilla.org
     title: View the status of the Bugzilla project.

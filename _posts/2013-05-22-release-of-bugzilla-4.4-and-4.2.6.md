@@ -2,6 +2,8 @@
 date: 2013-05-22
 title: Release of Bugzilla 4.4 and 4.2.6
 author: Bugzilla Team
+categories:
+- Releases
 ---
 
 Today the Bugzilla Project is extremely proud to announce the release of Bugzilla 4.4!

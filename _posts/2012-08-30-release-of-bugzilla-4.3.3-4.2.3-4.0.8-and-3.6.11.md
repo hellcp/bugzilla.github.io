@@ -2,6 +2,9 @@
 date: 2012-08-30
 title: Release of Bugzilla 4.3.3, 4.2.3, 4.0.8, and 3.6.11
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today we have several new releases for you!

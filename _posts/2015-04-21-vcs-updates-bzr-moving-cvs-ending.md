@@ -2,6 +2,8 @@
 title: 'VCS updates: bzr moving, cvs ending'
 date: 2015-04-21
 author: Mark Côté
+categories:
+- Updates
 ---
 At the [Bugzilla project meeting
 on 2015-03-25](https://wiki.mozilla.org/Bugzilla:Meetings:2015-03-25)
@@ -48,4 +50,5 @@ The Bugzilla team apologizes for any inconvenience. Please see our
 migrating.
 
 Mark Côté  
+
 Assistant Project Lead, Bugzilla

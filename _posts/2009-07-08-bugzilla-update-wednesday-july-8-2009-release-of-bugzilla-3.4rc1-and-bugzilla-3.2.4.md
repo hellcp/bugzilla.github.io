@@ -3,6 +3,8 @@ title: 'Bugzilla Update: Wednesday, July 8, 2009 (Release of Bugzilla 3.4rc1 and
   3.2.4)'
 date: 2009-07-08
 author: Max Kanat-Alexander
+categories:
+- Status
 ---
 Well, it's time for another Bugzilla update\! And today I just did two
 releases, [Bugzilla 3.4rc1](http://www.bugzilla.org/releases/3.4/) and
@@ -21,9 +23,9 @@ least not as long as I've been around the Bugzilla Project.
 
 One of the particularly exciting thing about a Release Candidate is that
 it has [release
-notes](http://www.bugzilla.org/releases/3.4/release-notes.html)\! That
+notes](http://www.bugzilla.org/releases/3.4/)\! That
 means that [all the new
-features](http://www.bugzilla.org/releases/3.4/release-notes.html#v34_feat)
+features](http://www.bugzilla.org/releases/3.4/#v34_feat)
 are listed. There's a lot of really exciting stuff in 3.4, and you
 should take a look. There are some gems in the "Other Enhancements and
 Changes" section, too, so make sure you read that too. :-)

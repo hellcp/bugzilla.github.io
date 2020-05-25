@@ -2,6 +2,8 @@
 date: 2015-07-07
 title: Release of Bugzilla 5.0
 author: Bugzilla Team
+categories:
+- Releases
 ---
 
 Today the Bugzilla Project is extremely proud to announce the release of Bugzilla 5.0!

@@ -1,8 +1,10 @@
 ---
-id: release362
 date: 2010-08-05
 title: Release of Bugzilla 3.2.8, 3.4.8, 3.6.2, and 3.7.3
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 There are four new releases today. All of today's releases contain security fixes. We recommend that all Bugzilla administrators read the [Security Advisory](/security/3.2.7/) that was published along with these releases.

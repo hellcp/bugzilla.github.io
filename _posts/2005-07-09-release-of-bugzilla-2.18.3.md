@@ -2,6 +2,8 @@
 date: 2005-07-09
 title: Release of Bugzilla 2.18.3
 author: Bugzilla Team
+categories:
+- Releases
 ---
 
 There was a bug in 2.18.2 that caused users to be unable to use the Search page, and possibly other pages as well.

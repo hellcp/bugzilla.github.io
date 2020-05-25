@@ -2,6 +2,9 @@
 date: 2013-10-16
 title: Release of Bugzilla 4.5.1, 4.4.1, 4.2.7, and 4.0.11
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today we have several new releases for you!

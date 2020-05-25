@@ -2,6 +2,8 @@
 date: 2011-04-27
 title: Release of Bugzilla 4.1.2, 4.0.1, 3.6.5, and 3.4.11
 author: Bugzilla Team
+categories:
+- Releases
 ---
 
 Many users had difficulty installing Bugzilla 4.0, 3.6.4, and 3.4.10, due to a bug related to the "Math::Random::Secure" library. These releases fix that bug among other issues.
@@ -23,7 +25,7 @@ Many users had difficulty installing Bugzilla 4.0, 3.6.4, and 3.4.10, due to a b
 
 [Bugzilla 4.1.2](/releases/4.2/) is an unstable development release. This release has not received QA testing from the Bugzilla Project, and should not be used in production environments. Development releases exist as previews of the features that the next major release of Bugzilla will contain. They also exist for testing purposes, to collect bug reports and feedback, so if you find a bug in this development release (or you don't like how some feature works) please [tell us](/developers/reporting_bugs.html).
 
-For details on what's new in this development release and what's going on with the Bugzilla Project, see our latest [Bugzilla Update](https://bugzillaupdate.wordpress.com/2011/04/27/release-of-bugzilla-4-1-2-4-0-1-3-6-5-and-3-4-11/).
+For details on what's new in this development release and what's going on with the Bugzilla Project, see our latest [Bugzilla Update](/blog/2011/04/27/release-of-bugzilla-4.1.2-4.0.1-3.6.5-and-3.4.11-more/).
 
 *   [Download 4.1.2](/download/#v42)
 

@@ -2,6 +2,9 @@
 date: 2016-05-16
 title: Release of Bugzilla 4.4.12, 5.0.3, and 5.1.1
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today we have several new releases for you!

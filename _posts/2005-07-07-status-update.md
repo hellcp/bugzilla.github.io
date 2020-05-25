@@ -2,6 +2,8 @@
 title: "Status Update"
 date: 2005-07-07
 author: Byron Jones, Max Kanat-Alexander
+categories:
+- Status
 ---
 
 ## Introduction and Updates
@@ -22,7 +24,7 @@ This release is a developer's release and is not recommended for production use,
 
 In particular, PostgreSQL support is considerably more stable than it was in 2.19.3\. There are still a few known bugs, but a PostgreSQL Bugzilla should be usable for day-to-day work in small production environments.
 
-We also have finally written up a list of the [new features in 2.20](/releases/2.20/new-features.html), so go look at them if you're curious as to exactly what new bells and whistles we've added to Bugzilla.
+We also have finally written up a list of the [new features in 2.20](/releases/2.20/), so go look at them if you're curious as to exactly what new bells and whistles we've added to Bugzilla.
 
 The final 2.20 release will be shaped by your feedback on 2.20rc1 in the next week or two, so please do let us know your comments, either by filing a bug or by telling the mozilla-webtools list/newsgroup. (Details on how to access mozilla-webtools are on the [Support page](/support/).
 

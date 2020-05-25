@@ -2,6 +2,9 @@
 date: 2011-12-28
 title: Release of Bugzilla 4.2rc1, 4.0.3, 3.6.7, and 3.4.13
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Almost a year after Bugzilla 4.0, the Bugzilla team is proud to announce the first release candidate for Bugzilla 4.2. This release contains major improvements to search, support for SQLite, improved WebServices, and lots of other enhancements. Also, all of today's releases contain security fixes. We recommend that all Bugzilla administrators read the [Security Advisory](/security/3.4.12/) that was published along with these releases.

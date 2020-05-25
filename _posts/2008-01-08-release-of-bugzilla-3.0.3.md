@@ -1,8 +1,10 @@
 ---
 id: release303
-date: 2008-01-8
+date: 2008-01-08
 title: Release of Bugzilla 3.0.3
 author: Bugzilla Team
+categories:
+- Releases
 ---
 
 ### 3.0.3

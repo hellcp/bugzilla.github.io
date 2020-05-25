@@ -2,6 +2,8 @@
 title: "Status Update"
 date: 2008-05-04
 author: Cédric Corazza
+categories:
+- Status
 ---
 
 ## Introduction and Updates

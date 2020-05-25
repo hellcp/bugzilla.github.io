@@ -2,6 +2,8 @@
 title: Bugzilla Meeting live from Orlando
 date: 2018-12-04
 author: Dave Miller
+categories:
+- Updates
 ---
 This month's Bugzilla Project meeting coincides with the Mozilla
 Allhands in Orlando, and since most of our usual participants will be

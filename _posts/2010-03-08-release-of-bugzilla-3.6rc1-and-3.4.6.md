@@ -1,8 +1,10 @@
 ---
-id: release346
 date: 2010-03-08
 title: Release of Bugzilla 3.6rc1 and 3.4.6
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 [Bugzilla 3.6rc1](/releases/3.6/) is our first Release Candidate for Bugzilla 3.6\. This release has received QA testing, and should be considerably more stable than the development releases before it. It is still not considered fully stable, and so you should understand that if you use it, you use it at your own risk.

@@ -2,12 +2,9 @@
 title: "Status Update"
 date: 2008-11-29
 author: Max Kanat-Alexander
+categories:
+- Status
 ---
-# Bugzilla Status Update
-
-[](http://www.everythingsolved.com/) and [The Bugzilla Team](https://www.bugzilla.org/developers/profiles.html)
-
-**Saturday, November 29, 2008**
 
 ## Introduction and Updates
 

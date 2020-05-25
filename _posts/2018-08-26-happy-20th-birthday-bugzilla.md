@@ -2,6 +2,8 @@
 title: Happy 20th birthday, Bugzilla!
 date: 2018-08-26
 author: Dave Miller
+categories:
+- Updates
 ---
 The open source release of Bugzilla turns 20 years old today\!
 

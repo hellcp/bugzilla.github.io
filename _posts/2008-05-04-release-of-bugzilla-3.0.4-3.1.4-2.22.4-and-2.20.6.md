@@ -1,11 +1,13 @@
 ---
-id: release304
 date: 2008-05-04
 title: Release of Bugzilla 3.0.4, 3.1.4, 2.22.4 and 2.20.6
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
-Today we have four Bugzilla releases! Read below and in our [Status Update](/news/2008/05/04/status-update) for details!
+Today we have four Bugzilla releases! Read below and in our [Status Update](/blog/2008/05/04/status-update) for details!
 
 ### Security Advisory
 
@@ -23,7 +25,7 @@ All of these releases contain security fixes, and so you should definitely upgra
 [Bugzilla 3.1.4](/releases/3.2/) is our latest development release. It is considerably more stable than 3.1.3, but is still not recommended for production environments. Use this release at your own risk.
 
 *   [Download Bugzilla 3.1.4](/download/#v32)
-*   Read the [Status Update](/news/2008/05/04/status-update) for details on what's new in this release.
+*   Read the [Status Update](/blog/2008/05/04/status-update) for details on what's new in this release.
 
 ### 2.22.4 and 2.20.6
 

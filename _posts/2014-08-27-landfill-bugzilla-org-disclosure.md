@@ -2,6 +2,10 @@
 title: Landfill.bugzilla.org Disclosure
 date: 2014-08-27
 author: Mark Côté
+categories:
+- Updates
+- Meta
+- Security
 ---
 **UPDATE**: We have reset all passwords on all Landfill test Bugzilla
 systems. All users will be required to set a new password the next time

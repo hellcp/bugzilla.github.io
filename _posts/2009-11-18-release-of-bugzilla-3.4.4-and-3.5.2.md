@@ -1,8 +1,10 @@
 ---
-id: release344
 date: 2009-11-18
 title: Release of Bugzilla 3.4.4 and 3.5.2
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 We are releasing [Bugzilla 3.4.4](/releases/3.4.4/) and [Bugzilla 3.5.2](/releases/3.6/) today, primarily to fix one security issue. We recommend that all Bugzilla administrators read the [Security Advisory](/security/3.4.3/) that was published along with these releases.

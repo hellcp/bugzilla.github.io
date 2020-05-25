@@ -1,8 +1,10 @@
 ---
-id: release40rc1
 date: 2010-11-02
 title: Release of Bugzilla 3.2.9, 3.4.9, 3.6.3, and 4.0rc1
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today is the release of our first Release Candidate for 4.0, in addition to the bug-fix release for our stable branch, 3.6.3, and two security-only releases for older branches, 3.4.9 and 3.2.9. All of today's releases contain important security fixes, and we recommend that all Bugzilla administrators read the [Security Advisory](/security/3.2.8/) that was published along with these releases.

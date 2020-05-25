@@ -2,6 +2,8 @@
 title: "Bugzilla Status Update"
 date: 2002-07-28
 author: Gervase Markham, J. Paul Reed
+categories:
+- Status
 ---
 
 ## Introduction

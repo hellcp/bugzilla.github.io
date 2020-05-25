@@ -2,6 +2,9 @@
 date: 2005-09-30
 title: Release of Bugzilla 2.20 (also 2.21.1 and 2.18.4)
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 We are proud to announce the release of Bugzilla 2.20, a major new feature release for Bugzilla. Bugzilla 2.20 includes a large number of major new features, and hundreds of small enhancements and bug fixes over Bugzilla 2.18.
@@ -13,7 +16,7 @@ We are proud to announce the release of Bugzilla 2.20, a major new feature relea
 
 We also have two other releases, a security fix for the 2.18 series, (Bugzilla 2.18.4),and our latest development snapshot (Bugzilla 2.21.1).
 
-For details on all the releases, see our new, very detailed [Status Update](/news/2005/09/30/status-update).
+For details on all the releases, see our new, very detailed [Status Update](/blog/2005/09/30/status-update).
 
 All of these releases fix security flaws discovered in older versions of Bugzilla. For details, read the [Security Advisory](/security/2.18.3/).
 

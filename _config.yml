@@ -35,10 +35,35 @@ defaults:
       type: "posts"
     values:
       layout: post
-      permalink: /news/:year/:month/:day/:title/
+      author: Bugzilla Team
+      breadcrumbs:
+      - name: Blog
+        link: /blog/
+      permalink: /blog/:year/:month/:day/:title/
+  -
+    scope:
+      path: ""
+      type: "security"
+    values:
+      layout: security
+      breadcrumbs:
+      - name: Security Advisories
+        link: /security/
+  -
+    scope:
+      path: ""
+      type: "releases"
+    values:
+      layout: release
+      mode: ""
+      rc: false
+      breadcrumbs:
+      - name: Releases
+        link: /releases/
+      
 
 paginate: 10
-paginate_path: "/news/page/:num/"
+paginate_path: "/blog/page/:num/"
 
 collections:
   developers:

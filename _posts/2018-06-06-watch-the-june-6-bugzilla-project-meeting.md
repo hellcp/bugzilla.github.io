@@ -2,6 +2,8 @@
 title: Watch the June 6 Bugzilla Project Meeting
 date: 2018-06-06
 author: Dave Miller
+categories:
+- Updates
 ---
 [video of this meeting](https://www.youtube.com/watch?v=A7OC8CXMGyo)
 

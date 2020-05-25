@@ -2,12 +2,14 @@
 date: 2005-08-08
 title: Release of Bugzilla 2.20rc2
 author: Bugzilla Team
+categories:
+- Releases
 ---
 
 We are proud to announce the second Release Candidate of Bugzilla 2.20, a major new feature release for Bugzilla.
 
 *   [Download 2.20rc2](/download/#candidate)
-*   See the [New Features](/releases/2.20/new-features.html) in 2.20.
+*   See the [New Features](/releases/2.20/) in 2.20.
 *   Read the proposed [Release Notes](/releases/2.20/) for Bugzilla 2.20.
 *   See [a detailed list of changes](https://github.com/bugzilla/bugzilla/compare/2.20) between your version of Bugzilla and 2.20rc2.
 

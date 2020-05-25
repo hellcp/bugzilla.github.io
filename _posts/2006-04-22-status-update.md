@@ -2,6 +2,8 @@
 title: "Status Update"
 date: 2006-04-22
 author: Dave Miller
+categories:
+- Status
 ---
 
 ## Introduction and Updates

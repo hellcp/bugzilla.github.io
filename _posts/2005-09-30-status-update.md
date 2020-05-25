@@ -2,6 +2,8 @@
 title: "Status Update"
 date: 2005-09-30
 author: Max Kanat-Alexander
+categories:
+- Status
 ---
 
 ## Introduction and Updates
@@ -16,7 +18,7 @@ Those looking to get involved with Bugzilla development may want to consider joi
 
 ### 2.20
 
-At long last, we have released Bugzilla 2.20! 2.20 has all sorts of great [new features](/releases/2.20/new-features.html).
+At long last, we have released Bugzilla 2.20! 2.20 has all sorts of great [new features](/releases/2.20/).
 
 2.20 is our first major release which has _not_ been run on bugzilla.mozilla.org before release. This is because the Mozilla Foundation system administrators have been quite overwhelmed and haven't been able to do the upgrade. We expect to eventually have 2.20 running on bugzilla.mozilla.org, but it may be a few weeks or months before it happens.
 

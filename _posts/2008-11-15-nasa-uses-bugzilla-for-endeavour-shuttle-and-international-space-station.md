@@ -1,8 +1,9 @@
 ---
-id: praca
 date: 2008-11-15
 title: NASA Uses Bugzilla for Endeavour Shuttle and International Space Station
 author: Bugzilla Team
+categories:
+- Update
 ---
 
 On Friday, November 14, 2008, mission control at NASA had its first live use of a two new problem-tracking systems. These new systems are based on Bugzilla, with customizations by [Everything Solved](http://www.everythingsolved.com/) and the [NASA Ames Research Center Human-Computer Interaction Group](http://hci.arc.nasa.gov/), with support from the [San Jose State University Foundation](http://www.sjsufoundation.org/).

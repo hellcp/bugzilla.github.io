@@ -2,6 +2,8 @@
 title: "Bugzilla Status Update"
 date: 2001-10-19
 author: Matthew Tuck
+categories:
+- Status
 ---
 
 ## Introduction

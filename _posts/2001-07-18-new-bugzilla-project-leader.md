@@ -2,6 +2,8 @@
 title: New Bugzilla Project Leader
 date: 2001-07-18
 author: Bugzilla Team
+categories:
+- Updates
 ---
 Reality has hit hard for [Tara Hernandez](mailto:tara@tequilarista.org),
 as she was recently promoted to director of her area at

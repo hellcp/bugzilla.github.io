@@ -2,6 +2,8 @@
 title: 'The First Bugzilla Users & Administrators Group: August 4, 2010'
 date: 2010-08-17
 author: Max Kanat-Alexander
+categories:
+- Updates
 ---
 On Wednesday, August 4, we had the first Bugzilla Users & Administrators
 Group meeting, at the Wikimedia Foundation in San Francisco. In

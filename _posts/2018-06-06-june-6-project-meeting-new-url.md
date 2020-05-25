@@ -2,6 +2,8 @@
 title: June 6 Project Meeting - new URL
 date: 2018-06-06
 author: Dave Miller
+categories:
+- Updates
 ---
 For those that hadn't already seen it, Air Mozilla is in the process of
 switching over to a new platform.  They've already discontinued posting

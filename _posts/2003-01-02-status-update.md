@@ -2,6 +2,8 @@
 title: "Bugzilla Status Update"
 date: 2003-01-02
 author: J. Paul Reed
+categories:
+- Status
 ---
 
 ## Introduction

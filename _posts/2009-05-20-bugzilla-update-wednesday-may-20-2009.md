@@ -2,6 +2,8 @@
 title: 'Bugzilla Update: Wednesday, May 20, 2009'
 date: 2009-05-20
 author: Max Kanat-Alexander
+categories:
+- Status
 ---
 Hey hey. So, I was thinking that I'd do a regular (or semi-regular) post
 on the status of the Bugzilla Project, for anybody interested. This is

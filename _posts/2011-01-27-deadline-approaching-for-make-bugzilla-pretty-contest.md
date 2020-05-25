@@ -2,6 +2,8 @@
 title: Deadline Approaching for the "Make Bugzilla Pretty" Contest
 date: 2011-01-27
 author: Max Kanat-Alexander
+categories:
+- Updates
 ---
 Hey there, user experience designers\! Our deadline for the [Make
 Bugzilla Pretty](https://wiki.mozilla.org/Bugzilla:Pretty) contest is

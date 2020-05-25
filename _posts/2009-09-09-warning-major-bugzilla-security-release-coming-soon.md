@@ -2,6 +2,8 @@
 title: 'Warning: Major Bugzilla Security Release Coming Soon'
 date: 2009-09-09
 author: Max Kanat-Alexander
+categories:
+- Security
 ---
 A major security issue has been discovered in versions of Bugzilla back
 to 3.0. We will be releasing a version of Bugzilla which fixes the issue

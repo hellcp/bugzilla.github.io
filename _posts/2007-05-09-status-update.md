@@ -2,11 +2,13 @@
 title: "Status Update"
 date: 2007-05-09
 author: Max Kanat-Alexander
+categories:
+- Status
 ---
 
 ## Introduction and Updates
 
-After quite a bit of work, we've released [Bugzilla 3.0](/releases/3.0)! You can go read [the release announcement](/news/2007/05/09/release-of-bugzilla-3.0) for more details.
+After quite a bit of work, we've released [Bugzilla 3.0](/releases/3.0)! You can go read [the release announcement](/blog/2007/05/09/release-of-bugzilla-3.0) for more details.
 
 There's also various other interesting news in Bugzilla land, see below for details.
 

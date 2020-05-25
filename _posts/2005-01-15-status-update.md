@@ -2,11 +2,13 @@
 title: "Status Update"
 date: 2005-01-15
 author: Jacob Steenhagen
+categories:
+- Status
 ---
 
 ## Introduction
 
-It's been about 3 months since our [last update](2004-10-24.html) and the corresponding 3rd release candidate for Bugzilla 2.18, but at long last we are pleased to announce the full release of Bugzilla 2.18\. Though it's been more than 2 1/2 years in the making, we think you'll find the [new features](/releases/2.18/new-features.html) were worth the wait.
+It's been about 3 months since our [last update](2004-10-24.html) and the corresponding 3rd release candidate for Bugzilla 2.18, but at long last we are pleased to announce the full release of Bugzilla 2.18\. Though it's been more than 2 1/2 years in the making, we think you'll find the [new features](/releases/2.18/) were worth the wait.
 
 If you didn't get an email notification of this new release, but would like to for future releases, be sure to [subscribe](https://lists.bugzilla.org/cgi-bin/mj_wwwusr?func=lists-full-long&extra=announce) to our "announce" list. This is a low volume mailing list that covers releases and security advisories. We recommend that all Bugzilla administrators subscribe to this list.
 
@@ -16,7 +18,7 @@ If you're looking to get more involved in the actual development of Bugzilla, yo
 
 ### 2.18
 
-More than 2 1/2 years in the making, 2.18 is our latest stable release of Bugzilla. This new version offers an impressive list of [new features](/releases/2.18/new-features.html) as well as a number of bug fixes over 2.16, our previous stable release. The security fixes in 2.16.8 are included in 2.18 as well.
+More than 2 1/2 years in the making, 2.18 is our latest stable release of Bugzilla. This new version offers an impressive list of [new features](/releases/2.18/) as well as a number of bug fixes over 2.16, our previous stable release. The security fixes in 2.16.8 are included in 2.18 as well.
 
 As always, be sure you have a good backup before attempting to upgrade to Bugzilla 2.18\. There are many irreversible database changes between 2.16 and 2.18\. While we don't anticipate any problems with the migration, it never hurts to be safe.
 

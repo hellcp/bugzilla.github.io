@@ -2,6 +2,8 @@
 title: "(re)introducing Mark Côté, Bugzilla Assistant Project Lead"
 date: 2014-03-26
 author: Dave Miller
+categories:
+- Updates
 ---
 I've invited Mark Côté to step up to fill the Assistant Project Lead
 position vacated by Simon Green two months ago. He'll also be taking on

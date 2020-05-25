@@ -2,11 +2,13 @@
 title: "Bugzilla Status Update"
 date: 2003-11-02
 author: Christian Reis
+categories:
+- Status
 ---
 
 ## Introduction
 
-This status update covers the 6 months that have gone by since our [last update](/news/2003/04/24/status-update). It's been an interesting period in Bugzilla's time, with a quite a few feature enhancements hitting the trunk and a significant number of external contributions being submitted.
+This status update covers the 6 months that have gone by since our [last update](/blog/2003/04/24/status-update). It's been an interesting period in Bugzilla's time, with a quite a few feature enhancements hitting the trunk and a significant number of external contributions being submitted.
 
 To start off, we'd like to congratulate (and nudge ahead) Vlad Dascalu, Chuck Duvall and Mike Morgan who have been doing excellent work both on triage and on providing bugfixes. Independent contribution has always been the mainstay of Bugzilla development, so it's really nice to see people volunteer the time and expertise that make this a great product. The lowest bug number fixed was [bug 13540](https://bugzilla.mozilla.org/show_bug.cgi?id=13540) -- generalizing previously fixed terms such as "bug" -- which was coaxed in by Jon Wilmoth. A number of others had first-time patches integrated, too, and we'd definitely like to see more good work from you all.
 

@@ -1,8 +1,10 @@
 ---
-id: release301
 date: 2007-08-23
 title: Release of Bugzilla 3.0.1, 3.1.1, 2.22.3, and 2.20.5
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Today the Bugzilla project has four releases!
@@ -19,7 +21,7 @@ Today the Bugzilla project has four releases!
 [Bugzilla 3.1.1](/releases/3.2/) is our first development release toward Bugzilla 3.2\. It has a huge number of new features, but is **extremely unstable**. It has not been tested, and should not be used in a production environment. It may fail in critical ways, or destroy your data. However, it is useful as a feature preview and for testing purposes.
 
 *   [Download Bugzilla 3.1.1](/download/#v32)
-*   See our latest [Status Update](/news/2007/08/23/status-update) for a report of what's going on with the Bugzilla Project and a list of new features in 3.1.1.
+*   See our latest [Status Update](/blog/2007/08/23/status-update) for a report of what's going on with the Bugzilla Project and a list of new features in 3.1.1.
 
 ### 2.22.3 and 2.20.5
 

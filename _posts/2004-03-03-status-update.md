@@ -2,11 +2,13 @@
 title: "Status Update"
 date: 2004-03-03
 author: Dave Miller
+categories:
+- Status
 ---
 
 ## Introduction
 
-This status update covers the four months that have gone by since our [last update](/news/2003/11/02/status-update). At the time of our last status update, we released version 2.17.5 of Bugzilla. It was followed a week later by version 2.17.6, which was released to seal a small [security hole](/security/2.17.5/) discovered in one of the new features that was introduced in 2.17.5.
+This status update covers the four months that have gone by since our [last update](/blog/2003/11/02/status-update). At the time of our last status update, we released version 2.17.5 of Bugzilla. It was followed a week later by version 2.17.6, which was released to seal a small [security hole](/security/2.17.5/) discovered in one of the new features that was introduced in 2.17.5.
 
 As of this status update, we are also releasing 2.17.7 and 2.16.5\. For the first time in a while, there's no security advisory to go with it, which feels pretty good! So, if there's no security advisory, why are we releasing a new stable release? Well, 2.16.5 had a few regressions from 2.16.4 that we had to fix. The most major of which was that xml.cgi was completely busted. We also fixed some compatibility problems with older versions of DBI, fixed a MySQL 4 compatibility issue which we thought we'd fixed in 2.16.4, but it turns out we really hadn't, and several other minor bugfixes that we hope will improve the overall stability of the 2.16 series.  
 

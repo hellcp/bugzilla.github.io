@@ -2,9 +2,12 @@
 date: 2005-07-07
 title: Release of Bugzilla 2.18.2 and 2.20rc1
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
-We are proud to announce the first [Release Candidate of Bugzilla 2.20](/releases/2.20/), a major new feature release for Bugzilla. Bugzilla 2.20 includes support for PostgreSQL, a new "Large Attachment" storage mechanism, a new level of bug classification, user-defined periodic reminders by email, and [many other new features](/releases/2.20/new-features.html).
+We are proud to announce the first [Release Candidate of Bugzilla 2.20](/releases/2.20/), a major new feature release for Bugzilla. Bugzilla 2.20 includes support for PostgreSQL, a new "Large Attachment" storage mechanism, a new level of bug classification, user-defined periodic reminders by email, and [many other new features](/releases/2.20/).
 
 Bugzilla 2.20rc1 is recommended to be used for testing purposes only. The final release will be shaped by your feedback over the next few weeks.
 

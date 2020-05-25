@@ -2,6 +2,8 @@
 title: Upgrading your Bugzilla? Don't forget to Sanity Check first.
 date: 2012-12-06
 author: Bugzilla Team
+categories:
+- Updates
 ---
 When planning on upgrading your Bugzilla to a newer version, it's always
 a good idea to read the release notes in case of special instructions

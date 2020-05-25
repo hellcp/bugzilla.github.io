@@ -2,6 +2,9 @@
 date: 2011-01-24
 title: Release of Bugzilla 3.2.10, 3.4.10, 3.6.4, and 4.0rc2
 author: Bugzilla Team
+categories:
+- Releases
+- Security
 ---
 
 Some serious security issues were discovered in Bugzilla, and as a result we have four security releases for you today. We recommend that all Bugzilla administrators read the [Security Advisory](/security/3.2.9/) that was published along with these releases, and that you update as soon as possible.

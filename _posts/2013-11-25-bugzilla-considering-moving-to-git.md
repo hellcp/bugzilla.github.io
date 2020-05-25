@@ -1,7 +1,9 @@
 ---
 title: Bugzilla considering moving to git
 date: 2013-11-25
-author: Dave Miller
+author: Bugzilla Team
+categories:
+- Updates
 ---
 The Bugzilla Project is currently considering moving our source code
 repository from Bazaar (bzr) to git.  Part of the impetus for this is
