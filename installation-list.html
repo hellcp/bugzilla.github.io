@@ -15,20 +15,20 @@ permalink: /installation-list/
 
 <h2>Free Software Projects</h2>
 <ul>
-{% for item in by-featured %}
-  {% if item.cat == 'oss' %}
+{%- for item in by-featured %}
+  {%- if item.cat == 'oss' %}
     <li>{{ item.name }}: <a href="{{ item.bzurl }}">{{ item.bzurl }}</a></li>
-  {% endif %}
-{% endfor %}
+  {% endif -%}
+{% endfor -%}
 </ul>
 
 <h2>Linux Distributions</h2>
 <ul>
-{% for item in by-featured %}
-  {% if item.cat == 'distro' %}
+{%- for item in by-featured %}
+  {%- if item.cat == 'distro' %}
     <li>{{ item.name }}: <a href="{{ item.bzurl }}">{{ item.bzurl }}</a></li>
-  {% endif %}
-{% endfor %}
+  {% endif -%}
+{% endfor -%}
 </ul>
 
 <h2>Full List</h2>

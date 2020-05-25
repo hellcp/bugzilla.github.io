@@ -49,16 +49,30 @@ permalink: /releases/
 
 <h2>Release Dates</h2>
 
-<p>Here is a list of the release dates of every version of Bugzilla. You can click on the version number for a list of release notes, download links, and security advisories relevant to that release.</p>
+<p>Here is a list of the release dates of every version of Bugzilla sorted by its branch. You can click on the version number for a list of release notes, download links, and security advisories relevant to that release.</p>
 
-<table border=1>
-    <tr><th>Version</th><th>Release Date</th></tr>
-{% for item in list %}
-  {% if item.mode != 'dev' %}
-    <tr>
-        <td><a href="{{ item.version }}/">{{ item.version }}</a></td>
-        <td>{{ item.date | date: "%b %d, %Y" }}</td>
-    </tr>
-  {% endif %}
+<div class="accordion" id="accordion">
+{% assign grouped = list | where_exp: 'item', 'item.mode != "dev"' | group_by: 'branch' %}
+{% for group in grouped %}
+  {% assign groupid = group.name | replace: '.', '' %}
+  <div class="card">
+    <div class="card-header" id="heading{{ groupid }}">
+      <h2 class="mb-0">
+        <button class="btn btn-link w-100 text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ groupid }}" aria-expanded="true" aria-controls="collapse{{ groupid }}">
+          {% if group.name != '' %}{{ group.name }}{% else %}Older{% endif %}
+        </button>
+      </h2>
+    </div>
+    <div id="collapse{{ groupid }}" class="collapse" aria-labelledby="heading{{ groupid }}" data-parent="#accordion">
+      <ul class="list-group list-group-flush border-top">
+  {% for item in group.items %}
+          <li class="list-group-item d-flex align-items-center justify-content-between">
+          <a href="{{ item.version }}/">{{ item.version }}</a>
+          {{ item.date | date: "%b %d, %Y" }}
+          </li>
+  {% endfor %}
+        </ul>
+    </div>
+  </div>
 {% endfor %}
-</table>
+</div>
