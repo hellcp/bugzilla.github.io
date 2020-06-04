@@ -2,7 +2,6 @@
 id: release313
 date: 2008-02-01
 title: Release of Bugzilla 3.1.3
-author: Bugzilla Team
 categories:
 - Releases
 ---

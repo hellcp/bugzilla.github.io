@@ -1,7 +1,6 @@
 ---
 date: 2005-08-08
 title: Release of Bugzilla 2.20rc2
-author: Bugzilla Team
 categories:
 - Releases
 ---

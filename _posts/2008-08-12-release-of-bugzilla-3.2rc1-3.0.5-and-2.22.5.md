@@ -1,7 +1,6 @@
 ---
 date: 2008-08-12
 title: Release of Bugzilla 3.2rc1, 3.0.5, and 2.22.5
-author: Bugzilla Team
 categories:
 - Releases
 - Security

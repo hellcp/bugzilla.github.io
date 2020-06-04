@@ -1,7 +1,6 @@
 ---
 date: 2005-01-14
 title: Bugzilla receives award from Game Developer Magazine
-author: Bugzilla Team
 categories:
 - Updates
 - Meta

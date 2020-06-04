@@ -1,7 +1,7 @@
 ---
 title: 'Warning: Major Bugzilla Security Release Coming Soon'
 date: 2009-09-09
-author: Max Kanat-Alexander
+author: ["mkanat"]
 categories:
 - Security
 ---

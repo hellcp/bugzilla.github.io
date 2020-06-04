@@ -1,7 +1,7 @@
 ---
 title: Demo of new Bugzilla features and UX at April 3 project meeting
 date: 2019-04-03
-author: Dave Miller
+author: ["justdave"]
 categories:
 - Updates
 ---

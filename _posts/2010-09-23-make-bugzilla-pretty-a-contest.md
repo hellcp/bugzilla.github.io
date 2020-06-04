@@ -1,7 +1,7 @@
 ---
 title: 'Make Bugzilla Pretty: A Contest'
 date: 2010-09-23
-author: Max Kanat-Alexander
+author: ["mkanat"]
 categories:
 - Updates
 ---

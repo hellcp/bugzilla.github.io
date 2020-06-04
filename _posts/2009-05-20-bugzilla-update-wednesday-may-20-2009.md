@@ -1,7 +1,7 @@
 ---
 title: 'Bugzilla Update: Wednesday, May 20, 2009'
 date: 2009-05-20
-author: Max Kanat-Alexander
+author: ["mkanat"]
 categories:
 - Status
 ---

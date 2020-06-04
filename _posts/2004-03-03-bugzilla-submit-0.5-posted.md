@@ -1,7 +1,6 @@
 ---
 date: 2004-03-03
 title: bugzilla-submit 0.5 posted
-author: Bugzilla Team
 categories:
 - Releases
 - Updates

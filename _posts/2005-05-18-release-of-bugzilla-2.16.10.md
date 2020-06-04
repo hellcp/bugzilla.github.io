@@ -1,7 +1,6 @@
 ---
 date: 2005-05-18
 title: Release of Bugzilla 2.16.10
-author: Bugzilla Team
 categories:
 - Releases
 ---

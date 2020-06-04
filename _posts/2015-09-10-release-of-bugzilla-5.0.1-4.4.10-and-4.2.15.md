@@ -1,7 +1,6 @@
 ---
 date: 2015-09-10
 title: Release of Bugzilla 5.0.1, 4.4.10, and 4.2.15
-author: Bugzilla Team
 categories:
 - Releases
 - Security

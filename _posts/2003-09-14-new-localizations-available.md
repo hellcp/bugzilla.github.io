@@ -1,7 +1,6 @@
 ---
 date: 2003-09-14
 title: New Localizations Available
-author: Bugzilla Team
 categories:
 - Updates
 - Meta

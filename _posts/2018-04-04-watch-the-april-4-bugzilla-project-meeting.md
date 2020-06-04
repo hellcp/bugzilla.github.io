@@ -1,7 +1,7 @@
 ---
 title: Watch the April 4 Bugzilla Project Meeting
 date: 2018-04-04 21:49:40.000000000 +02:00
-author: Dave Miller
+author: ["justdave"]
 categories:
 - Updates
 ---

@@ -1,7 +1,6 @@
 ---
 title: New Bugzilla Project Leader
 date: 2001-07-18
-author: Bugzilla Team
 categories:
 - Updates
 ---

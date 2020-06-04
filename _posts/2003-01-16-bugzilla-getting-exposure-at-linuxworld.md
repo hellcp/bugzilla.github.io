@@ -1,7 +1,6 @@
 ---
 date: 2003-01-16
 title: Bugzilla Getting Exposure at LinuxWorld
-author: Bugzilla Team
 categories:
 - Updates
 ---

@@ -1,7 +1,6 @@
 ---
 date: 2011-12-28
 title: Release of Bugzilla 4.2rc1, 4.0.3, 3.6.7, and 3.4.13
-author: Bugzilla Team
 categories:
 - Releases
 - Security

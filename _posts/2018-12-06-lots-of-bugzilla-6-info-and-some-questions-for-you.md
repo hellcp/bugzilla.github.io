@@ -1,7 +1,7 @@
 ---
 title: Lots of Bugzilla 6 info and some questions for YOU!
 date: 2018-12-06
-author: Dave Miller
+author: ["justdave"]
 categories:
 - Updates
 ---

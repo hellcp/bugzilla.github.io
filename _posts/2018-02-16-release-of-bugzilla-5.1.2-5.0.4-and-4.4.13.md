@@ -1,7 +1,6 @@
 ---
 date: 2018-02-16
 title: Release of Bugzilla 5.1.2, 5.0.4, and 4.4.13
-author: Bugzilla Team
 categories:
 - Releases
 - Security

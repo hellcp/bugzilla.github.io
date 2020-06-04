@@ -1,7 +1,7 @@
 ---
 title: Watch the March 7 Bugzilla Project Meeting
 date: 2018-03-07
-author: Dave Miller
+author: ["justdave"]
 categories:
 - Updates
 ---

@@ -1,7 +1,6 @@
 ---
 date: 2009-11-18
 title: Release of Bugzilla 3.4.4 and 3.5.2
-author: Bugzilla Team
 categories:
 - Releases
 - Security

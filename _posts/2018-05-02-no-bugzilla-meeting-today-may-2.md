@@ -1,7 +1,7 @@
 ---
 title: No Bugzilla Meeting today (May 2)
 date: 2018-05-02
-author: Dave Miller
+author: ["justdave"]
 categories:
 - Updates
 ---

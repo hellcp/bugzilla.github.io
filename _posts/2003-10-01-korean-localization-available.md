@@ -1,7 +1,6 @@
 ---
 date: 2003-10-01
 title: Korean Localization Available
-author: Bugzilla Team
 categories:
 - Updates
 - Meta

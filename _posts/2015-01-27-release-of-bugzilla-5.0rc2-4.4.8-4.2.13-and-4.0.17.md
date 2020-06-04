@@ -1,7 +1,6 @@
 ---
 date: 2015-01-27
 title: Release of Bugzilla 5.0rc2, 4.4.8, 4.2.13, and 4.0.17
-author: Bugzilla Team
 categories:
 - Releases
 ---

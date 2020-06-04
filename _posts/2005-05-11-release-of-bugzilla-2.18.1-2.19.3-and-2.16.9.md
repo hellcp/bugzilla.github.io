@@ -1,7 +1,6 @@
 ---
 date: 2005-05-11
 title: Release of Bugzilla 2.18.1, 2.19.3, and 2.16.9
-author: Bugzilla Team
 categories:
 - Releases
 - Security

@@ -1,7 +1,6 @@
 ---
 date: 2007-08-23
 title: Release of Bugzilla 3.0.1, 3.1.1, 2.22.3, and 2.20.5
-author: Bugzilla Team
 categories:
 - Releases
 - Security

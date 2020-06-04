@@ -1,7 +1,7 @@
 ---
 title: "Status Update"
 date: 2004-07-10
-author: Zach Lipton
+author: ["zach"]
 categories:
 - Status
 ---

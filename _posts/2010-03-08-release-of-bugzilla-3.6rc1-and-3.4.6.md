@@ -1,7 +1,6 @@
 ---
 date: 2010-03-08
 title: Release of Bugzilla 3.6rc1 and 3.4.6
-author: Bugzilla Team
 categories:
 - Releases
 - Security

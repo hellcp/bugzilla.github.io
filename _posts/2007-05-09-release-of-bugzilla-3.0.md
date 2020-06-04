@@ -1,7 +1,6 @@
 ---
 date: 2007-05-09
 title: Release of Bugzilla 3.0!
-author: Bugzilla Team
 categories:
 - Releases
 ---

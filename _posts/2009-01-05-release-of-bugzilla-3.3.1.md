@@ -1,7 +1,6 @@
 ---
 date: 2009-01-05
 title: Release of Bugzilla 3.3.1
-author: Bugzilla Team
 categories:
 - Releases
 ---

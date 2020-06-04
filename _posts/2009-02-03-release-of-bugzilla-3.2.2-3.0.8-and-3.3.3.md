@@ -1,7 +1,6 @@
 ---
 date: 2009-02-03
 title: Release of Bugzilla 3.2.2, 3.0.8, and 3.3.3
-author: Bugzilla Team
 categories:
 - Releases
 - Security

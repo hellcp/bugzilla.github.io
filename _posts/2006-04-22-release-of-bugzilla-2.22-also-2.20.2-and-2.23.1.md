@@ -1,7 +1,6 @@
 ---
 date: 2006-04-22
 title: Release of Bugzilla 2.22 (also 2.20.2 and 2.23.1)
-author: Bugzilla Team
 categories:
 - Releases
 ---

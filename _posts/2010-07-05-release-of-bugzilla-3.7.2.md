@@ -1,7 +1,6 @@
 ---
 date: 2010-07-05
 title: Release of Bugzilla 3.7.2
-author: Bugzilla Team
 categories:
 - Releases
 - Security

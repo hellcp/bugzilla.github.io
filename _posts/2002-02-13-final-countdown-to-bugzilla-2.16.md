@@ -1,7 +1,6 @@
 ---
 title: Final Countdown to Bugzilla 2.16
 date: 2002-02-13
-author: Bugzilla Team
 categories:
 - Releases
 ---

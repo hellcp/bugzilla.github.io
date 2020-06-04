@@ -1,7 +1,7 @@
 ---
 title: "Status Update"
 date: 2005-09-30
-author: Max Kanat-Alexander
+author: ["mkanat"]
 categories:
 - Status
 ---

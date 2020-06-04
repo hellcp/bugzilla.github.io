@@ -1,7 +1,7 @@
 ---
 title: Git Migration Scheduled
 date: 2014-02-16
-author: Mark Côté
+author: ["mcote"]
 categories:
 - Updates
 ---

@@ -1,7 +1,6 @@
 ---
 title: Upgrading your Bugzilla? Don't forget to Sanity Check first.
 date: 2012-12-06
-author: Bugzilla Team
 categories:
 - Updates
 ---

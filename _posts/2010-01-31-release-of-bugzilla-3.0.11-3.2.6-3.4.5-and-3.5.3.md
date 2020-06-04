@@ -1,7 +1,6 @@
 ---
 date: 2010-01-31
 title: Release of Bugzilla 3.0.11, 3.2.6, 3.4.5, and 3.5.3
-author: Bugzilla Team
 categories:
 - Releases
 - Security

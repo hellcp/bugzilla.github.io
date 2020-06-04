@@ -1,7 +1,7 @@
 ---
 title: Bugzilla Meeting live from Orlando
 date: 2018-12-04
-author: Dave Miller
+author: ["justdave"]
 categories:
 - Updates
 ---

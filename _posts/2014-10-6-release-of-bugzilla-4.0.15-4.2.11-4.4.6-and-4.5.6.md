@@ -1,7 +1,6 @@
 ---
 date: 2014-10-6
 title: Release of Bugzilla 4.0.15, 4.2.11, 4.4.6, and 4.5.6
-author: Bugzilla Team
 categories:
 - Releases
 - Security

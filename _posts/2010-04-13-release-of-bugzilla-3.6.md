@@ -1,7 +1,6 @@
 ---
 date: 2010-04-13
 title: Release of Bugzilla 3.6!
-author: Bugzilla Team
 categories:
 - Releases
 ---

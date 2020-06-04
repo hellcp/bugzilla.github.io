@@ -1,7 +1,6 @@
 ---
 date: 2008-05-04
 title: Release of Bugzilla 3.0.4, 3.1.4, 2.22.4 and 2.20.6
-author: Bugzilla Team
 categories:
 - Releases
 - Security

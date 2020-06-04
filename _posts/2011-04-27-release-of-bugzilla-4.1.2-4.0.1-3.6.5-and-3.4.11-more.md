@@ -1,7 +1,7 @@
 ---
 title: Release of Bugzilla 4.1.2, 4.0.1, 3.6.5, and 3.4.11
 date: 2011-04-27
-author: Max Kanat-Alexander
+author: ["mkanat"]
 ---
 Hey Bugzilla users\! We just released [four new versions of
 Bugzilla](http://www.bugzilla.org/news/#release401). There were a lot of

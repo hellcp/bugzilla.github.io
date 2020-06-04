@@ -1,7 +1,7 @@
 ---
 title: June 6 Project Meeting - new URL
 date: 2018-06-06
-author: Dave Miller
+author: ["justdave"]
 categories:
 - Updates
 ---

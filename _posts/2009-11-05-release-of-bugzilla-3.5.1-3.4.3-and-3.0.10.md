@@ -1,7 +1,6 @@
 ---
 date: 2009-11-05
 title: Release of Bugzilla 3.5.1, 3.4.3, and 3.0.10
-author: Bugzilla Team
 categories:
 - Releases
 ---

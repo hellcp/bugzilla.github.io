@@ -1,7 +1,6 @@
 ---
 date: 2011-02-15
 title: Release of Bugzilla 4.0!
-author: Bugzilla Team
 categories:
 - Releases
 ---

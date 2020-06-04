@@ -1,7 +1,6 @@
 ---
 date: 2007-09-18
 title: Release of Bugzilla 3.0.2 and 3.1.2
-author: Bugzilla Team
 categories:
 - Releases
 - Security

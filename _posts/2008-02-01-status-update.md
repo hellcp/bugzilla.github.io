@@ -1,7 +1,7 @@
 ---
 title: "Status Update"
 date: 2008-02-01
-author: Cédric Corazza, Max Kanat-Alexander
+author: ["Cedrik", "mkanat"]
 categories:
 - Status
 ---

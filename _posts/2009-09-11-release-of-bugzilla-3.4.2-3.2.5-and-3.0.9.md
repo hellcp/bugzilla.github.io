@@ -1,7 +1,6 @@
 ---
 date: 2009-09-11
 title: Release of Bugzilla 3.4.2, 3.2.5, and 3.0.9
-author: Bugzilla Team
 categories:
 - Releases
 - Security

@@ -1,7 +1,6 @@
 ---
 date: 2006-10-15
 title: Release of Bugzilla 2.18.6, 2.20.3, 2.22.1, and 2.23.3
-author: Bugzilla Team
 categories:
 - Releases
 - Security

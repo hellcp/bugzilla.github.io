@@ -1,7 +1,6 @@
 ---
 date: 2009-07-08
 title: Release of Bugzilla 3.4rc1 and 3.2.4
-author: Bugzilla Team
 categories:
 - Releases
 - Security

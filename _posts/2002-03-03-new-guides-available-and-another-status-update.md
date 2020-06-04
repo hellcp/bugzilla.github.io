@@ -1,7 +1,6 @@
 ---
 title: New Guides available and another status update
 date: 2002-03-03
-author: Bugzilla Team
 categories:
 - Updates
 - Meta

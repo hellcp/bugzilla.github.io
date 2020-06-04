@@ -1,7 +1,7 @@
 ---
 title: 'VCS updates: bzr moving, cvs ending'
 date: 2015-04-21
-author: Mark Côté
+author: ["mcote"]
 categories:
 - Updates
 ---

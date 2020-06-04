@@ -1,7 +1,6 @@
 ---
 date: 2008-11-29
 title: Release of Bugzilla 3.2!
-author: Bugzilla Team
 categories:
 - Releases
 ---

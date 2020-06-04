@@ -1,7 +1,7 @@
 ---
 title: "Status Update"
 date: 2005-01-15
-author: Jacob Steenhagen
+author: ["jake"]
 categories:
 - Status
 ---

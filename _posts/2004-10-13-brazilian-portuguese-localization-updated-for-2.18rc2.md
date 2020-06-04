@@ -1,7 +1,6 @@
 ---
 date: 2004-10-13
 title: Brazilian Portuguese localization updated for 2.18rc2
-author: Bugzilla Team
 categories:
 - Updates
 - Meta

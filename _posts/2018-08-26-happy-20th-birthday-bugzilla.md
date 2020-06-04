@@ -1,7 +1,7 @@
 ---
 title: Happy 20th birthday, Bugzilla!
 date: 2018-08-26
-author: Dave Miller
+author: ["justdave"]
 categories:
 - Updates
 ---

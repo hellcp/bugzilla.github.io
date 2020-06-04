@@ -1,7 +1,6 @@
 ---
 date: 2005-07-09
 title: Release of Bugzilla 2.18.3
-author: Bugzilla Team
 categories:
 - Releases
 ---

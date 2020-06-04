@@ -1,7 +1,6 @@
 ---
 date: 2009-08-01
 title: Release of Bugzilla 3.4.1
-author: Bugzilla Team
 categories:
 - Releases
 - Security

@@ -1,7 +1,7 @@
 ---
 title: Deprecation of Windows 2000 Support for All Supported Branches of Bugzilla
 date: 2010-12-20
-author: Max Kanat-Alexander
+author: ["mkanat"]
 categories:
 - Status
 ---

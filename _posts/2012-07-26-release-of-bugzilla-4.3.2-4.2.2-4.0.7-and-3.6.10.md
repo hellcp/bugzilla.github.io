@@ -1,7 +1,6 @@
 ---
 date: 2012-07-26
 title: Release of Bugzilla 4.3.2, 4.2.2, 4.0.7, and 3.6.10
-author: Bugzilla Team
 categories:
 - Releases
 - Security

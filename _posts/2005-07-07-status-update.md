@@ -1,7 +1,7 @@
 ---
 title: "Status Update"
 date: 2005-07-07
-author: Byron Jones, Max Kanat-Alexander
+author: ["glob", "mkanat"]
 categories:
 - Status
 ---

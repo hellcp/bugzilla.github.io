@@ -1,7 +1,7 @@
 ---
 title: Bugzilla Project Meeting Wednesday, July 17th, at 14:00 UTC
 date: 2013-07-12
-author: Dave Miller
+author: ["justdave"]
 categories:
 - Updates
 ---

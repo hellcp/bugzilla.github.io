@@ -1,7 +1,6 @@
 ---
 date: 2010-08-05
 title: Release of Bugzilla 3.2.8, 3.4.8, 3.6.2, and 3.7.3
-author: Bugzilla Team
 categories:
 - Releases
 - Security

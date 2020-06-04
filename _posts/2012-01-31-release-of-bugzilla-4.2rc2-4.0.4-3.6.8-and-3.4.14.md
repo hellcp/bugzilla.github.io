@@ -1,7 +1,6 @@
 ---
 date: 2012-01-31
 title: Release of Bugzilla 4.2rc2, 4.0.4, 3.6.8, and 3.4.14
-author: Bugzilla Team
 categories:
 - Releases
 - Security

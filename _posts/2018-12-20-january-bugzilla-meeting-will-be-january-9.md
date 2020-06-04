@@ -1,7 +1,7 @@
 ---
 title: January Bugzilla Meeting will be January 9
 date: 2018-12-20
-author: Dave Miller
+author: ["justdave"]
 categories:
 - Updates
 ---

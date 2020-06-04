@@ -1,7 +1,7 @@
 ---
 title: "Bugzilla Status Update"
 date: 2002-01-18
-author: Jacob Steenhagen
+author: ["jake"]
 categories:
 - Status
 ---

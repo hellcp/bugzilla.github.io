@@ -1,7 +1,6 @@
 ---
 date: 2014-01-27
 title: Release of Bugzilla 4.5.2 and 4.4.2
-author: Bugzilla Team
 categories:
 - Releases
 ---

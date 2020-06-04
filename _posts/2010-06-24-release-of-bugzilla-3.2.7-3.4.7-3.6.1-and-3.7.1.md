@@ -1,7 +1,6 @@
 ---
 date: 2010-06-24
 title: Release of Bugzilla 3.2.7, 3.4.7, 3.6.1, and 3.7.1
-author: Bugzilla Team
 categories:
 - Releases
 - Security

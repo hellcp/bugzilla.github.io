@@ -1,7 +1,7 @@
 ---
 title: 'Bugzilla Update: Thursday, June 4, 2009'
 date: 2009-06-04
-author: Max Kanat-Alexander
+author: ["mkanat"]
 categories:
 - Status
 ---

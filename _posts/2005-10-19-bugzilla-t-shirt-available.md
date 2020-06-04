@@ -1,7 +1,6 @@
 ---
 date: 2005-10-19
 title: Bugzilla T-shirt Available
-author: Bugzilla Team
 categories:
 - Updates
 ---

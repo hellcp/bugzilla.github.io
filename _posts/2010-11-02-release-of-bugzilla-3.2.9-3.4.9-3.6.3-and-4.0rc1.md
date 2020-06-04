@@ -1,7 +1,6 @@
 ---
 date: 2010-11-02
 title: Release of Bugzilla 3.2.9, 3.4.9, 3.6.3, and 4.0rc1
-author: Bugzilla Team
 categories:
 - Releases
 - Security

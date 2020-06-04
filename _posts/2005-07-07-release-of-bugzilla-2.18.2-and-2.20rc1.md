@@ -1,7 +1,6 @@
 ---
 date: 2005-07-07
 title: Release of Bugzilla 2.18.2 and 2.20rc1
-author: Bugzilla Team
 categories:
 - Releases
 - Security

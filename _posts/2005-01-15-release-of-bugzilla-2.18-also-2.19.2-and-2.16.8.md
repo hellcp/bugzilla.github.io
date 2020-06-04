@@ -1,7 +1,6 @@
 ---
 date: 2005-01-15
 title: Release of Bugzilla 2.18 (also 2.19.2 and 2.16.8)
-author: Bugzilla Team
 categories:
 - Releases
 ---

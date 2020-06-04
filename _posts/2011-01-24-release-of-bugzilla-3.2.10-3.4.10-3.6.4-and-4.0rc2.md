@@ -1,7 +1,6 @@
 ---
 date: 2011-01-24
 title: Release of Bugzilla 3.2.10, 3.4.10, 3.6.4, and 4.0rc2
-author: Bugzilla Team
 categories:
 - Releases
 - Security

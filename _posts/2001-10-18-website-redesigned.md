@@ -1,7 +1,6 @@
 ---
 title: Website Redesigned
 date: 2001-10-18
-author: Bugzilla Team
 categories:
 - Updates
 - Meta

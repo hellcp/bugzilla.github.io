@@ -1,7 +1,7 @@
 ---
 title: "(re)introducing Mark Côté, Bugzilla Assistant Project Lead"
 date: 2014-03-26
-author: Dave Miller
+author: ["justdave"]
 categories:
 - Updates
 ---

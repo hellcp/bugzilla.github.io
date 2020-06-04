@@ -1,7 +1,6 @@
 ---
 date: 2012-04-18
 title: Release of Bugzilla 4.3.1, 4.2.1, 4.0.6, and 3.6.9
-author: Bugzilla Team
 categories:
 - Releases
 - Security

@@ -1,7 +1,7 @@
 ---
 title: "Bugzilla Status Update"
 date: 2003-11-02
-author: Christian Reis
+author: ["kiko"]
 categories:
 - Status
 ---

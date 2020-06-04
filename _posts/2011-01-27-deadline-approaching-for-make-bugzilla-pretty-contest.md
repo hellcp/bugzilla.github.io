@@ -1,7 +1,7 @@
 ---
 title: Deadline Approaching for the "Make Bugzilla Pretty" Contest
 date: 2011-01-27
-author: Max Kanat-Alexander
+author: ["mkanat"]
 categories:
 - Updates
 ---

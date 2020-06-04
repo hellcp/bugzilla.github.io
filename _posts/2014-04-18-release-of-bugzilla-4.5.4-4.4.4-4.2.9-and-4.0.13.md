@@ -1,7 +1,6 @@
 ---
 date: 2014-04-18
 title: Release of Bugzilla 4.5.4, 4.4.4, 4.2.9, and 4.0.13
-author: Bugzilla Team
 categories:
 - Releases
 ---

@@ -1,7 +1,6 @@
 ---
 date: 2007-02-26
 title: Release of Bugzilla 3.0rc1
-author: Bugzilla Team
 categories:
 - Releases
 ---

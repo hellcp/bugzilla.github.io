@@ -1,7 +1,7 @@
 ---
 title: 'The First Bugzilla Users & Administrators Group: August 4, 2010'
 date: 2010-08-17
-author: Max Kanat-Alexander
+author: ["mkanat"]
 categories:
 - Updates
 ---

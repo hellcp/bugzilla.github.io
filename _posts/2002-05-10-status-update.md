@@ -1,7 +1,7 @@
 ---
 title: "Bugzilla Status Update"
 date: 2002-05-10
-author: Dave Miller
+author: ["justdave"]
 categories:
 - Status
 ---

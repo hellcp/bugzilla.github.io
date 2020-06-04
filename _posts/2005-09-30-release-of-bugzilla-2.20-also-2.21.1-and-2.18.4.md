@@ -1,7 +1,6 @@
 ---
 date: 2005-09-30
 title: Release of Bugzilla 2.20 (also 2.21.1 and 2.18.4)
-author: Bugzilla Team
 categories:
 - Releases
 - Security

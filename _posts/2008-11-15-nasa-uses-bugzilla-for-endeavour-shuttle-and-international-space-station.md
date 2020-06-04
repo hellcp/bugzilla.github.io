@@ -1,7 +1,6 @@
 ---
 date: 2008-11-15
 title: NASA Uses Bugzilla for Endeavour Shuttle and International Space Station
-author: Bugzilla Team
 categories:
 - Update
 ---

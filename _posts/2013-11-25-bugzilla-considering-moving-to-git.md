@@ -1,7 +1,6 @@
 ---
 title: Bugzilla considering moving to git
 date: 2013-11-25
-author: Bugzilla Team
 categories:
 - Updates
 ---

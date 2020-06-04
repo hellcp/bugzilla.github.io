@@ -2,7 +2,7 @@
 title: 'Bugzilla Update: Wednesday, July 8, 2009 (Release of Bugzilla 3.4rc1 and Bugzilla
   3.2.4)'
 date: 2009-07-08
-author: Max Kanat-Alexander
+author: ["mkanat"]
 categories:
 - Status
 ---

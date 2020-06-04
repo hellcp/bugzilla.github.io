@@ -1,7 +1,6 @@
 ---
 date: 2006-07-09
 title: Release of Bugzilla 2.23.2
-author: Bugzilla Team
 categories:
 - Releases
 ---

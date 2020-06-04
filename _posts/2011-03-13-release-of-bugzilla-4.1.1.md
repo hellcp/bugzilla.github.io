@@ -1,7 +1,6 @@
 ---
 date: 2011-03-13
 title: Release of Bugzilla 4.1.1
-author: Bugzilla Team
 categories:
 - Releases
 ---

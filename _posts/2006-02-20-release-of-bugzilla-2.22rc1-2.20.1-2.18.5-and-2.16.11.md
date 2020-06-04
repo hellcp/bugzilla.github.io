@@ -1,7 +1,6 @@
 ---
 date: 2006-02-20
 title: Release of Bugzilla 2.22rc1, 2.20.1, 2.18.5 and 2.16.11
-author: Bugzilla Team
 categories:
 - Releases
 - Security

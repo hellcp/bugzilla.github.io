@@ -1,7 +1,7 @@
 ---
 title: Landfill.bugzilla.org Disclosure
 date: 2014-08-27
-author: Mark Côté
+author: ["mcote"]
 categories:
 - Updates
 - Meta

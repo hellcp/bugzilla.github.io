@@ -1,7 +1,7 @@
 ---
 title: "Bugzilla Status Update"
 date: 2003-04-24
-author: J. Paul Reed
+author: ["preed"]
 categories:
 - Status
 ---

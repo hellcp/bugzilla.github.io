@@ -1,7 +1,6 @@
 ---
 date: 2005-12-27
 title: Security Advisory for 2.16.x Shadow Database Users
-author: Bugzilla Team
 categories:
 - Security
 ---

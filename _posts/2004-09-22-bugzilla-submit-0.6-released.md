@@ -1,7 +1,6 @@
 ---
 date: 2004-09-22
 title: Bugzilla-Submit 0.6 Released
-author: Bugzilla Team
 categories:
 - Releases
 - Updates

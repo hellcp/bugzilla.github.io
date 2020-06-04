@@ -1,7 +1,7 @@
 ---
 title: "Status Update"
 date: 2004-03-03
-author: Dave Miller
+author: ["justdave"]
 categories:
 - Status
 ---
