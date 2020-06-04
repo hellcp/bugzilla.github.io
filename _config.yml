@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: bugzilla.org
+title: Bugzilla
 email: developers@bugzilla.org
 description: > # this means to ignore newlines until "baseurl:"
   This is the website for Bugzilla, bug-tracking server software for when
@@ -40,6 +40,7 @@ defaults:
       - name: Blog
         link: /blog/
       permalink: /blog/:year/:month/:day/:title/
+      ogtype: article
   -
     scope:
       path: ""
@@ -49,6 +50,7 @@ defaults:
       breadcrumbs:
       - name: Security Advisories
         link: /security/
+      ogtype: article
   -
     scope:
       path: ""
@@ -60,6 +62,17 @@ defaults:
       breadcrumbs:
       - name: Releases
         link: /releases/
+      ogtype: article
+  -
+    scope:
+      path: ""
+      type: "developers"
+    values:
+      layout: profile
+      breadcrumbs:
+      - name: Developers
+        link: /developers/profiles/
+      ogtype: profile
       
 
 paginate: 10
@@ -67,6 +80,8 @@ paginate_path: "/blog/page/:num/"
 
 collections:
   developers:
+    output: true
+    permalink: /:collection/profiles/:path/
   security:
     output: true
     permalink: /:collection/:path/
