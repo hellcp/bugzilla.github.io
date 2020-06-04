@@ -12,10 +12,6 @@
   - link: /requirements/
     name: Requirements
 
-  - link: /docs/
-    title: Read the Bugzilla manual and other important documents.
-    name: Documentation
-
   - link: /releases/
     title: Information on current and previous releases.
     name: Release Information
@@ -24,7 +20,7 @@
     title: Hundreds of companies and organizations trust Bugzilla.
     name: Who Uses Bugzilla?
 
-  - link: /developers/profiles.html
+  - link: /developers/
     title: Meet the Bugzilla team.
     name: Meet the Team
 
@@ -52,21 +48,17 @@
   title: Find out where to get more information and help.
   name: Support
 
-- link: /contribute/
+- link: /contributing/
   title: Ways you can help Bugzilla
   name: Contribute
   links:
-  - link: /contribute/
+  - link: /contributing/
     title: Ways you can help Bugzilla
     name: How to?
 
-  - link: /developers/reporting_bugs.html
+  - link: /contributing/reporting_bugs.html
     title: Let us know if there is an error in Bugzilla.
     name: Report a Bug
-
-  - link: /developers/
-    title: Developer resources
-    name: Developer Resources
 
   - link: https://wiki.mozilla.org/Bugzilla:Home
     title: Collaboratively updated information about Bugzilla.

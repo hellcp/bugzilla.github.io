@@ -85,7 +85,7 @@ for the development version:
     ``` 
     2.108 has not been released yet - these are prerelease notes.
     
-    Insert nice little intro for version 2.108 here.
+    Insert nice little intro for version 2.10.8 here.
     ```
 
 ## Stable Point Releases
