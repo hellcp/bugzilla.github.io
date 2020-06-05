@@ -1,25 +1,21 @@
 ---
 title: "Download"
 permalink: /download/
+intro: "Learn how to download, maintain, install and upgrade Bugzilla"
 ---
 
-* This will get replaced with a table of contents
+* Table of Contents
 {:toc}
-
-{% for item in site.releases %}
-{% if item.mode == 'current' %}
-{% assign url = item.url %}
-{% assign branch = item.branch %}
-{% endif %}
-{% endfor %}
 
 ## How To Get Bugzilla
 
 **By far best way to get, maintain and upgrade Bugzilla is as a checkout from the appropriate branch of our source code control system.** This is true of both stable and development versions. Instructions on how to do this are in the [Installation and Maintenance Guide](https://bugzilla.readthedocs.org/en/latest/installing/). That document also explains how to upgrade Bugzilla to a new version, move a Bugzilla installation between machines, and migrate from other bug-tracking systems.
 
-If you are installing a new Bugzilla, the latest stable release series (and so the one you should choose unless you have a good reason for doing otherwise) is the **{{ branch }}** series. You will need this information when following the installation instructions.
+{% assign current = site.releases | where: "mode", "current" | first %}
 
-If you are upgrading, note that you can upgrade directly from _any_ old Bugzilla version to any new release—you do not have to go via the releases in between. You should upgrade to the latest stable series, **{{ branch }}**, and read the [Release Notes]({{ url }}#release-notes). If you want to know exactly what's changed from one version to the next, you can [view checkin logs]({{ url }}).
+If you are installing a new Bugzilla, the latest stable release series (and so the one you should choose unless you have a good reason for doing otherwise) is the **{{ current.branch }}** series. You will need this information when following the installation instructions.
+
+If you are upgrading, note that you can upgrade directly from _any_ old Bugzilla version to any new release—you do not have to go via the releases in between. You should upgrade to the latest stable series, **{{ current.branch }}**, and read the [Release Notes]({{ current.url }}#release-notes). If you want to know exactly what's changed from one version to the next, you can [view checkin logs]({{ current.url }}).
 
 Bugzilla is licensed under the [Mozilla Public License 2.0](https://www.mozilla.org/MPL/2.0), and is thus both [free](http://www.gnu.org/philosophy/free-sw.html) and [open source](http://opensource.org/osd) software.
 

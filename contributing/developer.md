@@ -1,8 +1,9 @@
 ---
 title: "Developer's Guide" 
+intro: "Document describing coding standards of Bugzilla"
 ---
 
-* This becomes a toc when rendering
+* Table of Contents
 {:toc}
 
 ## Introduction

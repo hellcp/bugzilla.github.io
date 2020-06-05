@@ -5,7 +5,7 @@ permalink: /releases/
 
 <h2>Current Releases and Change Policy</h2>
 
-{% assign list = site.releases | reverse %}
+{% assign list = site.releases | where_exp: 'item', 'item.mode != ""' | reverse %}
 <ul>
   {% for item in list %}
     {% case item.mode %}
@@ -52,7 +52,7 @@ permalink: /releases/
 <p>Here is a list of the release dates of every version of Bugzilla sorted by its branch. You can click on the version number for a list of release notes, download links, and security advisories relevant to that release.</p>
 
 <div class="accordion" id="accordion">
-{% assign grouped = list | where_exp: 'item', 'item.mode != "dev"' | group_by: 'branch' %}
+{% assign grouped = site.releases | where_exp: 'item', 'item.mode != "dev"' | group_by: 'branch' %}
 {% for group in grouped %}
   {% assign groupid = group.name | replace: '.', '' %}
   <div class="card">

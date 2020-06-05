@@ -13,7 +13,13 @@
   {%- endif -%}
   {% assign description = site.description %}
   {% if page.content != "" %}
-    {% assign description = page.content | strip_html | normalize_whitespace | truncate: 145 %}
+    {% assign description = page.content | markdownify | strip_html | normalize_whitespace | truncate: 145 %}
+  {% endif %}
+  {% if page.intro %}
+    {% assign description = page.intro %}
+  {% endif %}
+  {% if page.ogtype == "profile" %}
+    {% capture description %}{% if page.former %}Former {% endif %}{{ page.role }}{% endcapture %}
   {% endif %}
   {%- capture canonical %}{{ site.url }}{{ page.url | replace:'index.html',''}}{% endcapture %}
   <title>{% if page.title != True %}{{ page.title }} - {% endif %}{{ site.title }}</title>
@@ -61,7 +67,7 @@
   <meta name="twitter:url" content="{{ canonical }}">
   <meta name="twitter:image" content="{{ image }}">
   <meta name="twitter:site" content="@bugzilla"/>
-  <meta name="twitter:creator" content="@bugzilla"/>
+  <meta name="twitter:creator" content="{% if page.twitter %}{{ page.twitter }}{% else %}@bugzilla{% endif %}"/>
   <meta name="theme-color" content="#9248c8">
 
   <link rel="canonical" href="{{ canonical }}">

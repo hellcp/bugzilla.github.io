@@ -3,7 +3,7 @@ title: "Release Noting Guide"
 ---
 
 The following is a guide for anyone who needs to work on the release
-notes of Bugzilla which appear at docs/rel\_notes.txt.
+notes of Bugzilla which appear at docs/rel_notes.txt.
 
 Release notes can be inserted as a part of a patch, especially if you
 are willing to follow the appropriate style. The person responsible for

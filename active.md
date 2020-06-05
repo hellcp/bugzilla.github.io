@@ -1,6 +1,7 @@
 ---
 title: "Active Instances"
 permalink: /active/
+intro: "Tracking how many unique IPs accessed bugzilla-update.xml"
 addons:
 - type: js
   link: https://updates.bugzilla.org/active/active.js

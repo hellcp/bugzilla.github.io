@@ -1,9 +1,10 @@
 ---
 title: "Features"
 permalink: /features/
+intro: "Check out what Bugzilla can do for you"
 ---
 
-* This will get replaced with a table of contents
+* Table of Contents
 {:toc}
 
 ## For Users

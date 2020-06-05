@@ -1,5 +1,6 @@
 ---
 title: "Reporting Bugs"
+intro: "Learn how to report bugs against Bugzilla"
 ---
 
 <span>{% include icons/warning.svg %} If the bug you wish to report affects
