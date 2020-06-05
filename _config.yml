@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This is the website for Bugzilla, bug-tracking server software for when
   Github Issues just doesn't cut it any more.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://bugzilla.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://bugzilla.lcp.world" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bugzilla
 github_username:  bugzilla
 
