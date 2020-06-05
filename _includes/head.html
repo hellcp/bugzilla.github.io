@@ -3,7 +3,7 @@
   {% if page.title %}
     {%- assign title = page.title -%}
   {%- endif -%}
-  {%- assign image = "/assets/favicon/favicon.png" -%}
+  {%- capture image %}{{ site.url }}/assets/favicon/favicon.png{% endcapture -%}
   {% if page.image %}
     {% if page.ogtype == "profile" %}
       {%- capture image %}{{ site.url }}/assets/img/developers/{{ page.image }}{% endcapture -%}
@@ -61,11 +61,11 @@
   {%- endcase %}
   <meta property="og:image" content="{{ image }}">
   <meta property="og:url" content="{{ canonical }}">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:description" content="{{ description }}" />
   <meta name="twitter:url" content="{{ canonical }}">
-  <meta name="twitter:image" content="{{ image }}">
+  <meta name="twitter:image" content="{{ site.url }}/assets/img/banner.png">
   <meta name="twitter:site" content="@bugzilla"/>
   <meta name="twitter:creator" content="{% if page.twitter %}{{ page.twitter }}{% else %}@bugzilla{% endif %}"/>
   <meta name="theme-color" content="#9248c8">
