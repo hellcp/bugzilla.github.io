@@ -10,7 +10,7 @@ Today the Bugzilla Project is extremely proud to announce the release of Bugzill
 
 It has been a year since we released Bugzilla 4.0 in February of 2011, and this new major release comes with several new features and improvements. This release contains major improvements to search, support for SQLite, improved WebServices, and lots of other enhancements.
 
-We hope that you enjoy and appreciate the results of this past year of hard work by our entirely-volunteer [community](/developers/profiles.html).
+We hope that you enjoy and appreciate the results of this past year of hard work by our entirely-volunteer [community](/developers/).
 
 *   [Download 4.2](/download/#v42)
 *   [Release Notes](/releases/4.2/) for 4.2

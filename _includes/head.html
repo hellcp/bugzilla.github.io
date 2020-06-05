@@ -36,7 +36,7 @@
   {%- when "article" %}
     <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
     {% for author in page.author -%}
-    <meta property="article:author" content="{{ site.url }}/developers/profiles/{{ author }}">
+    <meta property="article:author" content="{{ site.url }}/developers/{{ author }}">
     {%- endfor %}
     {% for tag in page.tags -%}
     <meta property="article:tag" content="{{ tag }}">

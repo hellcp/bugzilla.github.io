@@ -19,7 +19,7 @@ Following on the heels of Bugzilla 3.6, Bugzilla 4.0 brings many fantastic new f
 
 Compared to Bugzilla 3.0, which we released in 2007, Bugzilla 4.0 is a tremendous leap forward, with almost all the rough edges polished off, a huge number of new features, and almost every UI updated and improved.
 
-Bugzilla 4.0 is our best release ever, and we hope that you enjoy and appreciate the results of these last several months of hard work by our entirely-volunteer [community](/developers/profiles.html).
+Bugzilla 4.0 is our best release ever, and we hope that you enjoy and appreciate the results of these last several months of hard work by our entirely-volunteer [community](/developers/).
 
 *   [Download 4.0](/download/#v40)
 *   Read the [Release Notes](/releases/4.0/) for 4.0

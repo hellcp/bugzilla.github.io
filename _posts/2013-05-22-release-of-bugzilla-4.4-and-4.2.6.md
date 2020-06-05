@@ -9,7 +9,7 @@ Today the Bugzilla Project is extremely proud to announce the release of Bugzill
 
 It has been over a year since we released Bugzilla 4.2 on February 2012, and this new major release comes with several new features and improvements. This release contains major improvements to WebServices, which were our main target in this release, a rewritten tagging system, a real MIME type auto-detection for attachments, improved support for Oracle, performance improvements and lots of other enhancements.
 
-We hope that you enjoy and appreciate the results of this past year of hard work by our entirely-volunteer [community](/developers/profiles.html).
+We hope that you enjoy and appreciate the results of this past year of hard work by our entirely-volunteer [community](/developers/).
 
 *   [Download 4.4](/download/#v44)
 *   [Release Notes](/releases/4.4/) for 4.4
