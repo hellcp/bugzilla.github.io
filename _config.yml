@@ -79,6 +79,13 @@ defaults:
       breadcrumbs:
       - name: Contributing
         link: /contributing/
+  -
+    scope:
+      path: "/support/*"
+    values:
+      breadcrumbs:
+      - name: Support
+        link: /support/
       
 
 paginate: 10
