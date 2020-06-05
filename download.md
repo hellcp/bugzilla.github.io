@@ -3,9 +3,6 @@ title: "Download"
 permalink: /download/
 ---
 
-Download
-{:.h1}
-
 * This will get replaced with a table of contents
 {:toc}
 

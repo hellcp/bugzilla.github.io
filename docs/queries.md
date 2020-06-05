@@ -1,7 +1,6 @@
 ---
 title: "Query Cookbook"
 ---
-# Query Cookbook
 
 As a bugzilla administrator, sometimes the queries I need to do are too
 specialized for the standard bugzilla query page and I have to do them

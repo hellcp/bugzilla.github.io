@@ -2,8 +2,6 @@
 title: "Approvers' Guide"
 ---
 
-# Approvers' Guide
-
 The purpose of approval is for the project leader to be able to keep
 control of the entire Bugzilla product, to ensure similar, bad or
 conflicting features aren't introduced. Approval does not usually

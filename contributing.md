@@ -2,7 +2,6 @@
 title: "Contributing"
 permalink: /contributing/
 ---
-# Contributing
 
 There are lots of ways to contribute to the Bugzilla project:
 

@@ -2,8 +2,6 @@
 title: "Consulting Resources"
 ---
 
-# Consulting Resources
-
 Bugzilla is made available free of charge, without warranty. Support
 provided for free by Bugzilla team members via email or newsgroups also
 comes without warranty. If you need higher-level support, the following

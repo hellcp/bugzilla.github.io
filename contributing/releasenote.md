@@ -1,7 +1,6 @@
 ---
 title: "Release Noting Guide"
 ---
-# Bugzilla Release Noting Guide
 
 The following is a guide for anyone who needs to work on the release
 notes of Bugzilla which appear at docs/rel\_notes.txt.

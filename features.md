@@ -3,9 +3,6 @@ title: "Features"
 permalink: /features/
 ---
 
-Features
-{:.h1}
-
 * This will get replaced with a table of contents
 {:toc}
 

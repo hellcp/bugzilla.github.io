@@ -2,8 +2,6 @@
 title: "Reporting Bugs"
 ---
 
-# Reporting Bugzilla Bugs
-
 <span>{% include icons/warning.svg %} If the bug you wish to report affects
 **Mozilla**, **Firefox**, **Thunderbird**, **Camino**, or **Seamonkey**,
 you need to go to **<https://bugzilla.mozilla.org/>**.

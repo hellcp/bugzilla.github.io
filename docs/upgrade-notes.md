@@ -1,7 +1,6 @@
 ---
 title: "Notes for Upgraders"
 ---
-# Notes for Upgraders
 
 This is a consolidated list of release note items relevant to those
 upgrading Bugzilla. If you are upgrading from version X.X to version

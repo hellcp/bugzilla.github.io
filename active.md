@@ -10,7 +10,6 @@ addons:
   link: /assets/js/active.js
 ---
 
-# Active instances
 <div style="max-height:700px">
   <canvas id="chart"></canvas>
 </div>

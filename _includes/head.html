@@ -11,6 +11,10 @@
       {%- capture image %}{{ site.url }}{{ page.image }}{% endcapture %}
     {% endif %}
   {%- endif -%}
+  {% assign description = site.description %}
+  {% if page.content != "" %}
+    {% assign description = page.content | strip_html | normalize_whitespace | truncate: 145 %}
+  {% endif %}
   {%- capture canonical %}{{ site.url }}{{ page.url | replace:'index.html',''}}{% endcapture %}
   <title>{% if page.title != True %}{{ page.title }} - {% endif %}{{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -32,6 +36,7 @@
   <link color="#9248c8" href="/assets/favicon/mask-icon.svg" rel="mask-icon">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}" />
   <meta property="og:type" content="{% if page.ogtype %}{{ page.ogtype }}{% else %}website{% endif %}">
   {%- case page.ogtype -%}
   {%- when "article" %}
@@ -52,6 +57,7 @@
   <meta property="og:url" content="{{ canonical }}">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ description }}" />
   <meta name="twitter:url" content="{{ canonical }}">
   <meta name="twitter:image" content="{{ image }}">
   <meta name="twitter:site" content="@bugzilla"/>

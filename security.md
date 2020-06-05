@@ -3,8 +3,6 @@ title: "Security Advisories"
 permalink: /security/
 ---
 
-# Security Advisories
-
 The Bugzilla team makes every effort to seal up any security holes as soon
 as possible after they are found, and follow that up with a security release
 and advisory. The following is a list of the security advisories that were

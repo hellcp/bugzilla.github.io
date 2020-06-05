@@ -2,7 +2,6 @@
 title: "About"
 permalink: /about/
 ---
-# About Bugzilla
 
 ## What is Bugzilla?
 

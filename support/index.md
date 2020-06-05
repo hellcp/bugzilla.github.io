@@ -2,8 +2,6 @@
 title: "Support"
 ---
 
-# Support
-
 ## Bugzilla Support Options
 
 The options described here are for installation, administration, and

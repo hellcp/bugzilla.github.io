@@ -1,13 +1,11 @@
 ---
 title: "Developer's Guide" 
 ---
-Developer's Guide
-{:.h1}
 
 * This becomes a toc when rendering
 {:toc}
 
-# Introduction
+## Introduction
 
 This document describes the code standards for Bugzilla, and gives tips
 for Bugzilla developers.
@@ -26,7 +24,7 @@ but we are working towards them. If you're only changing 1 or 2 lines,
 there's no need to fix up the entire file to make the file conform to
 these guidelines.
 
-# General Guidelines
+## General Guidelines
 
 We have a certain set of "basic principles" that this entire Developer's
 Guide is based on:
@@ -60,7 +58,7 @@ Guide is based on:
     look at it?" If not, that line either needs to be re-written or
     needs a comment.
 
-# Bug Fixing
+## Bug Fixing
 
 When you fix a bug, ask yourself:
 
@@ -72,7 +70,7 @@ When you fix a bug, ask yourself:
     the testing suite. File new bug reports on these.
   - Could this have regressed anything?
 
-# Test Suite
+## Test Suite
 
 Nothing will get checked into Bugzilla that doesn't pass the test suite.
 The test suite is automatically executed on each commit by the [Travis
@@ -96,7 +94,7 @@ You can then `./runtests.pl` or
 `./runtests.pl --verbose` from your
 Bugzilla main directory.
 
-# All Files
+## All Files
 
   - The testing suite will check files have no tab characters. Tabs are
     not reliable for positioning because different editors interpret
@@ -109,9 +107,9 @@ Bugzilla main directory.
     them as they can cause confusion in CVS and other mozilla.org
     utilities. You may assume long filename support is present.
 
-# Perl Code
+## Perl Code
 
-## General
+### General
 
   - The testing suite will check all Perl files have no errors. This is
     done by using the `perl -c` command to
@@ -156,7 +154,7 @@ Bugzilla main directory.
     they do, and why they are needed. This means in particular "hacky
     kludges" and "workarounds."
 
-## Throwing Errors
+### Throwing Errors
 
 Normally, when an error occurs because of user action, you call
 `ThrowUserError`, eg:
@@ -179,7 +177,7 @@ That means: use `ThrowUserError` every time that Bugzilla isn't
 *broken*, even if you're not sure it's a user error. This rule overrides
 the general recommendations at the top of this section.
 
-## Taint Mode
+### Taint Mode
 
 All new CGIs should run in Perl's taint mode, and existing CGIs which
 run in taint mode must not have taint mode turned off.
@@ -231,7 +229,7 @@ documentation](http://search.cpan.org/dist/perl/pod/perlsec.pod).
 Note that Bugzilla does NOT use DBI "taint-out" mode, so data *returned*
 from the database will not be tainted.
 
-## Style
+### Style
 
   - The Bugzilla development team has decided to adopt the Perl style
     guide as published by Larry Wall. This guide can be found in
@@ -272,7 +270,7 @@ from the database will not be tainted.
   - Please refer to the perl style guide above if you don't see your
     question covered here.
 
-## Cross-Platform Compatibility
+### Cross-Platform Compatibility
 
   - Bugzilla supports \*nix platforms, and both ActiveState Perl and
     cygwin on Win32 platforms.
@@ -291,7 +289,7 @@ from the database will not be tainted.
     Some examples of non-ActiveState features: fork, pipe open syntax
     (eg `open (DOT, '-|')`).
 
-# API Documentation
+## API Documentation
 
   - Recently many Bugzilla modules have been introduced. Some of these
     even include
@@ -404,9 +402,9 @@ To learn more about inline Perl Documentation, see the manual pages:
   - [Detailed POD Format
     Specification](http://search.cpan.org/dist/perl/pod/perlpodspec.pod)
 
-# SQL
+## SQL
 
-## General
+### General
 
   - **ANSI SQL** - There are three standards for SQL,
     [SQL 92](http://savage.net.au/SQL/sql-92.bnf.html),
@@ -452,7 +450,7 @@ To learn more about inline Perl Documentation, see the manual pages:
     different words in column names. "default\_qa\_contact" is easier to
     read than "defaultqacontact."
 
-## Schema Changes
+### Schema Changes
 
 If you make schema changes, you should modify:
 
@@ -479,7 +477,7 @@ if ($dbh->bz_column_info('bugs', 'qa_contact')->{NOTNULL}) {
 }
 ```
 
-### How Schema Updates Work
+#### How Schema Updates Work
 
 When Bugzilla updates the on-disk database schema, it also updates a
 Bugzilla::DB::Schema object in the `bz_schema` table. This is in
@@ -517,7 +515,7 @@ PostgreSQL, `INT1, INT2, INT3,` and `INT4` are *all* represented as
 something is an INT3 or an INT2, and it can't just ask the database
 itself. It has to use the information stored in the bz\_schema table.
 
-## How to Send And Receive Information From/To the Database
+### How to Send And Receive Information From/To the Database
 
 Bugzilla is using standard DBI functions to interact with the database,
 through `Bugzilla->dbh`. The current recommended method for creating a
@@ -540,7 +538,7 @@ For more information, see the [DBI
 documentation](http://search.cpan.org/dist/DBI/DBI.pm) or the
 [Bugzilla::DB documentation](tip/html/api/Bugzilla/DB.html).
 
-### Placeholders
+#### Placeholders
 
 Note that in the above example we use a question mark instead of
 inserting the string "foobar" directly into the SQL. That question mark
@@ -558,7 +556,7 @@ Then, your perl code looks something like this:
         $dbh->selectrow_array("SELECT short_desc FROM bugs WHERE bug_id = ?",
                                  undef, $bug_id);
 
-## JOIN Statements and SELECTing From Multiple Tables
+### JOIN Statements and SELECTing From Multiple Tables
 
 Frequently when using SQL you want data from more than one table at a
 time. You do this by "joining" the tables in various ways.
@@ -581,7 +579,7 @@ For this section, we will be using two tables in our examples, called
 Note that in the below examples we use `SELECT *` for simplicity, but
 [`SELECT *`should never be used in Bugzilla code](#sql-general).
 
-### CROSS JOIN
+#### CROSS JOIN
 
 The *least* common (but also least understood) type of JOIN is the
 "cross join," also called the "cross-product join."
@@ -616,7 +614,7 @@ like:
 In general, you want to avoid cross joins unless you are certain they
 are exactly what you need.
 
-### INNER JOIN
+#### INNER JOIN
 
 An INNER JOIN is one where you try to actually join two tables together
 based on a column that they have in common. This is the most common type
@@ -641,7 +639,7 @@ The inner join above looks like this:
 Note that "mkanat" (with user\_id 3) is left out, because he doesn't
 have an entry in both tables.
 
-### LEFT JOIN
+#### LEFT JOIN
 
 A LEFT JOIN is like an INNER JOIN, but it *includes* records that have
 an entry in `a` but no corresponding entry in `b`. That is, where
@@ -671,9 +669,9 @@ the *left* (table `a`, note that it's on the left side of the words
 *the row containing mkanat will **never** be returned*. This is because
 **NULL is never *equal* to anything**.
 
-## Indexes
+### Indexes
 
-### Simple Description of Indexes
+#### Simple Description of Indexes
 
 Indexes speed up SELECT statements.
 
@@ -684,7 +682,7 @@ That's called a "table scan," and it's usually slow.
 With an index, you ask it for "row 8000" and it gives it to you
 instantly.
 
-### More Details
+#### More Details
 
 OK, so in reality you wouldn't be asking for "row 8000," you'd be doing
 something like `WHERE bugs.bug_id = 8000` in your SQL.
@@ -692,7 +690,7 @@ something like `WHERE bugs.bug_id = 8000` in your SQL.
 In order for the database to do that quickly, it needs an index on the
 `bugs` table, on the `bug_id` column.
 
-### When To Add An Index
+#### When To Add An Index
 
 Generally, you should add an index any time you plan to use a column in
 a WHERE clause, or in the "ON" part of a JOIN statement.
@@ -700,7 +698,7 @@ a WHERE clause, or in the "ON" part of a JOIN statement.
 Adding too many indexes to a table will slow down INSERT and UPDATE
 statements, so don't add indexes you don't need.
 
-### Multi-Column Indexes
+#### Multi-Column Indexes
 
 Many databases (MySQL in particular) will only use *one index per table
 per query*.
@@ -722,7 +720,7 @@ of a multi-column index can be used like it's a single-column index.**
 So, for example, having an index on both "priority, op\_sys" and
 "priority" would be redundant. Don't do it.
 
-### Write Queries With Indexes In Mind
+#### Write Queries With Indexes In Mind
 
 When writing a query, give a brief thought to how it will use indexes.
 Don't try to solve performance problems before you know they exist
@@ -730,7 +728,7 @@ Don't try to solve performance problems before you know they exist
 a brief thought to it, particularly the fact that only one index will be
 used per table, per query, by common databases.
 
-## Cross-Database Query Compatibility
+### Cross-Database Query Compatibility
 
 Different databases support different things, and different databases
 use different syntax for similar features. `Bugzilla->dbh` provides many
@@ -781,7 +779,7 @@ databases that Bugzilla supports, and so should be avoided:
   - Transactions (`START TRANSACTION` or `COMMIT`)
   - Subselects (`SELECT * FROM (SELECT * FROM b)`)
 
-### A Note About INNER JOIN
+#### A Note About INNER JOIN
 
 In general, *implicit* INNER JOINs (`FROM a, b WHERE a.user_id =
 b.user_id`) are faster than *explicit* INNER JOINs (`FROM a INNER JOIN b
@@ -797,7 +795,7 @@ In general, the performance penalty for explicit INNER JOINs should only
 happen on older databases (PostgreSQL before 7.4, for example), so don't
 worry about it too much. When in doubt, do an explicit join.
 
-## Style
+### Style
 
   - Bugzilla uses a capitalisation convention for SQL. SQL keywords such
     as `SELECT`, `WHERE` and `AND` should be all upper case. Even
@@ -836,9 +834,9 @@ worry about it too much. When in doubt, do an explicit join.
     simple queries that query only one table, don't do that. It's
     obvious where the data is coming from.)
 
-# Templates
+## Templates
 
-## General
+### General
 
   - Bugzilla uses the Template Toolkit (TT) (module name
     `Template`) to allow administrators
@@ -915,7 +913,7 @@ worry about it too much. When in doubt, do an explicit join.
     See the appropriate sections below for information on how to output
     the template.
 
-## Filenames and Paths
+### Filenames and Paths
 
   - CGIs can use templates with the same interface of different
     "formats". These templates are called multiple format templates.
@@ -942,7 +940,7 @@ worry about it too much. When in doubt, do an explicit join.
   - The terminology create/list/edit/created/delete is generally used in
     stubnames. See the existing templates for stubname guidance.
 
-## HTML Templates
+### HTML Templates
 
   - To output an HTML template to the browser, you can use this code:
     
@@ -1063,7 +1061,7 @@ worry about it too much. When in doubt, do an explicit join.
         and has the desired result of passing the whole `mytext`
         variable as the "name" parameter.
 
-## Web Technologies
+### Web Technologies
 
   - HTML output should be valid [HTML 5](http://www.w3.org/TR/html5/).
     You can test the output of a Bugzilla page by using the [W3C's HTML
@@ -1081,7 +1079,7 @@ worry about it too much. When in doubt, do an explicit join.
     CGIs) may require JavaScript, as we expect the administrator to have
     a JavaScript-capable browser.
 
-# Security
+## Security
 
 Please consider the security implications of your code. In particular,
 thoroughly check user permissions, and thoroughly check data is in the
@@ -1097,7 +1095,7 @@ holes into mere errors.
 But there will always be security problems (see below), as no language
 can prevent all types of problem.
 
-## Don't Trust URL Parameters And Cookies\!
+### Don't Trust URL Parameters And Cookies\!
 
 URL parameters and cookies are under the control of the user, and hence
 should not be trusted. Make sure they are in the correct format before
@@ -1110,7 +1108,7 @@ returned by `Bugzilla->user` after the appropriate call to
 `Bugzilla->login`. See [Bugzilla::User](tip/html/api/Bugzilla/User.html)
 for details.
 
-## Confidential Information Leakage
+### Confidential Information Leakage
 
 Bugzilla has various facilities to restrict products and bugs to users
 in certain groups. When users can bypass this mechanism, it is a
@@ -1126,14 +1124,14 @@ Note that even the name of a product can be confidential. Whenever
 possible, don't inform the user that something exists, if they can't
 access it.
 
-## Unauthorised Access to Perform an Action
+### Unauthorised Access to Perform an Action
 
 This is allowing a user to do something they shouldn't be able to do,
 like edit a bug they don't have access to. Similar to confidential
 information leakage, this also often occurs when you fail to do an
 appropriate check.
 
-## Arbitrary Code Execution
+### Arbitrary Code Execution
 
 This is a very serious hole, as it often has the potential to let the
 attacker do a wide range of things with a system. It occurs when a user

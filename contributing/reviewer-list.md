@@ -1,7 +1,6 @@
 ---
 title: "Bugzilla Reviewers"
 ---
-# Bugzilla Reviewers
 
 This is a list of who to ask for review. You may ask any reviewer to
 review any change to any file, but they may defer it to another reviewer

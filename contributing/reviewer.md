@@ -1,7 +1,6 @@
 ---
 title: "Reviewers' Guide"
 ---
-# Reviewers' Guide
 
 The following is a guide for reviewers of code submitted for Bugzilla.
 The review process is designed to remove problems from a patch before it

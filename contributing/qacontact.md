@@ -2,8 +2,6 @@
 title: "QA Contact Guide"
 ---
 
-# QA Contact Guide
-
 This guide is an introduction on using Bugzilla for carrying out QA
 activities. This guide is intended for QA contacts who are new to
 Bugzilla. By no intent and purpose should this guide be regarded as a

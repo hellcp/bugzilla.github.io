@@ -3,8 +3,6 @@ title: "Installation List"
 permalink: /installation-list/
 ---
 
-# Installation List
-
 A large number of companies, organizations, and projects use Bugzilla. 
 This page showcases a few particularly high-profile or otherwise interesting 
 installations, and also contains a list of public Bugzillas.
