@@ -11,8 +11,9 @@
       {%- capture image %}{{ site.url }}{{ page.image }}{% endcapture %}
     {% endif %}
   {%- endif -%}
-  {%- capture canonical %}{{ site.url }}{{ page.url | replace:'index.html',''}}{% endcapture -%}
+  {%- capture canonical %}{{ site.url }}{{ page.url | replace:'index.html',''}}{% endcapture %}
   <title>{% if page.title != True %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="keywords" content="bugzilla bug track tracking enterprise solution">
   <link rel="icon" href="/assets/favicon/favicon.ico" type="image/ico">
