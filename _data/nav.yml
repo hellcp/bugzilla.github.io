@@ -9,9 +9,6 @@
   - link: /features/
     name: Features
 
-  - link: /requirements/
-    name: Requirements
-
   - link: /releases/
     title: Information on current and previous releases.
     name: Release Information

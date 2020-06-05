@@ -16,10 +16,10 @@ Bugzilla is a web-based system but needs to be installed on your server for you 
 
 *   Under active development
 *   Used in high-volume, high-complexity environments by [Mozilla](https://bugzilla.mozilla.org/) and others
-*   Supported by [a dedicated team](/developers/profiles.html)
+*   Supported by [a dedicated team](/developers/)
 *   Packed with [features](/features/) that many expensive solutions lack
 *   Trusted by [world leaders in technology](/installation-list/)
-*   Installable on [many operating systems](/requirements/), including Windows, Mac and Linux
+*   Installable on [many operating systems](https://bugzilla.readthedocs.io/en/latest/installing/index.html), including Windows, Mac and Linux
 
 ## A Brief History of Bugzilla
 
