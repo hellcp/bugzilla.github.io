@@ -14,7 +14,7 @@ re-review, a new patch, or resolve the bug entirely without check in.
 Since the repository is publicly visible, security fixes must only be
 committed immediately before a new package is released. See the
 documentation on how to
-[release](https://www.bugzilla.org/docs/release.html).
+[release](https://www.bugzilla.org/contributing/release.html).
 
 ## Current Approvers
 

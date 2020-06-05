@@ -4,12 +4,10 @@ title: "Reporting Bugs"
 
 # Reporting Bugzilla Bugs
 
-<div class="alert alert-danger">
-{% include icons/warning.svg %} If the bug you wish to report affects
+<span>{% include icons/warning.svg %} If the bug you wish to report affects
 **Mozilla**, **Firefox**, **Thunderbird**, **Camino**, or **Seamonkey**,
-you need to go to
-[**bugzilla.mozilla.org**](https://bugzilla.mozilla.org/).
-</div>
+you need to go to **<https://bugzilla.mozilla.org/>**.
+{:.alert.alert-danger}
 
 ## There are other Bugzillas...
 

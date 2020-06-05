@@ -1,5 +1,6 @@
 ---
 title: "Contributing"
+permalink: /contributing/
 ---
 # Contributing
 
@@ -28,8 +29,8 @@ There are lots of ways to contribute to the Bugzilla project:
   - [Release Noting Guide](/contributing/releasenote.html)
   - [How To Release a Bugzilla
     Version](https://wiki.mozilla.org/Bugzilla:Release_Process)
-  - [The Bugzilla API Documentation](/docs/5.0/en/html/api/)
-  - [How to Report a Bug](reporting_bugs.html)
+  - [The Bugzilla API Documentation](https://bugzilla.readthedocs.io/en/5.0/api/)
+  - [How to Report a Bug](/contributing/reporting_bugs.html)
 
 ## SQL References
 

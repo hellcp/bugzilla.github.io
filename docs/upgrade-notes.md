@@ -511,7 +511,7 @@ upgrade.
     interaction. For more information about how to use
     [DBI](http://search.cpan.org/perldoc?DBI) with Bugzilla, see the
     [Developer's Guide Section About
-    DBI](https://www.bugzilla.org/docs/developer.html#sql-sendreceive).
+    DBI](https://www.bugzilla.org/contributing/developer.html#sql-sendreceive).
   - Instead of `UserInGroup()`, all of Bugzilla
     now uses `Bugzilla-\>user-\>in\_group`
   - Parameters are accessed through

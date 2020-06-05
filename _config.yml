@@ -73,6 +73,13 @@ defaults:
       - name: Developers
         link: /developers/
       ogtype: profile
+  -
+    scope:
+      path: "/contributing/*"
+    values:
+      breadcrumbs:
+      - name: Contributing
+        link: /contributing/
       
 
 paginate: 10
