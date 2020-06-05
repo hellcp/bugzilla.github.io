@@ -101,9 +101,8 @@ header:
       </div>
       <div class="col-md-8 mb-2">
         <div class="d-flex flex-wrap justify-content-around">
-        {% assign by-featured = site.data.installation-list | sort: 'featured' %}
-        {%- for project in by-featured %}
-          {%- if project.featured != '' %}
+        {%- for project in site.data.installation-list %}
+          {%- if project.logo != '' %}
             <a href="{{ project.bzurl }}" title="{{ project.name }}" class="btn mb-4">
                 {% include free-software-logos/{{ project.logo }} %}
                 <span class="sr-only">{{ project.name }}</span>
