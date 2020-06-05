@@ -1,6 +1,5 @@
 ---
 title: "Features"
-permalink: /features/
 intro: "Check out what Bugzilla can do for you"
 ---
 

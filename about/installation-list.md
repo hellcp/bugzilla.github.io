@@ -1,6 +1,5 @@
 ---
 title: "Installation List"
-permalink: /installation-list/
 ---
 
 A large number of companies, organizations, and projects use Bugzilla. 
