@@ -21,6 +21,11 @@ description: > # this means to ignore newlines until "baseurl:"
   schedule.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bugzilla.lcp.world" # the base hostname & protocol for your site, e.g. http://example.com
+source_code: https://github.com/bugzilla/bugzilla
+list_bugs: https://bugzilla.mozilla.org/buglist.cgi?product=Bugzilla
+report_bug: https://bugzilla.mozilla.org/enter_bug.cgi?product=Bugzilla
+theme: jekyll-theme-bugzilla
+remote_theme: hellcp/jekyll-theme-bugzilla
 
 defaults:
   -
@@ -86,6 +91,13 @@ defaults:
       breadcrumbs:
       - name: Support
         link: /support/
+  -
+    scope:
+      path: "/about/*"
+    values:
+      breadcrumbs:
+      - name: About
+        link: /about/
       
 
 paginate: 10
@@ -101,21 +113,3 @@ collections:
   releases:
     output: true
     permalink: /:collection/:path/
-
-sass:
-  sass_dir: _scss
-
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-last-modified-at
-  - jekyll-sitemap
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - bin
-  - docker
-  - lib
-  - docker-compose.yml
-  - Dockerfile
-  - README.md

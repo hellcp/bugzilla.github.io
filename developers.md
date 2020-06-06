@@ -1,5 +1,6 @@
 ---
 title: "Developer Profiles"
+permalink: /developers/
 ---
 
 Bugzilla's development team consists or has consisted of the following
