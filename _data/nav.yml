@@ -6,14 +6,14 @@
     title: Find out more about Bugzilla.
     name: Project
 
-  - link: /features/
+  - link: /about/features/
     name: Features
 
   - link: /releases/
     title: Information on current and previous releases.
     name: Release Information
 
-  - link: /installation-list/
+  - link: /about/installation-list/
     title: Hundreds of companies and organizations trust Bugzilla.
     name: Who Uses Bugzilla?
 
