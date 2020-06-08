@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hellcp/jekyll-theme-bugzilla.git
-  revision: 14861216d8d47e410de0cf0d485ced02a96a4e5a
+  revision: 51e1b94a5c2c30297033062f06a29eef6df52eec
   specs:
     jekyll-theme-bugzilla (0.1.0)
       github-pages
@@ -255,7 +255,4 @@ DEPENDENCIES
   jekyll-theme-bugzilla!
 
 RUBY VERSION
-   ruby 2.6.6p146
-
-BUNDLED WITH
-   1.17.2
+   ruby 2.7.1p83

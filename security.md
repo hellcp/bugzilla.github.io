@@ -1,6 +1,9 @@
 ---
 title: "Security Advisories"
 permalink: /security/
+meta:
+- type: link
+  tags: rel="alternate" href="https://www.bugzilla.org/security/atom.xml" type="application/atom+xml"
 ---
 
 The Bugzilla team makes every effort to seal up any security holes as soon
