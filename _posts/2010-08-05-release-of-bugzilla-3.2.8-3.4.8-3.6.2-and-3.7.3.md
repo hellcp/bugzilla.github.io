@@ -23,7 +23,7 @@ There are four new releases today. All of today's releases contain security fixe
 *   [Download 3.2.8](/download/#v32)
 *   [Release Notes](/releases/3.2.8/) for 3.2.8
 
-[Bugzilla 3.7.3](/releases/4.0/) is our third unstable development release leading to Bugzilla 4.0\. We have done a fair amount of QA on this release. However, QA found [many bugs that have not yet been fixed](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=prod:Bugzilla+flag:blocking4.0%2B), so this release should not be used in production environments. Development releases exist as previews of the features that a future release of Bugzilla will contain. They also exist for testing purposes, to collect bug reports and feedback. So, if you find a bug in this development release (or you don't like how some feature works) please [tell us](/developers/reporting_bugs.html).
+[Bugzilla 3.7.3](/releases/4.0/) is our third unstable development release leading to Bugzilla 4.0\. We have done a fair amount of QA on this release. However, QA found [many bugs that have not yet been fixed](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=prod:Bugzilla+flag:blocking4.0%2B), so this release should not be used in production environments. Development releases exist as previews of the features that a future release of Bugzilla will contain. They also exist for testing purposes, to collect bug reports and feedback. So, if you find a bug in this development release (or you don't like how some feature works) please [tell us](/contributing/reporting_bugs).
 
 *   [Download 3.7.3](/download/#v40)
 

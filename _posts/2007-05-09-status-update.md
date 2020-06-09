@@ -42,7 +42,7 @@ We recommend that all Bugzilla 2.18 users upgrade to 3.0, at their earliest conv
 
 ## Updated "Features" Page
 
-For a while, the [features page](/features/) had been out-of-date, reflecting the features of Bugzilla 2.18\. Now it's fully up-to-date with all of the features of Bugzilla 3.0, and it's pretty impressive! If you need help "selling" Bugzilla at your organization, feel free to point people at the updated features page!
+For a while, the [features page](/about/features/) had been out-of-date, reflecting the features of Bugzilla 2.18\. Now it's fully up-to-date with all of the features of Bugzilla 3.0, and it's pretty impressive! If you need help "selling" Bugzilla at your organization, feel free to point people at the updated features page!
 
 ## T-Shirt for 3000th Announce List Subscriber
 

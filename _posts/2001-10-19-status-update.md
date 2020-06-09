@@ -79,7 +79,7 @@ Currently, only "processmail" runs in taint mode.
 
 ## Hackers' Guide
 
-To encourage others to contribute code towards Bugzilla, a "[hackers' guide](/developerguide.html)" has been incorporated into the [Bugzilla Guide](https://www.bugzilla.org/docs/html/) that comes with every copy of Bugzilla.
+To encourage others to contribute code towards Bugzilla, a "[hackers' guide](/contributing/developer)" has been incorporated into the [Bugzilla Guide](https://www.bugzilla.org/docs/html/) that comes with every copy of Bugzilla.
 
 The aim is to quickly explain everything a developer needs to know about contributing code to Bugzilla. This includes both the things we require (eg the avoidance of certain features) and prefer (eg style issues).
 

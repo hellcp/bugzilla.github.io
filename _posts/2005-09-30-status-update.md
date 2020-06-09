@@ -84,7 +84,7 @@ Per our standard six-month plan, the 2.22 branch would have been frozen on Septe
 
 Hopefully, then, within three months after the freeze for 2.22, we will have a release. Hopefully, we'll have it even sooner than that, but as I said, it's hard to determine that sometimes, with volunteer efforts.
 
-If you'd like to see faster Bugzilla releases, the best way is to come help out, yourself! To get started contributing to Bugzilla, you can read the [Contributor's Guide](/docs/contributor.html) and the [Developer's Guide](/docs/developer.html).
+If you'd like to see faster Bugzilla releases, the best way is to come help out, yourself! To get started contributing to Bugzilla, you can read the [Contributor's Guide](/contributing/) and the [Developer's Guide](/contributing/developer).
 
 ## Oracle Support
 

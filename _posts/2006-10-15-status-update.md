@@ -14,7 +14,7 @@ Well, we have a whole bunch of releases out today, all the way from 2.18.6 to 2.
 *   2.22.1 is our first bug-fix release for the 2.22 series, containing many useful fixes. We recommend everybody upgrade to 2.22.1 as soon as possible.
 *   2.23.3 is one of our most important development releases ever, containing the two "holy grails" of Bugzilla development, custom fields and mod_perl support. (Of course, the release is only a development snapshot, so don't use it in production! It hasn't received the same level of QA as the other releases!)
 
-Bugzilla development has been _extremely_ active lately, and we're happy that we're receiving so many contributions. As usual, though, we need more reviewers! To become a reviewer, you first have to be a consistent contributor, and then we have to trust your judgement. You can see more details at the [List of Reviewers](https://www.bugzilla.org/docs/reviewer-list.html#become).
+Bugzilla development has been _extremely_ active lately, and we're happy that we're receiving so many contributions. As usual, though, we need more reviewers! To become a reviewer, you first have to be a consistent contributor, and then we have to trust your judgement. You can see more details at the [List of Reviewers](https://www.bugzilla.org/contributing/reviewer-list.html#become).
 
 ## Stay Updated About Bugzilla
 

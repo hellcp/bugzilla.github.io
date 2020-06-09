@@ -7,7 +7,7 @@ categories:
 
 We've released our first Release Candidate of Bugzilla 3.0, [Bugzilla 3.0rc1](/releases/3.0/)! This is a major step towards our final release, and with your help we should be able to release Bugzilla 3.0 by April.
 
-What help do we need? [Report bugs](/developers/reporting_bugs.html)! The whole purpose of Release Candidates is to really shake out any remaining bugs that we haven't found, so if you find one, make sure that you file it!
+What help do we need? [Report bugs](/contributing/reporting_bugs)! The whole purpose of Release Candidates is to really shake out any remaining bugs that we haven't found, so if you find one, make sure that you file it!
 
 We also have a new [Status Update](/blog/2007/02/26/status-update) for you, so you can find out what's going on with the Bugzilla Project!
 

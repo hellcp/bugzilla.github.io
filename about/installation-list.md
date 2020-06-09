@@ -19,7 +19,7 @@ were trying to use this page for SEO :-(.
 If you or your company are using Bugzilla, your installation is "public" in
 the sense defined above, and you would like to be listed, please mail
 [Dave](mailto:justdave&#64;bugzilla.org?subject=Bugzilla%20Installation%20List).
-You can also file a pull request against [the GitHub repo](https://github.com/bugzilla/bugzilla.github.io/tree/master/installation-list) (this is preferred).
+You can also file a pull request against [the GitHub repo](https://github.com/bugzilla/bugzilla.github.io/tree/master/about/installation-list) (this is preferred).
 
 
 (This list was last updated on March 2nd, 2020;

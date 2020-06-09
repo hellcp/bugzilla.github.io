@@ -60,7 +60,7 @@ For a more up to date list, see [the roadmap](/about/#milestones). Also, the cur
 
 ## New Resources for Reviewers and Developers
 
-We've added a [Developers' Guide](/developerguide.html) and a [Reviewers' Guide](/reviewerguide.html) to our website to assist new developers and reviewers. These are recommended reading for anyone that wants to contribute to the project.
+We've added a [Developers' Guide](/contributing/developer) and a [Reviewers' Guide](/contributing/reviewer) to our website to assist new developers and reviewers. These are recommended reading for anyone that wants to contribute to the project.
 
 ## Bugzilla Bug Reports May Have a New Home Soon
 

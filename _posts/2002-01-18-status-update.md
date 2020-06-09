@@ -63,7 +63,7 @@ For a more up to date list, see [the roadmap](/about/#milestones). Also, the cur
 
 There are many ways you can help the Bugzilla team.
 
-*   **Patches to Fix Bugs/Implement New Features.** These are very welcome, especially if they are targetted for the 2.16 milestone! They need to be appropriately generic for all Bugzilla installations and conform to our other requirements (see [the hackers' guide](/developerguide.html)) before they can appear in CVS, but if you don't wish to do this, anything is better than nothing, and we can use your work as a base.
+*   **Patches to Fix Bugs/Implement New Features.** These are very welcome, especially if they are targetted for the 2.16 milestone! They need to be appropriately generic for all Bugzilla installations and conform to our other requirements (see [the hackers' guide](/contributing/developer)) before they can appear in CVS, but if you don't wish to do this, anything is better than nothing, and we can use your work as a base.
 *   **New documentation.** If you think you can help with the documentation for Bugzilla, please contact [Matthew Barnson](mailto:barnboy@trilobyte.net).
 *   **Testing.** Search for bugs in the Bugzilla software, as well as trying out pending patches in the bug system.
 *   **Review.** If you have experience with Perl and Bugzilla code, it would be very useful if you look over pending patches in the bug system and see if there are any problems with them. Generally we expect reviewers to have submitted some patches first so we can evaluate their ability. If you fit into this category, please contact [Dave Miller](mailto:justdave@bugzilla.org) about this.

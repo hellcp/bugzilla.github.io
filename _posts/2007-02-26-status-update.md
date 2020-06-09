@@ -16,7 +16,7 @@ Today we've released the first Release Candidate for [Bugzilla 3.0](/releases/3.
 
 The best place to find out about the release is the [release notes](/releases/3.0/), which are now in HTML and linked from the front page of every installation by default.
 
-Provided all goes well with RC1, we expect to release the final version of Bugzilla 3.0 within a few weeks. If you find any important bugs that you think should prevent release of Bugzilla 3.0, please [file them](https://www.bugzilla.org/developers/reporting_bugs.html) and put a "?" in the blocking3.0 flag.
+Provided all goes well with RC1, we expect to release the final version of Bugzilla 3.0 within a few weeks. If you find any important bugs that you think should prevent release of Bugzilla 3.0, please [file them](/contributing/reporting_bugs) and put a "?" in the blocking3.0 flag.
 
 ## Plugins!
 
@@ -44,7 +44,7 @@ We recommend that all Bugzilla 2.18 users upgrade to 2.22.2 (or 3.0, when it com
 
 As usual, we'd like to remind all Bugzilla administrators that to assist them in keeping up-to-date with release announcements and security advisories, we provide an ultra-low-volume administrator mailing list ([announce@bugzilla.org](https://lists.bugzilla.org/cgi-bin/mj_wwwusr?func=lists-full-long&extra=announce)). We advise all Bugzilla administrators to subscribe so they can keep up with important Bugzilla announcements.
 
-Those looking to get involved with Bugzilla development may want to consider joining the [developers list (developers@bugzilla.org)](https://lists.bugzilla.org/cgi-bin/mj_wwwusr?func=lists-long-full&extra=developers). This list offers discussion on new features and issues. Developers are invited to subscribe to the list. You may also want to read our [Contributor's Guide](https://www.bugzilla.org/docs/contributor.html).
+Those looking to get involved with Bugzilla development may want to consider joining the [developers list (developers@bugzilla.org)](https://lists.bugzilla.org/cgi-bin/mj_wwwusr?func=lists-long-full&extra=developers). This list offers discussion on new features and issues. Developers are invited to subscribe to the list. You may also want to read our [Contributor's Guide](/contributing/).
 
 ## Bugzilla Meetings
 
